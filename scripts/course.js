@@ -78,3 +78,88 @@ const courses = [
         completed: false
     }
 ]
+
+// create the buttons for the courses by "selecting" them from html with querySelector and the ID.
+
+const allBtn = document.querySelector("#all-courses");
+const wddBtn = document.querySelector("#WDD-courses");
+const cseBtn = document.querySelector("#CSE-courses");
+
+
+// create the container for the gallery by selecting it using querySelector and the class.
+
+const gallery = document.querySelector(".gallery");
+
+// create a function that displays the list in the gallery container. 
+
+function displayCourses(list) {
+    gallery.innerHTML = ""; // Clear previous cards
+    
+    // iterate through the course list and create a card
+
+    list.forEach(course => {
+        let check = ""
+        if (course.completed) {
+            check = `✔`;
+        }
+
+        // create an element called "card" within the div in html (for each item in list)
+
+        const card = document.createElement("div");
+        
+        //  .classList.add adds a class to an html element. in this case the card element has a 
+        // class added to it so that CSS can be used to style
+
+        card.classList.add("all-cards")
+        if (course.completed) {
+            card.classList.add("completed-cards");
+        }
+
+        // adds text to the card. The $ and course.subject is from the array 
+
+        card.innerHTML = `${course.subject} ${course.number} ${check} `;
+           
+        // add this newly created card to the gallery
+
+        gallery.appendChild(card);
+
+    });
+    
+    // create a variable for the credit counter to run the reduce function and find the credits of the displayed courses. 
+    // This is why the reduce function is inside the display courses function but not in the for each loop.
+        // find and select the credit counter in html and insert the const creditCounter 
+        
+        const totalCredits = list.reduce((sum, course) => sum + course.credits, 0);
+        document.querySelector("#total-credits").textContent = totalCredits; 
+         
+}
+
+
+// add styling for active buttons that are currently showing.
+
+function setActive(button) {
+    // removes all active class then adds the active class to the button that was just clicked.
+    document.querySelectorAll("#nav-course button").forEach(btn => btn.classList.remove("active"));
+    button.classList.add("active");
+}
+
+// displays all the courses. 
+allBtn.addEventListener("click", () => {
+    setActive(allBtn);
+    displayCourses(courses);
+});
+
+// display wdd courses
+wddBtn.addEventListener("click", () => {
+    setActive(wddBtn);
+    displayCourses(courses.filter(c => c.subject === "WDD"));
+});
+
+// displays cse courses
+cseBtn.addEventListener("click", () => {
+    setActive(cseBtn);
+    displayCourses(courses.filter(c => c.subject === "CSE"));
+});
+
+
+

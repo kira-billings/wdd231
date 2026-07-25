@@ -3,58 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="description" content="Responsive course home page for Kira Billings WDD231">
     <title>Home</title>
-
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
-
     <header>
-        <img src="images/ice-cream.svg" alt="site logo" width="512" height="512">
+        <img src="images/sunflower.svg" alt="site logo" width="512" height="512">
         <span>Kira's site for WDD 231</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger" aria-label="menu"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">Home</a></li>
+            <li ><a href="#" class="current">Home</a></li>
             <li ><a href="#">Chamber Project</a></li>
             <li><a href="#">Final Project</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>Home</h1>
-        <div>    
-            <h2>About Me</h2>
-            <p>I’m a Las Vegas–based learning and development professional and web developer with experience turning complex information into clear, practical solutions. I focus on creating intuitive digital experiences, effective training, and streamlined learning programs that support performance and measurable results. Whether I’m designing eLearning, building modern interfaces, or leading training initiatives, my work centers on clarity, usability, and purposeful design.</p>
-        </div>
-        <div>
-            <h2>Student Photo</h2>
-            <figure class="student-photo">
-                <img src="images/kira-photo.jpg" alt="Photo of Kira Billings">
-                <figcaption>Kira Billings</figcaption>
-            </figure>
-        </div>  
-        <div>
-            <h2>Web Certificate Courses</h2>
-           
-            <ul id="course-gallery" class="courses">
-                <li><a href="#" id="all-courses">All Courses</a></li>
-                <li><a href="#" id="WDD-Courses">WDD Courses</a></li>
-                <li><a href="#" id="CSE-Courses">CSE Courses</a></li>
-            </ul>
-          
-            <div class="gallery">  
-                   
+        <main>
+            <h1>Home</h1>
+            <div class="about-photo">
+                <div>    
+                    <h2>About Me</h2>
+                    <p>I’m a Las Vegas–based learning and development professional and web developer with experience turning complex information into clear, practical solutions. I focus on creating intuitive digital experiences, effective training, and streamlined learning programs that support performance and measurable results. Whether I’m designing eLearning, building modern interfaces, or leading training initiatives, my work centers on clarity, usability, and purposeful design.</p>
+                </div>
+                <div>
+                    <h2>Student Photo</h2>
+                    <figure class="student-photo">
+                        <img src="images/kira-photo.jpg" alt="Photo of Kira Billings">
+                        <figcaption>Kira Billings</figcaption>
+                    </figure>
+                </div>  
             </div>
-        </div>
-
-    </main>
-
+            <div class="wrapper">
+                <h2>Web Certificate Courses</h2>
+                <ul id="nav-course" class="courses">
+                    <li><button id="all-courses">All Courses</button></li>
+                    <li><button id="WDD-courses">WDD Courses</button></li>
+                    <li><button id="CSE-courses">CSE Courses</button></li>
+                </ul>
+                <p class="courses-listed">Total credits for courses listed below: <span id="total-credits">0</span></p>        
+                <div class="gallery"></div>
+            </div>
+        </main>
     <footer>
         <div class="social">
             <a href="https://www.facebook.com/kira.n.billings" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
@@ -62,10 +58,8 @@
             <a href="https://github.com/kira-billings" target="_blank" rel="noopener"><img src="images/github.svg" alt="github" width="16" height="16"></a>
             <a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
         </div>
-        <p>&copy;<span id="currentYear"></span> 🌈 Kira Billings 🌈 Utah, USA</p>
+        <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
         <p id="lastModified"></p>
-    </footer>
-
-    
+    </footer>  
 </body>
 </html>

@@ -1,23 +1,28 @@
-/* _______________color scheme_________
-Chocolate #47320e
-Snow #FAF7F6
-Blush Pop #FDB0D2 
-*/
+/* _______________color scheme_________ */
 
-/******************Site wide *************/
+/* 
+plum             #763d76
+almost black     #1c1b19
+caramel          #a37e59
+leafy green      #40592f
+sunflower yellow #f2e572
+ */
+
+/*********************8**********Site wide ****************************/
+
 * {
     font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
-    color: #47320e;
+    color: #1c1b19;
 }
 
-/****** header *****/
+/***************************** header ****************************/
+
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
     padding: 5px 0 5px 10px;
     align-items: end;
-    border-bottom: solid 1px #fdb0d2;
     column-gap: 8px;
 }
 
@@ -29,14 +34,15 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #47320e;
+    color: #1c1b19;
 }
 
-/****** hamburger navigation *****/
+/***************************** hamburger navigation *****************************************/
+
 .hamburger {
     background: none;
     border: none;
-    color: #47320e;
+    color: #1c1b19;;
     cursor: pointer;
     padding: 8px;
 }
@@ -45,100 +51,202 @@ header span {
     content: "\2630";
     font-size: 2rem;
 }
+
 .hamburger.show::after {
   content: "\00D7";
 }
-/****** navigation *****/
+
+/************************ navigation ****************************/
+
 .navigation {
     display: none;
 }
+
 .navigation.show{
     display: block;
 }
-.navigation a {
-    display: block;
-    padding: 5px 0 5px 10px;
-}
+
 .navigation ul {
+    display: flex;
+    gap: 1rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .navigation a {
-    display: block;
-    padding: 13px 10px;
-    color: #47320e;
+    display: flex;
+    color:  white;
     text-decoration: none;
-    border-bottom: solid 1px #fdb0d2;
-}
-.navigation li.current {
-    background-color: lightgray;
-}
-.navigation a:hover {
-    background-color: #fdb0d2;
+    background: #47320e;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
 }
 
-/****** footer *****/
+.navigation a.current {
+    background-color: #40592f;
+    border-radius: 8px;
+}
+
+.navigation a:hover {
+    background-color: #40592f;
+}
+
+/************************* H1 **************8*/
+
+h1 {
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 0 20px 5px #6886555c;
+}
+
+/* *********************h2 ***********************/
+
+h2 {
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 0 20px 5px #6886555c;
+    margin: 5 10 5 10;
+}
+
+/***************************** footer **********************/
+
 footer {
     background-color: white;
     padding: 1rem 10px;
     text-align: center;
 }
+
 .social {
     display: flex;
     justify-content: center;
     column-gap: 20px;
 }
+
 .social a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
-    border: #FDB0D2 solid 1px;
     border-radius: 22px;
+    box-shadow: 0 0 20px 10px #68865522;
 }
+
 .social img {
     width: 22px;
     height: 22px;
 }
+
 .social a:hover {
     background-color: lightgray;
 }
 
-/* about me section */
-
-
+/* ********************about me section****************** */
 
 /* student photo */
+
+.student-photo {
+    text-align: center;
+}
 
 .student-photo img {
     width: 150px;      
     height: auto;      
     border-radius: 8px; 
+    box-shadow: 0 0 20px 10px #6886555c;
+    margin-top: 10px;
 }
 
-/* course gallery */
-
-.courses a {
-    display: block;
-    padding: 5px 0 5px 10px;
+.student-photo figcaption {
+    margin-top: 10px;
 }
-.courses ul {
-    list-style-type: none;
-    margin: 0;
+
+/* *******************course gallery ***********************************8*/
+
+/* use the id for the ul to target this specific element that holds the buttons with style */
+
+#nav-course {
+    display: flex;
+    /* inserts a gap between the buttons */
+    gap: 1rem;
+    /* removes bullets */
+    list-style: none; 
+    /* removes default left padding */
     padding: 0;
+    /* keeps spacing clean */
+    margin: 0;
+    justify-content: center;
 }
-.courses a {
-    display: block;
-    padding: 13px 10px;
-    color: #47320e;
-    text-decoration: none;
-    border-bottom: solid 1px #fdb0d2;
+
+/* styling for the buttons */
+
+#nav-course button{
+    padding: 0.6rem 1.2rem;
+    background-color: #47320e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;  
 }
-.courses li.current {
-    background-color: lightgray;
+
+/* Hovering over buttons */
+
+#nav-course button:hover {
+    background-color:#40592f;
 }
-.courses a:hover {
-    background-color: #fdb0d2;
+
+/* Active (clicked) state of the buttons that are showing the courses that are filtered. */
+
+#nav-course button.active {
+    background-color: #40592f;
+    transform: translateY(-2px);
 }
+
+.courses-listed {
+    text-align: center;
+}
+
+/* styling for all cards */
+
+.all-cards {
+    background: #40592f;
+    color: white;
+    border-radius: 14px;
+    padding: 1rem;
+    border: 1px solid #e6e0d8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    width: 200px;       
+    box-sizing: border-box;
+         /* centers each card inside its grid cell */
+    margin: 0 auto;   
+}
+
+/* styling for the checkmark */
+
+.completed-cards {
+    background: #763d76;
+}
+
+/* helps keep the cards from getting too big and start scrolling */
+
+.wrapper {
+    max-width: 1100px;   
+    margin: 0 auto;      
+}
+
+/* this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+
+

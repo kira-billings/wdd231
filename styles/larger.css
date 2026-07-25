@@ -16,8 +16,8 @@
     .navigation {
         display: block;
     }
-    .navigation ul {display: flex;
 
+    .navigation ul {display: flex;
         li {
                 flex: 1 1 100%;
             }
@@ -31,4 +31,9 @@
 		font-size: larger;
 	}
 
+    .about-photo {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 20px;
+    }
 }
