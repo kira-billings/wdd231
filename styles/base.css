@@ -6,6 +6,10 @@ almost black     #1c1b19
 caramel          #a37e59
 leafy green      #40592f
 sunflower yellow #f2e572
+skyblue          #87CEEB
+dark brown       #5d4037
+golden yellow    #ffc107
+stem green       #2e7d32
  */
 
 /*********************8**********Site wide ****************************/
@@ -176,7 +180,7 @@ footer {
     /* removes default left padding */
     padding: 0;
     /* keeps spacing clean */
-    margin: 0;
+    margin-top: 20px;
     justify-content: center;
 }
 
