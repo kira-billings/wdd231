@@ -1,0 +1,21 @@
+{
+    "familyName": "Billings" ,
+    "dateMovedIn": "April 1, 2026",
+    "numPeople": 3,
+    "visitedByBishop": false,
+    "indFamMemberData": [{
+        "name": "Kira",
+        "gender": "Female",
+        "birthdate": "Nunya November"
+    }, {
+        "name": "Randy",
+        "gender": "male",
+        "birthdate": "too close to Easter"
+    }, {
+        "name": "Zebadiah",
+        "gender": "male",
+        "birthdate": "storming the day"
+    }
+
+    ]
+}

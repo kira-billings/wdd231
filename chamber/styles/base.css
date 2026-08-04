@@ -1,23 +1,20 @@
-/* _______________color scheme_________ */
-
 /* 
-plum             #763d76
-almost black     #1c1b19
-caramel          #a37e59
-leafy green      #40592f
-sunflower yellow #f2e572
-skyblue          #87CEEB
-dark brown       #5d4037
-golden yellow    #ffc107
-stem green       #2e7d32
- */
+Primary dark color: Prussian Blue       #000832
+Primary medium color: Blue Slate        #4f647d
+Primary light color: Pale Sky           #b2cad2
+Secondary dark color: Chocolate Plum    #6c4a48
+Secondary medium Color: Dusty Rose      #d58a86
+Secondary light color: Cotton Rose      #ecc9c7
+Background color: Onyx                  #141414
+Text color: white or onyx               #ffffff
+Font Family: ___Using Noto Sans from Google fonts 
+    */
 
-/*********************8**********Site wide ****************************/
-
-* {
-    font-family: "Josefin Sans", sans-serif;
+body {
+    font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
-    color: #1c1b19;
+    color: #141414;
+    background-color: #000832;
 }
 
 /***************************** header ****************************/
@@ -28,6 +25,7 @@ header {
     padding: 5px 0 5px 10px;
     align-items: end;
     column-gap: 8px;
+    color: #ffffff;
 }
 
 header img {
@@ -38,17 +36,21 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #1c1b19;
 }
 
 /***************************** hamburger navigation *****************************************/
 
 .hamburger {
-    background: none;
+    background: #ecc9c7;
     border: none;
-    color: #1c1b19;;
+    color: #141414;
     cursor: pointer;
     padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
 }
 
 .hamburger::after {
@@ -76,30 +78,85 @@ header span {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.navigation.show ul {
-    flex-direction: column;
+    
 }
 
 .navigation a {
     display: flex;
-    color:  white;
+    color: #141414;
     text-decoration: none;
-    background: #47320e;
+    background: #ecc9c7;
     padding: 0.6rem 1.2rem;
     border: none;
     border-radius: 8px;
+    font-weight: 700;
+    margin: .5rem;
 }
 
 .navigation a.current {
-    background-color: #40592f;
-    border-radius: 8px;
+    background: #ffffff;
 }
 
 .navigation a:hover {
-    background-color: #40592f;
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
 }
+
+/************************* H1 **************8*/
+
+h1 {
+    text-align: center;
+    border-radius: 8px; 
+    background-color: #b2cad2;
+}
+
+/* *********************h2 ***********************/
+
+h2 {
+    text-align: center;
+    border-radius: 8px; 
+    border-bottom: solid;
+    border-color: #4f647d;
+    border-width: 1px;
+    background-color: #b2cad2;
+
+}
+
+/* ***********************all paragraphs************* */
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.container p {
+    padding: 10px;
+}
+
+.container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/***************************** footer **********************/
+
+footer {
+    background-color: #ecc9c7;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+
+
+/* ********************************************************************************************************************************************************************************** */
+
+
+
+
 
 /************************* H1 **************8*/
 
@@ -111,12 +168,7 @@ h1 {
 
 /* *********************h2 ***********************/
 
-h2 {
-    text-align: center;
-    border-radius: 8px; 
-    box-shadow: 0 0 20px 5px #6886555c;
-    margin: 5px 10px 5px 10px;
-}
+
 
 /***************************** footer **********************/
 
@@ -255,6 +307,3 @@ footer {
     gap: 0.75rem;
     justify-content: center;
 }
-
-
-

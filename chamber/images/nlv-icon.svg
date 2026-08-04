@@ -1,0 +1,18 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="120" height="120" fill="#b2cad2" rx="12" ry="12"/>
+
+  <!-- Mountains -->
+  <polygon points="10,90 45,40 80,90" fill="#000832"/>
+  <polygon points="40,90 75,45 110,90" fill="#4f647d"/>
+
+  <!-- Accent line at mountain base -->
+  <rect x="0" y="88" width="120" height="4" fill="#d58a86"/>
+
+  <!-- Ground strip -->
+  <rect x="0" y="90" width="120" height="30" fill="#ecc9c7" rx="12" ry="12"/>
+</svg>
+
+
+
+

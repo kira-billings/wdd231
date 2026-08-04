@@ -1,0 +1,99 @@
+/* _______________color scheme_________ */
+
+/* 
+plum             #763d76
+almost black     #1c1b19
+caramel          #a37e59
+leafy green      #40592f
+sunflower yellow #f2e572
+skyblue          #87CEEB
+dark brown       #5d4037
+golden yellow    #ffc107
+stem green       #2e7d32
+ */
+
+/*********************8**********Site wide ****************************/
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    color: #1c1b19;
+}
+
+/***************************** header ****************************/
+
+header {
+    align-items: end;
+}
+
+h1 {
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 0 20px 5px #6886555c;
+}
+
+/* *********************h2 ***********************/
+
+h2 {
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 0 20px 5px #6886555c;
+    margin: 5px 10px 5px 10px;
+}
+
+/***************************** footer **********************/
+
+footer {
+    background-color: white;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+
+img {
+    text-align: center;
+}
+
+img {
+    width: 150px;      
+    height: auto;      
+    border-radius: 8px; 
+    box-shadow: 0 0 20px 10px #6886555c;
+    margin-top: 10px;
+}
+
+
+p {
+    text-align: center;
+}
+
+/* styling for all cards */
+
+.card {
+    background: #40592f;
+    color: white;
+    border-radius: 14px;
+    padding: 1rem;
+    border: 1px solid #e6e0d8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    width: 200px;       
+    box-sizing: border-box;
+         /* centers each card inside its grid cell */
+    margin: 0 auto;   
+}
+
+
+
+/* this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+
+

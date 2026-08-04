@@ -1,0 +1,41 @@
+@media screen and (min-width: 640px) {
+    /* Larger screen styles go here */
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation ul li {
+        flex: 1 1 100%;
+    }
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: larger;
+	}
+
+    .about-photo {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 20px;
+    }
+}
