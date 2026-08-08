@@ -11,21 +11,7 @@
     <title>North Las Vegas Chamber of Commerce directory of businesses</title>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="favicon.ico">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="North Las Vegas Chamber of Commerce directory of businesses">
-    <meta name="author" content="Kira Billings">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>North Las Vegas Chamber of Commerce directory of businesses</title>
-    <script src="scripts/date.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/members.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -35,85 +21,33 @@
     <meta property="og:image" content="https://kira-billings.github.io/wdd231/chamber/images/wide-view-day-nlv.jpg">
     <meta property="og:image:alt" content="daytime view of north Las Vegas">
     <meta property="og:url" content="https://kira-billings.github.io/wdd231/chamber/directory.html">
-
     <meta property="fb:app_id" content="1234567890">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://kira-billings.github.io/wdd231/chamber/directory.html">
-
-
-</head>
-
 </head>
     <body>
         <header>
             <img src="images/nlv-icon.svg" alt="site logo" width="512" height="512">
             <span>North Las Vegas Chamber of Commerce</span>
+
+           
             <button id="ham-btn" class="hamburger" aria-label="menu"></button>
         </header>
-        <nav id="nav-bar" class="navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#" class="current">Directory</a></li>
-                <li><a href="#">Join</a></li>
-            </ul>
-        </nav>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#" class="current">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </nav>
         <main>
-            <h1>Directory</h1>
-            <section class="container">
-                <h2>Site Name</h2>
-                <p>North Las Vegas Chamber of Commerce</p>
-            </section>
-            <section class="container">
-                <h2>Site Purpose</h2>
-                <p>This website will serve as a resource hub for businesses in the city of Timbuktu. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.</p>
-            </section>
-            <section class="container">
-                <h2>Target Market</h2>
-                <p>Improve member engagement by providing valuable resources and networking opportunities. Attract new businesses and encourage economic development in the community. Improve the visibility and reputation of the chamber as a trusted authority in local business matters.</p>
-            </section>
-            <section class="container">
-                <h2>User Personas</h2>
-                <p>
-                    Small Business Owner: Maria is a 35-year-old entrepreneur who owns a small boutique shop in town. She is looking for networking opportunities, business resources, and marketing support to help grow her business. Corporate Executive: Diego is a 47-year-old executive at a large company looking for growth opportunities. His company is interested in partnership opportunities, economic development resources, and networking with other business leaders in the area. The New Resident: Francisco recently moved into the community and is looking to learn more about services available in the area. He is interested in finding business directories, event calendars, and community service opportunities.
-                </p>
-            </section>
-            <section class="container">
-                <h2>Scenarios</h2>
-                <p>A local business owner is interested in joining the chamber of commerce to network with other business owners. They visit the website to find information on membership benefits, fees, and how to apply. A community member is looking for upcoming events and workshops hosted by the chamber. They visit the website to browse the events calendar and register for interesting activities. A visitor from out of town is considering relocating to the area and wants to learn more about the local business environment. They explore the chamber's website for information on existing businesses, availability of skilled labor, and quality of life in the area.</p>
-            </section>
-            <section class="container">
-                <h2>SEO Plan</h2>
-                <p>
-                    Use relevant keywords in site descriptions, content, and blog posts. Verify the site on Google's Business Profile. Get inbound links or backlinks from all member business to improve rankings. Embed Google Analytics in all site pages.
-                </p>
-            </section>
-            <section class="container">
-                <h2>Design Brief</h2>
-                <p>
-                    Primary dark color: Prussian Blue       #000832
-                    Primary medium color: Blue Slate        #4f647d
-                    Primary light color: Pale Sky           #b2cad2
-                    Secondary dark color: Chocolate Plum    #6c4a48
-                    Secondary medium Color: Dusty Rose      #d58a86
-                    Secondary light color: Cotton Rose      #ecc9c7
-                    Background color: Onyx                  #141414
-                    Text color: white or onyx               #ffffff
-                    Font Family: ___Using Noto Sans from Google fonts 
-                </p>
-                <img src="images/color-scheme.webp" alt = "color schema" >
-            </section>
-            <section class="container">
-                <h2>Site Map</h2>
-                <img src="images/site-map.webp" alt="site map">
-            </section>
-            <section class="container">
-                <h2>Wireframes</h2>
-                <h3>Desktop</h3>
-                <img src="images/desktop-wireframe.webp" alt="desktop wireframe">
-                <h3>Mobile</h3>
-                <img src="images/mobile-wireframe.webp" alt="mobile wireframe">
-            </section>
+            <h1>Directory</h1> 
+            <div class="btn-container">
+                <button id="grid-btn" aria-label="toggle grid">Grid</button>
+                <button id="list-btn" aria-label="toggle list">List</button>
+            </div>
+            <div id="directory-container"></div> 
         </main>
         <footer>
             <div class="social">

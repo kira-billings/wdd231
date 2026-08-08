@@ -22,7 +22,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
-    padding: 5px 0 5px 10px;
+    padding: 10px 10px 5px 10px;
     align-items: end;
     column-gap: 8px;
     color: #ffffff;
@@ -41,16 +41,27 @@ header span {
 /***************************** hamburger navigation *****************************************/
 
 .hamburger {
+    display: flex;
     background: #ecc9c7;
-    border: none;
-    color: #141414;
     cursor: pointer;
     padding: 8px;
-    border-radius: 8px;
-    display: flex;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
     line-height: 1;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
+}
+
+.hamburger:hover {
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px);  
+}
+
+.hamburger:active {
+    transform: translateY(0);         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 
 .hamburger::after {
@@ -59,10 +70,10 @@ header span {
 }
 
 .hamburger.show::after {
-  content: "\00D7";
+    content: "\00D7";
 }
 
-/************************ navigation ****************************/
+/***************************************** navigation ***********************************************/
 
 .navigation {
     display: none;
@@ -78,7 +89,11 @@ header span {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+}
+
+.navigation.show ul {
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .navigation a {
@@ -87,10 +102,13 @@ header span {
     text-decoration: none;
     background: #ecc9c7;
     padding: 0.6rem 1.2rem;
-    border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     font-weight: 700;
-    margin: .5rem;
+    font-size: 1.2rem;
+    margin: .5rem 0 0 0;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
 }
 
 .navigation a.current {
@@ -99,84 +117,229 @@ header span {
 
 .navigation a:hover {
     background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px);  
 }
 
-/************************* H1 **************8*/
+.navigation a:active {
+    transform: translateY(0);         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+.navigation.show a { 
+    min-width: 150px;
+}
+
+/************************* H1 ***************************************8*/
 
 h1 {
-    text-align: center;
-    border-radius: 8px; 
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    border-radius: 4px; 
     background-color: #b2cad2;
 }
 
-/* *********************h2 ***********************/
+/* ****************toggle buttons for list and grid directory********************* */
 
-h2 {
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#list-btn, #grid-btn {
+    display: flex;
+    background: #ecc9c7;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 1rem 1rem;
+}
+
+#list-btn:hover, #grid-btn:hover {
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px);   
+}
+
+#list-btn:active, #grid-btn:active {
+    transform: translateY(0);      
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+#directory-container ul {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* *************************this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+}
+
+/****************** styling for all cards */
+
+.card {
+    background: #ffffff;
+    color: #141414;
+    border-radius: 4px;
+    padding: 1.25rem;
+    border: 2px solid #b2cad2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    justify-content: space-between;
+}
+
+.card .name {
     text-align: center;
-    border-radius: 8px; 
-    border-bottom: solid;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #b2cad2;
+    border: 1px solid #4f647d;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+.card a {
+    color: #4f647d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.badge-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* *********************** image in card************* */
+
+.image {
+    border-radius: 4px;
+    border-style: solid;
     border-color: #4f647d;
     border-width: 1px;
-    background-color: #b2cad2;
-
+    box-shadow: 0 6px 12px rgba(0,0,0,0.20);
 }
 
-/* ***********************all paragraphs************* */
+/* *************************this is how to wrap the list and be responsive to screen size without expanding beyond the viewport */
 
-.container {
+.list ul {
     background-color: #ffffff;
-    border-radius: 8px;
-}
-.container p {
-    padding: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.container img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+/****************** styling for all lines in the list *************/
+
+.line  {
+    display: flex;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line > .name { flex: 1; }
+.line > .address { flex: 2; }  
+.line > .phone { flex: 1.5; }   
+.line > a { flex: 1; }
+
+
+.line:nth-child(odd) {
+    background-color: #f9efee;   
+}
+
+.line:nth-child(even) {
+    background-color: #ffffff;   
+}
+
+.line .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.line .name-block {
+    width: 400px;
+}
+
+.line a {
+    color: #4f647d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.line a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ******************* badge for membership level ********************************* */
+
+.badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    width: 65px;
 }
 
+.badge.member {
+    background: #E8E5D9;
+    border: 1px solid #69675c;
+}
 
+.badge.silver {
+    background: #EBEBEB;
+    border: 1px solid #606060;
+}
 
-/***************************** footer **********************/
+.badge.gold {
+    background: #F4EDCD;
+    border: 1px solid #6b6857;
+}
+
+/***************************** footer ******************************************/
 
 footer {
-    background-color: #ecc9c7;
     padding: 1rem 10px;
     text-align: center;
+    color:#ffffff;
 }
 
-
-
-/* ********************************************************************************************************************************************************************************** */
-
-
-
-
-
-/************************* H1 **************8*/
-
-h1 {
-    text-align: center;
-    border-radius: 8px; 
-    box-shadow: 0 0 20px 5px #6886555c;
-}
-
-/* *********************h2 ***********************/
-
-
-
-/***************************** footer **********************/
-
-footer {
-    background-color: white;
-    padding: 1rem 10px;
-    text-align: center;
-}
 
 .social {
     display: flex;
@@ -192,6 +355,10 @@ footer {
     height: 44px;
     border-radius: 22px;
     box-shadow: 0 0 20px 10px #68865522;
+    background-color: #ecc9c7;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
 }
 
 .social img {
@@ -200,110 +367,11 @@ footer {
 }
 
 .social a:hover {
-    background-color: lightgray;
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px); 
 }
 
-/* ********************about me section****************** */
-
-/* student photo */
-
-.student-photo {
-    text-align: center;
-}
-
-.student-photo img {
-    width: 150px;      
-    height: auto;      
-    border-radius: 8px; 
-    box-shadow: 0 0 20px 10px #6886555c;
-    margin-top: 10px;
-}
-
-.student-photo figcaption {
-    margin-top: 10px;
-}
-
-/* *******************course gallery ***********************************8*/
-
-/* use the id for the ul to target this specific element that holds the buttons with style */
-
-#nav-course {
-    display: flex;
-    /* inserts a gap between the buttons */
-    gap: 1rem;
-    /* removes bullets */
-    list-style: none; 
-    /* removes default left padding */
-    padding: 0;
-    /* keeps spacing clean */
-    margin-top: 20px;
-    justify-content: center;
-}
-
-/* styling for the buttons */
-
-#nav-course button{
-    padding: 0.6rem 1.2rem;
-    background-color: #47320e;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;  
-}
-
-/* Hovering over buttons */
-
-#nav-course button:hover {
-    background-color:#40592f;
-}
-
-/* Active (clicked) state of the buttons that are showing the courses that are filtered. */
-
-#nav-course button.active {
-    background-color: #40592f;
-    transform: translateY(-2px);
-}
-
-.courses-listed {
-    text-align: center;
-}
-
-/* styling for all cards */
-
-.all-cards {
-    background: #40592f;
-    color: white;
-    border-radius: 14px;
-    padding: 1rem;
-    border: 1px solid #e6e0d8;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    display: flex;
-    flex-direction: column;
-    width: 200px;       
-    box-sizing: border-box;
-         /* centers each card inside its grid cell */
-    margin: 0 auto;   
-}
-
-/* styling for the checkmark */
-
-.completed-cards {
-    background: #763d76;
-}
-
-/* helps keep the cards from getting too big and start scrolling */
-
-.wrapper {
-    max-width: 1100px;   
-    margin: 0 auto;      
-}
-
-/* this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
-    gap: 0.75rem;
-    justify-content: center;
+.social a:active {
+    transform: translateY(0);      
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }

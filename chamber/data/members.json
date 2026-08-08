@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Museum of Ice Cream",
+      "address": "3072 Rigel Ave, Suite 110, Las Vegas, NV 89102",
+      "phone": "702-555-1234",
+      "website": "https://www.museumoficecream.com/las-vegas/",
+      "image": "images/ice-cream.jpg",
+      "membershipLevel": 3,
+      "description": "The sweetest experience! Step inside a whimsical world built around ice cream."
+    },
+    {
+      "name": "Dig This Las Vegas",
+      "address": "800 W Roban Ave, Las Vegas, NV 89044",
+      "phone": "702-628-9446",
+      "website": "https://digthisvegas.com/experiences/mega-dig/",
+      "image": "images/excavator.jpg",
+      "membershipLevel": 2,
+      "description": "A giant sandbox for grown-ups, this venue lets people (over 13) operate bulldozers & excavators."
+    },
+    {
+      "name": "Lion Habitat Ranch",
+      "address": "382 Bruner Ave, Henderson, NV 89044",
+      "phone": "702-595-6666",
+      "website": "https://lionhabitatranch.org/",
+      "image": "images/lion.jpg",
+      "membershipLevel": 1,
+      "description": "Several lions & a giraffe live at this sanctuary with optional guided tours & feeding experiences."
+    },
+    {
+      "name": "Speed Vegas",
+      "address": "14200 S Las Vegas Blvd, Las Vegas, NV 89054",
+      "phone": "702-213-9068",
+      "website": "https://speedvegas.com/experience/GoKart/ArriveAndDrive/",
+      "image": "images/go-kart.jpg",
+      "membershipLevel": 2,
+      "description": "Experience outdoor racing like never before! This is real-deal racing on a pro-level track."
+    },
+    {
+      "name": "Jason's Deli",
+      "address": "100 City Parkway, Las Vegas, NV 89106",
+      "phone": "702-366-0130",
+      "website": "https://www.jasonsdeli.com/locations/nv/las-vegas/100-city-pkwy/",
+      "image": "images/deli.jpg",
+      "membershipLevel": 3,
+      "description": "Deli chain featuring specialty sandwiches, salads & other health-conscious fare."
+    },
+    {
+      "name": "Discovery Children's Museum",
+      "address": "360 Promenade Place, Las Vegas, NV 89106",
+      "phone": "702-382-3445",
+      "website": "https://discoverykidslv.org/",
+      "image": "images/fieldtrips.jpg",
+      "membershipLevel": 1,
+      "description": "Children's learning museum offering interactive exhibits exploring art, science, food & more."
+    },
+    {
+      "name": "Clark County Shooting Complex",
+      "address": "11357 N Decatur Blvd, Las Vegas, NV 89131",
+      "phone": "702-455-2000",
+      "website": "https://www.clarkcountynv.gov/government/departments/parks___recreation/shooting_complex/",
+      "image": "images/archery.jpg",
+      "membershipLevel": 1,
+      "description": "Typical outdoor shooting range with a variety of stations, mountain views & instructional videos."
+    }
+  ]
+}

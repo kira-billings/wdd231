@@ -32,10 +32,4 @@
 	p {
 		font-size: larger;
 	}
-
-    .about-photo {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 20px;
-    }
 }
