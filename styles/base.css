@@ -16,6 +16,10 @@ stem green       #2e7d32
 
 * {
     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     box-sizing: border-box;
     color: #1c1b19;
 }
@@ -110,6 +114,7 @@ h1 {
     text-align: center;
     border-radius: 8px; 
     box-shadow: 0 0 20px 5px #6886555c;
+    
 }
 
 /* *********************h2 ***********************/
