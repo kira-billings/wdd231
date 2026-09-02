@@ -12,10 +12,10 @@ golden yellow    #ffc107
 stem green       #2e7d32
  */
 
-/*********************8**********Site wide ****************************/
+/*******************************Site wide ****************************/
 
 * {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
     color: #1c1b19;
 }
