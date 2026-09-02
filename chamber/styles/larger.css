@@ -15,6 +15,7 @@
     
     .navigation {
         display: block;
+        margin-top: 2%;
     }
 
     .navigation ul {
@@ -25,6 +26,10 @@
         flex: 1 1 100%;
     }
 
+    main {
+    padding: 1.5% 0;
+    }
+
 	h1 {
 		font-size: 2rem;
 	}
@@ -32,4 +37,38 @@
 	p {
 		font-size: larger;
 	}
+
+    .hero-btn {
+        font-size: 1.3rem;
+    }
+    .current {
+        flex-wrap: none;
+    }
+    .current h2, .three h2 {
+        font-size: 1.2rem;
+    }
+
+    .weather-temp {
+        font-size: 2rem;
+    }
+
+    .weather-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .weather-caption-description {
+        font-size: larger;
+    }
+
+    #join-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #animatedContainer {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }

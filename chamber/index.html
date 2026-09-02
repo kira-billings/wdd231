@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="North Las Vegas Chamber of Commerce home page">
+    <meta name="author" content="Kira Billings">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>North Las Vegas Chamber of Commerce home page</title>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <!-- <script src="scripts/members.js" defer></script> -->
+    <script src="scripts/weatherapi.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:description" content=" This page provides community information, weather, calls to action, and business spotlights for the chamber of commerce in the city of North Las Vegas.">
+    <meta property="og:title" content="North Las Vegas Chamber of Commerce Home">
+    <meta property="og:image" content="https://kira-billings.github.io/wdd231/chamber/images/wide-view-day-nlv.jpg">
+    <meta property="og:image:alt" content="daytime view of north Las Vegas">
+    <meta property="og:url" content="https://kira-billings.github.io/wdd231/chamber/index.html">
+    <meta property="fb:app_id" content="1234567890">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://kira-billings.github.io/wdd231/chamber/index.html">
+</head>
+    <body>
+        <header>
+            <img src="images/nlv-icon.svg" alt="site logo" width="512" height="512">
+            <span>North Las Vegas Chamber of Commerce</span>
+
+           
+            <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+        </header>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h1>Homepage</h1>
+            
+            <section class="hero">
+                <img src="images/las-vegas-strip-day.jpg" alt="las vegas strip daytime" class = "hero-img">
+                <button class="hero-btn">Join Our Business Community</button>
+            </section>
+            <section class="current">
+                <div class="current-weather">
+                    <h2>Current Weather</h2>
+                    <div class="current-weather-container"></div>
+                </div>
+                <div class="current-events">
+                    <h2>Current Events</h2>
+                    <ul class="events">
+                        
+                        <li>August 30 - Hiring Fair - A business career event</li>
+                        <li>Monthly - AI Foundations - A technology based education program</li>
+                        <li>Monthly - Career Mapping - A career and employee focused program</li>
+                        <li>September 2 - Open Makerspace - A creative technology event</li>
+                        <li>September 11 - Service Saturday - Community service event. this is a test to see how long this is going to go</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="three">
+                <h2>Three-Day Weather Forecast</h2>
+                <div class="forecast-weather-container">
+                   
+                </div>
+            </section>
+            <section class="three">
+                <h2>Member Spotlights</h2>
+
+                <div class = "spotlights-container">
+
+                </div>
+            </section>
+ 
+        </main>
+        <footer>
+            <div class="social">
+                <a href="https://www.facebook.com/kira.n.billings" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+                <a href="https://www.linkedin.com/in/kira-billings-a73647353/" target="_blank" rel="noopener"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+                <a href="https://github.com/kira-billings" target="_blank" rel="noopener"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
+            </div>
+            <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
+            <p id="lastModified"></p>
+        </footer>  
+    </body>
+</html>

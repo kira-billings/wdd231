@@ -9,6 +9,8 @@ async function getMemberData() {
     return data.members;
 }
 
+// ********************************** building the badge for members *****************
+
 function getBadge(member) {
     const levels = {
         1: "Member",
@@ -34,6 +36,9 @@ function getBadge(member) {
 }
 
 
+// *********************************** building the grid and member cards
+
+
 function getMemberGrid(members) {
   
     container.classList.add('grid');
@@ -42,10 +47,9 @@ function getMemberGrid(members) {
 
     members.forEach((member) => {
 
-        const cards = document.getElementById('cards');
         const url = new URL(member.website);
         const badge = getBadge(member);
-        const badgeBlock = document.createElement('div');
+        const badgePhoneBlock = document.createElement('div');
 
         let card = document.createElement('section');
         let name = document.createElement('h2'); 
@@ -58,7 +62,7 @@ function getMemberGrid(members) {
         card.classList.add('card');
         image.classList.add('image');
         name.classList.add('name');
-        badgeBlock.classList.add('badge-block');
+        badgePhoneBlock.classList.add('badge-phone-block');
 
         website.href = member.website;
         website.target = "_blank";
@@ -76,10 +80,9 @@ function getMemberGrid(members) {
 
         card.appendChild(name);     
         card.appendChild(address);
-        card.appendChild(phone);
-        card.appendChild(badgeBlock);
-        badgeBlock.appendChild(phone);
-        badgeBlock.appendChild(badge);
+        card.appendChild(badgePhoneBlock);
+        badgePhoneBlock.appendChild(phone);
+        badgePhoneBlock.appendChild(badge);
         card.appendChild(description);
         card.appendChild(website);
         card.appendChild(image);
@@ -88,6 +91,7 @@ function getMemberGrid(members) {
     });
 }
 
+// ****************************************** building the list and member lines*****
 
 function getMemberList(members) {
     
@@ -140,6 +144,18 @@ function getMemberList(members) {
     container.appendChild(lines);
 }
 
+// ************************* calling or rendering or implementing the functions we built above so they show on the screen. with or without event listener
+
+ async function showGrid() {
+    const members = await getMemberData();
+    getMemberGrid(members);
+};
+showGrid();
+
+
+// ************************************* adding event listeners to toggle from grid to list
+
+
 document.querySelector('#grid-btn').addEventListener('click', async () => {
     const members = await getMemberData();
     getMemberGrid(members);
@@ -149,3 +165,4 @@ document.querySelector('#list-btn').addEventListener('click', async () => {
     const members = await getMemberData();
     getMemberList(members);
 });
+

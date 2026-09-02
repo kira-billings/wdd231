@@ -20,12 +20,15 @@ stem green       #2e7d32
     color: #1c1b19;
 }
 
+body {
+    margin: 15px;
+}
 /***************************** header ****************************/
 
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
-    padding: 5px 0 5px 10px;
+    padding: 5px 0 8px 10px;
     align-items: end;
     column-gap: 8px;
 }

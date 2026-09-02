@@ -87,8 +87,10 @@ const cseBtn = document.querySelector("#CSE-courses");
 
 
 // create the container for the gallery by selecting it using querySelector and the class.
+// define modal before using
 
 const gallery = document.querySelector(".gallery");
+const modal = document.querySelector("#course-details");
 
 // create a function that displays the list in the gallery container. 
 
@@ -118,11 +120,18 @@ function displayCourses(list) {
         // adds text to the card. The $ and course.subject is from the array 
 
         card.innerHTML = `${course.subject} ${course.number} ${check} `;
-           
+
+        //    add click event to the card, this allows the display popup function to know
+        //  that it will display the popup for the card that was clicked. This is what passing course into the display pop up function does
+
+        card.addEventListener("click", () => {
+            displayPopup(course);
+        });
+
         // add this newly created card to the gallery
 
         gallery.appendChild(card);
-
+     
     });
     
     // create a variable for the credit counter to run the reduce function and find the credits of the displayed courses. 
@@ -131,7 +140,44 @@ function displayCourses(list) {
         
         const totalCredits = list.reduce((sum, course) => sum + course.credits, 0);
         document.querySelector("#total-credits").textContent = totalCredits; 
-         
+        
+}
+
+function displayPopup(course) {
+    modal.innerHTML = "";
+
+    const closeButton = document.createElement("button");
+    const courseSubject = document.createElement("h3");
+    const courseTitle = document.createElement("h4");
+    const courseInfo = document.createElement("p");
+    const courseCertificate = document.createElement("p");
+    const courseDescription = document.createElement("p");
+    const courseTechnology = document.createElement("p");
+
+    closeButton.classList.add("close-button");
+    closeButton.textContent = "x";
+    closeButton.setAttribute("aria-label", "Close course details");
+
+    courseSubject.textContent = `${course.subject} ${course.number}`;
+    courseTitle.textContent = course.title;
+    courseInfo.textContent = `${course.credits} credits`;
+    courseCertificate.textContent = `Certificate: ${course.certificate}`;
+    courseDescription.textContent = course.description;
+    courseTechnology.textContent = `Technology: ${course.technology.join(", ")}`;
+
+    modal.appendChild(closeButton);
+    modal.appendChild(courseSubject);
+    modal.appendChild(courseTitle);
+    modal.appendChild(courseInfo);
+    modal.appendChild(courseCertificate);
+    modal.appendChild(courseDescription);
+    modal.appendChild(courseTechnology);
+
+    modal.showModal();
+
+    closeButton.addEventListener("click", () => {
+        modal.close();
+    });
 }
 
 
@@ -162,4 +208,5 @@ cseBtn.addEventListener("click", () => {
 });
 
 
-
+displayCourses(courses);
+setActive(allBtn);

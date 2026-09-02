@@ -1,21 +1,33 @@
 /* 
 Primary dark color: Prussian Blue       #000832
-Primary medium color: Blue Slate        #4f647d
+Primary medium color: Gray Slate        #435f69
 Primary light color: Pale Sky           #b2cad2
 Secondary dark color: Chocolate Plum    #6c4a48
-Secondary medium Color: Dusty Rose      #d58a86
+
 Secondary light color: Cotton Rose      #ecc9c7
 Background color: Onyx                  #141414
 Text color: white or onyx               #ffffff
 Font Family: ___Using Noto Sans from Google fonts 
     */
 
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* {box-sizing: border-box;}
+
 body {
     font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
     color: #141414;
-    background-color: #000832;
+    background: linear-gradient(
+    to bottom,
+    #000832, 91%,
+    #435f69, 99%,
+    #ecc9c7
+  );
+    padding: 2%;
+    min-height: 20rem;
 }
+
 
 /***************************** header ****************************/
 
@@ -29,13 +41,14 @@ header {
 }
 
 header img {
-    display: block;
+    place-self: start;
     width: 100%;
     height: auto;
 }
 
 header span {
     font-size: 1.2rem;
+    place-self: start;
 }
 
 /***************************** hamburger navigation *****************************************/
@@ -52,6 +65,7 @@ header span {
     border: 1px solid rgba(0,0,0,0.15);
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
     transition: all 0.2s ease;
+    place-self: start;
 }
 
 .hamburger:hover {
@@ -136,7 +150,20 @@ h1 {
     padding-bottom: .2rem;
     border-radius: 4px; 
     background-color: #b2cad2;
+    font-size: 1.5rem;
 }
+
+/* h2 {
+    border-radius: 4px; 
+    background-color: #b2cad2;
+    padding: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 1rem;
+    font-weight: 600;
+    width: auto;
+    margin: 1rem auto;
+} */
+
 
 /* ****************toggle buttons for list and grid directory********************* */
 
@@ -154,7 +181,7 @@ h1 {
     transition: all 0.2s ease;
     cursor: pointer;
     padding: 13px;
-    border-radius: 12px;
+    border-radius: 15px;
     align-items: center;
     justify-content: center;
     line-height: 1;
@@ -163,7 +190,7 @@ h1 {
     margin: 0 1rem 1rem;
 }
 
-#list-btn:hover, #grid-btn:hover {
+#list-btn:hover, #grid-btn:hover, .hero-btn:hover {
     background: linear-gradient(90deg, #ecc9c7, #ffffff);
     transform: translateY(-2px);   
 }
@@ -173,6 +200,8 @@ h1 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 
+/* *************************this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
+
 #directory-container ul {
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -181,9 +210,7 @@ h1 {
     padding: 0;
 }
 
-/* *************************this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
-
-.grid {
+.grid, .forecast-weather-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 0.75rem;
@@ -210,7 +237,7 @@ h1 {
     padding: 0.5rem;
     border-radius: 4px;
     background-color: #b2cad2;
-    border: 1px solid #4f647d;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     font-size: 1.1rem;
     font-weight: 600;
 }
@@ -222,7 +249,7 @@ h1 {
 }
 
 .card a {
-    color: #4f647d;
+    color: #435f69;
     font-weight: 600;
     text-decoration: none;
 }
@@ -232,7 +259,7 @@ h1 {
     cursor: pointer;
 }
 
-.badge-block {
+.badge-phone-block {
     display: flex;
     justify-content: space-between;
 }
@@ -241,10 +268,8 @@ h1 {
 
 .image {
     border-radius: 4px;
-    border-style: solid;
-    border-color: #4f647d;
     border-width: 1px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.20);
+    box-shadow: 0 0px 12px rgba(0,0,0,0.20);
 }
 
 /* *************************this is how to wrap the list and be responsive to screen size without expanding beyond the viewport */
@@ -266,7 +291,6 @@ h1 {
     flex-wrap: wrap;
     padding: 1rem;
     gap: 1rem;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
@@ -278,7 +302,7 @@ h1 {
 
 
 .line:nth-child(odd) {
-    background-color: #f9efee;   
+    background-color: #d2e1e6;   
 }
 
 .line:nth-child(even) {
@@ -305,6 +329,7 @@ h1 {
     cursor: pointer;
 }
 
+
 /* ******************* badge for membership level ********************************* */
 
 .badge {
@@ -314,23 +339,373 @@ h1 {
     font-size: 0.9rem;
     margin: 0 auto;
     text-align: center;
+    width: 75px;
+}
+
+.badge.member, .s-badge.member {
+    background: #E8E5D9;
+    /* border: 1px solid #69675c; */
+}
+
+.badge.silver, .s-badge.silver {
+    background: #EBEBEB;
+    /* border: 1px solid #606060; */
+}
+
+.badge.gold, .s-badge.gold {
+    background: #F4EDCD;
+    /* border: 1px solid #6b6857; */
+}
+
+/* ********************hero call to action ************************************* */
+
+.hero {
+    position: relative;
+}
+.hero-img {
+    width: 100%;
+    border-radius: 5px; 
+
+}
+.hero-btn {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    text-align: center;
+    background-color: #ecc9c7;
+    color: #000832;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.1rem;
+ }
+
+/* **************************current container**************************** */
+
+.current {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    background-color: #ffffff;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.current-weather, .current-events {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.current h2 {
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #b2cad2;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 1rem;
+    font-weight: 600;
+    width: auto;
+    margin: 1rem auto;
+}
+
+.weather-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    padding-bottom: 10px;  
+    margin: 1rem;
+}
+
+.weather-date {
+    grid-column: 1 / 3;
+    margin: 0;
+    text-align: center;;
+}
+
+.weather-temp {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-self: center;
+    justify-self: end;
+    margin: 0;
+}
+
+.weather-icon {
+    grid-column: 2;
+    grid-row: 2;
+    width: 3rem;;
+    height: 3rem;
+    justify-self: start;
+    align-self: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    background-color: #b2cad2;
+    border-radius: 4px;
+}
+
+.weather-caption-description {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+/* **********************************forecast weather******************** */
+.three {
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.forecast-weather-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+
+
+
+.three h2 {
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #b2cad2;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 1rem;
+    font-weight: 600;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* *********************spotlight********************* */
+
+.spotlights-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+}
+
+/****************** styling for all cards */
+
+.s-card {
+    background: #ffffff;
+    color: #141414;
+    border-radius: 4px;
+    padding: 1.25rem;
+    /* border: 2px solid #b2cad2; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.08); */
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    justify-content: space-between;
+}
+
+.s-card .s-name {
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #b2cad2;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.s-card p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+.s-card a {
+    color: #435f69;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.s-card a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.s-image {
+    border-radius: 4px;
+    border-width: 1px;
+    box-shadow: 0 0px 12px rgba(0,0,0,0.20);
+}
+
+.s-card .s-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    text-align: center;
     width: 65px;
 }
 
-.badge.member {
+
+/* ***************** join form ******************************************* */
+
+.join-form fieldset {
+    margin: 1rem 0;
+    border: none;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.join-form label {
+    display: block;
+    padding-top: 1rem;
+    color: #ecc9c7;
+}
+
+.join-form div {
+    padding-top: .5rem;
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+.join-form input[type="text"],
+.join-form input[type="tel"],
+.join-form input[type="email"],
+.join-form input[type="number"] {
+    background-color: #ffffff;
+    display: block;
+    border: solid 1px #435f69;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1%;
+    font-size: 1rem;
+}
+
+.join-form textarea {
+    background-color: #ffffff;
+    display: block;
+    border: solid 1px #435f69;
+    border-radius: 8px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1%;
+    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.join-form input[type="radio"] {
+    margin-right: 6px;
+    border: 2px solid #b2cad2;
+
+}
+.join-form input[type="submit"]{
+    border: 2px solid #b2cad2;
+    background-color: #ecc9c7;
+    color: #141414;
+    border-radius: 8px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 2% 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #435f69;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.join-form input:hover[type="submit"]{
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px);  
+}
+
+.join-form input:required {
+    border-left: solid 8px #ecc9c7;
+}
+.join-form textarea:required {
+    border-left: solid 8px #ecc9c7;
+}
+
+.join-form input:required:valid {
+    border-left: solid 8px #b2cad2;
+}
+.join-form textarea:required:valid {
+    border-left: solid 8px #b2cad2;
+}
+
+/************ animated container******************************************** */
+
+
+
+
+
+/****************** styling for animated cards */
+
+
+.animatedCard {
+    background:  #E8E5D9;
+    color: #141414;
+    border-radius: 60px;
+    padding-bottom: 1.25rem;
+    border: 2px solid #b2cad2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    justify-content: space-between;
+    margin: 1rem;
+    /* max-width: 75%; */
+}
+
+.animatedCard .name {
+    text-align: center;
+  
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 00;
+}
+
+.animatedCard p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.learnMore {
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    color: #141414;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+
+}
+
+#np{
     background: #E8E5D9;
-    border: 1px solid #69675c;
+}
+    /* border: 1px solid #69675c; */
+#bronze{
+    background: #e8dbd9;
+    /* border: 1px solid #69675c; */
 }
 
-.badge.silver {
-    background: #EBEBEB;
-    border: 1px solid #606060;
+ #silver {
+    background: #dbdbdb;
+    /* border: 1px solid #606060; */
 }
 
-.badge.gold {
+#gold {
     background: #F4EDCD;
-    border: 1px solid #6b6857;
 }
+    /* border: 1px solid #6b6857; */
+
 
 /***************************** footer ******************************************/
 
@@ -354,7 +729,6 @@ footer {
     width: 44px;
     height: 44px;
     border-radius: 22px;
-    box-shadow: 0 0 20px 10px #68865522;
     background-color: #ecc9c7;
     border: 1px solid rgba(0,0,0,0.15);
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);

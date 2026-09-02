@@ -12,3 +12,6 @@ const lastMod = document.lastModified;
 document.getElementById("lastModified").textContent = "Last modified: " + lastMod;
 
 
+// timestamp for the form
+
+document.querySelector("#timestamp").value = new Date();
