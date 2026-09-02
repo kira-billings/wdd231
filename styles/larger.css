@@ -1,5 +1,5 @@
 @media screen and (min-width: 640px) {
-    /* Larger screen styles go here */
+
     header, main, nav, footer {
         max-width: 900px;
         margin: 0 auto;
