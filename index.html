@@ -42,10 +42,14 @@
                 </section>
                 <section>
                     <h2>Student Photo</h2>
-                    <figure class="student-photo">
-                        <img src="images/kira-photo.jpg" alt="Photo of Kira Billings">
+                    <picture class="student-photo">
+                        <source media="(min-width: 640px)" srcset="images/kira-photo-large.jpg">
+                        <img src="images/kira-photo-base.jpg" alt="Photo of Kira Billings" 
+                        width="150"
+                        height="183"
+                        loading="lazy">
                         <figcaption>Kira Billings</figcaption>
-                    </figure>
+                    </picture>
                 </section>  
             </div>
             <section class="wrapper">

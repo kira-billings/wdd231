@@ -164,19 +164,23 @@ footer {
 /* student photo */
 
 .student-photo {
-    text-align: center;
+    padding: 10px;
+    display: block;
 }
 
 .student-photo img {
-    width: 150px;      
+    display: block;
+    max-width: 100%;      
     height: auto;      
     border-radius: 8px; 
     box-shadow: 0 0 20px 10px #6886555c;
     margin-top: 10px;
+    justify-self: center;
 }
 
 .student-photo figcaption {
     margin-top: 10px;
+    justify-self: center;
 }
 
 /* *******************course gallery ***********************************8*/
