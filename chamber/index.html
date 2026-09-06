@@ -47,7 +47,16 @@
             <h1>Homepage</h1>
             
             <section class="hero">
-                <img src="images/las-vegas-strip-day.jpg" alt="las vegas strip daytime" class = "hero-img">
+                <picture>
+                    <source
+                        media="(min-width: 640px)"
+                        srcset="images/las-vegas-strip-day-large.webp">
+                    <img src="images/las-vegas-strip-day-small.webp" 
+                        alt="las vegas strip daytime" 
+                        class = "hero-img"
+                        width = "400"
+                        height = "200">
+                </picture>
                 <button class="hero-btn">Join Our Business Community</button>
             </section>
             <section class="current">
@@ -91,6 +100,7 @@
             </div>
             <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
             <p id="lastModified"></p>
+            <input type="hidden" id="timestamp" name="timestamp">
         </footer>  
     </body>
 </html>

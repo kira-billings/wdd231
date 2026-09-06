@@ -12,12 +12,12 @@ golden yellow    #ffc107
 stem green       #2e7d32
  */
 
-/*********************8**********Site wide ****************************/
+/******************************Site wide ****************************/
 
 * {
     font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
-    color: #1c1b19;
+    color: #ffffff;
 }
 
 /***************************** header ****************************/
@@ -30,6 +30,7 @@ h1 {
     text-align: center;
     border-radius: 8px; 
     box-shadow: 0 0 20px 5px #6886555c;
+    color: #40592f;
 }
 
 /* *********************h2 ***********************/
@@ -39,20 +40,16 @@ h2 {
     border-radius: 8px; 
     box-shadow: 0 0 20px 5px #6886555c;
     margin: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 87px;   
 }
 
-/***************************** footer **********************/
-
-footer {
-    background-color: white;
-    padding: 1rem 10px;
-    text-align: center;
+#cards {
+    display: flex;
 }
 
-
-img {
-    text-align: center;
-}
 
 img {
     width: 150px;      
@@ -60,8 +57,8 @@ img {
     border-radius: 8px; 
     box-shadow: 0 0 20px 10px #6886555c;
     margin-top: 10px;
+    align-self: center;
 }
-
 
 p {
     text-align: center;
@@ -79,12 +76,9 @@ p {
     display: flex;
     flex-direction: column;
     width: 200px;       
-    box-sizing: border-box;
-         /* centers each card inside its grid cell */
+    /* centers each card inside its grid cell */
     margin: 0 auto;   
 }
-
-
 
 /* this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
 
@@ -95,5 +89,16 @@ p {
     justify-content: center;
 }
 
+/***************************** footer **********************/
+
+footer {
+    background-color: white;
+    padding: 1rem 10px;
+    text-align: center;
+    
+}
+footer p {
+    color: #40592f;
+}
 
 

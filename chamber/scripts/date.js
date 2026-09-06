@@ -1,17 +1,15 @@
 
 
 const year = document.querySelector("#currentYear");
-
-document.getElementById("lastModified").innerHTML = document.lastModified;
-
+const lastMod = document.lastModified;
 const today = new Date();
+
 
 year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
-const lastMod = document.lastModified;
 document.getElementById("lastModified").textContent = "Last modified: " + lastMod;
 
 
-// timestamp for the form
+// timestamp for the form must have an input in the html
 
 document.querySelector("#timestamp").value = new Date();

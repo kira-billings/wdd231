@@ -24,8 +24,8 @@ const displayProphets = (prophets) => {
 
         // Build the h2 content out to show the prophet's full name
         fullName.textContent = `${prophet.name} ${prophet.lastname}`; 
-        dateOfBirth.textContent = `Date of Birth: ${prophet.birthdate}`;
-        placeOfBirth.textContent = `Place of Birth: ${prophet.birthplace}`; 
+        dateOfBirth.innerHTML = `Date of Birth: <br> ${prophet.birthdate}`;
+        placeOfBirth.innerHTML = `Place of Birth:<br> ${prophet.birthplace}`; 
         // Build the image portrait by setting all the relevant attributes
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`); 

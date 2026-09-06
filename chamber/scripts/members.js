@@ -74,9 +74,16 @@ function getMemberGrid(members) {
         phone.textContent = `${member.phone}`;
         description.textContent = `${member.description}`; 
         
-        image.setAttribute('src', member.image);
+        image.setAttribute('src', member.imageSmall);
         image.setAttribute('alt', `${member.name}`); 
         image.setAttribute('loading', 'lazy');
+        image.width = 250;
+        image.height = 167;
+        image.sizes = "250px";
+        image.srcset = `
+            ${member.imageSmall} 250w,
+            ${member.imageLarge} 400w
+        `;
 
         card.appendChild(name);     
         card.appendChild(address);
@@ -156,13 +163,19 @@ showGrid();
 // ************************************* adding event listeners to toggle from grid to list
 
 
-document.querySelector('#grid-btn').addEventListener('click', async () => {
-    const members = await getMemberData();
+let members = [];
+
+async function startDirectory() {
+    members = await getMemberData();
+    getMemberGrid(members);
+}
+
+startDirectory();
+
+document.querySelector('#grid-btn').addEventListener('click', () => {
     getMemberGrid(members);
 });
 
-document.querySelector('#list-btn').addEventListener('click', async () => {
-    const members = await getMemberData();
+document.querySelector('#list-btn').addEventListener('click', () => {
     getMemberList(members);
 });
-

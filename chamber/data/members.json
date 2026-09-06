@@ -1,20 +1,53 @@
 {
   "members": [
+
+    {
+      "name": "Dynamic Dental & Orthodontics",
+      "address": "6847 N Commerce St, North Las Vegas, NV 89084",
+      "phone": "702-979-3107",
+      "website": "https://www.dynamicdentallv.com",
+      "imageSmall": "images/dynamic-dental-small.webp",
+      "imageLarge": "images/dynamic-dental-large.webp",
+      "membershipLevel": 3,
+      "description": "Professional, exceptional hygiene service and bedside manner for you, not just your teeth."
+    },
     {
       "name": "Museum of Ice Cream",
       "address": "3072 Rigel Ave, Suite 110, Las Vegas, NV 89102",
       "phone": "702-555-1234",
       "website": "https://www.museumoficecream.com/las-vegas/",
-      "image": "images/ice-cream.jpg",
+      "imageSmall": "images/ice-cream-small.webp",
+      "imageLarge": "images/ice-cream-large.webp",
       "membershipLevel": 3,
       "description": "The sweetest experience! Step inside a whimsical world built around ice cream."
+    },
+    {
+      "name": "EoS Fitness",
+      "address": "6564 Losee Rd, North Las Vegas, NV 89086",
+      "phone": "702-657-0171",
+      "website": "https://www.eosfitness.com",
+      "imageSmall": "images/eos-fitness-small.webp",
+      "imageLarge": "images/eos-fitness-large.webp",
+      "membershipLevel": 2,
+      "description": "Whether you are a first-time gym goer or a workout enthusiast, achieve your goals with EoS."
+    },
+    {
+      "name": "Clark County Shooting Complex",
+      "address": "11357 N Decatur Blvd, Las Vegas, NV 89131",
+      "phone": "702-455-2000",
+      "website": "https://www.clarkcountynv.gov/government/departments/parks___recreation/shooting_complex/",
+      "imageSmall": "images/archery-small.webp",
+      "imageLarge": "images/archery-large.webp",
+      "membershipLevel": 1,
+      "description": "Typical outdoor shooting range with a variety of stations, mountain views & instructional videos."
     },
     {
       "name": "Dig This Las Vegas",
       "address": "800 W Roban Ave, Las Vegas, NV 89044",
       "phone": "702-628-9446",
       "website": "https://digthisvegas.com/experiences/mega-dig/",
-      "image": "images/excavator.jpg",
+      "imageSmall": "images/excavator-small.webp",
+      "imageLarge": "images/excavator-large.webp",
       "membershipLevel": 2,
       "description": "A giant sandbox for grown-ups, this venue lets people (over 13) operate bulldozers & excavators."
     },
@@ -23,7 +56,8 @@
       "address": "382 Bruner Ave, Henderson, NV 89044",
       "phone": "702-595-6666",
       "website": "https://lionhabitatranch.org/",
-      "image": "images/lion.jpg",
+      "imageSmall": "images/lion-small.webp",
+      "imageLarge": "images/lion-large.webp",
       "membershipLevel": 1,
       "description": "Several lions & a giraffe live at this sanctuary with optional guided tours & feeding experiences."
     },
@@ -32,7 +66,8 @@
       "address": "14200 S Las Vegas Blvd, Las Vegas, NV 89054",
       "phone": "702-213-9068",
       "website": "https://speedvegas.com/experience/GoKart/ArriveAndDrive/",
-      "image": "images/go-kart.jpg",
+      "imageSmall": "images/go-kart-small.webp",
+      "imageLarge": "images/go-kart-large.webp",
       "membershipLevel": 2,
       "description": "Experience outdoor racing like never before! This is real-deal racing on a pro-level track."
     },
@@ -41,7 +76,8 @@
       "address": "100 City Parkway, Las Vegas, NV 89106",
       "phone": "702-366-0130",
       "website": "https://www.jasonsdeli.com/locations/nv/las-vegas/100-city-pkwy/",
-      "image": "images/deli.jpg",
+      "imageSmall": "images/deli-small.webp",
+      "imageLarge": "images/deli-large.webp",
       "membershipLevel": 3,
       "description": "Deli chain featuring specialty sandwiches, salads & other health-conscious fare."
     },
@@ -50,18 +86,10 @@
       "address": "360 Promenade Place, Las Vegas, NV 89106",
       "phone": "702-382-3445",
       "website": "https://discoverykidslv.org/",
-      "image": "images/fieldtrips.jpg",
+      "imageSmall": "images/field-trips-small.webp",
+      "imageLarge": "images/field-trips-large.webp",
       "membershipLevel": 1,
       "description": "Children's learning museum offering interactive exhibits exploring art, science, food & more."
-    },
-    {
-      "name": "Clark County Shooting Complex",
-      "address": "11357 N Decatur Blvd, Las Vegas, NV 89131",
-      "phone": "702-455-2000",
-      "website": "https://www.clarkcountynv.gov/government/departments/parks___recreation/shooting_complex/",
-      "image": "images/archery.jpg",
-      "membershipLevel": 1,
-      "description": "Typical outdoor shooting range with a variety of stations, mountain views & instructional videos."
-    }
+    }    
   ]
 }

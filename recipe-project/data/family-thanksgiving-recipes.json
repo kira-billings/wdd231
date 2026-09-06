@@ -1,0 +1,2342 @@
+[
+  {
+    "id": 1,
+    "name": "Roll Recipe",
+    "source": "Thelma",
+    "category": "Bread",
+    "tags": [
+      "savory",
+      "bread",
+      "rolls",
+      "yeast",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/roll-recipe-small.webp",
+      "large": "images/food/roll-recipe-large.webp"
+    },
+    "cardImage": "images/cards/roll-recipe-card.webp",
+    "ingredients": [
+      "1 yeast cake, dissolved in 1/4 cup warm water",
+      "3 eggs, beaten",
+      "1/4 cup sugar or less",
+      "1 level teaspoon salt",
+      "1/2 cup melted shortening (margarine)",
+      "1 cup warm water",
+      "4 1/2 cups sifted flour"
+    ],
+    "instructions": [
+      "Dissolve the yeast cake in 1/4 cup warm water.",
+      "Combine the yeast mixture with the eggs, sugar, salt, melted shortening and 1 cup warm water.",
+      "Add the sifted flour and beat with a spoon.",
+      "Let rise in the bowl until doubled.",
+      "Shape or place in a pan and let rise again.",
+      "Bake at 350°F to 400°F for 15 to 20 minutes."
+    ],
+    "notes": "After the first rise, the dough may be refrigerated in the bowl. Rolls may also be shaped and stored in the refrigerator. Bring to room temperature and let rise before baking."
+  },
+  {
+    "id": 2,
+    "name": "Candied Carrots",
+    "source": "Family Recipe",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "savory",
+      "vegetable",
+      "carrots",
+      "side dish",
+      "stovetop",
+      "holiday",
+      "Thanksgiving",
+      "family recipe",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/candied-carrots-small.webp",
+      "large": "images/food/candied-carrots-large.webp"
+    },
+    "cardImage": "images/cards/candied-carrots-card.webp",
+    "ingredients": [
+      "2 bunches carrots, peeled and cut into medium-size pieces",
+      "1/2 cup water",
+      "3/4 cup brown sugar",
+      "Juice of 1 lemon",
+      "1 to 2 tablespoons butter"
+    ],
+    "instructions": [
+      "Place the prepared carrots in a saucepan.",
+      "Add the water, brown sugar, lemon juice and butter.",
+      "Cook until the carrots are tender."
+    ],
+    "notes": "Transcribed from the handwritten family recipe."
+  },
+  {
+    "id": 3,
+    "name": "Abby's Pecan Pie",
+    "source": "Abby",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pecan",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/abbys-pecan-pie-small.webp",
+      "large": "images/food/abbys-pecan-pie-large.webp"
+    },
+    "cardImage": "images/cards/abbys-pecan-pie-card.webp",
+    "ingredients": [
+      "1 cup white corn syrup",
+      "1 cup dark brown sugar",
+      "1/3 teaspoon salt",
+      "1/3 cup melted butter",
+      "1 teaspoon vanilla",
+      "3 whole eggs",
+      "1 heaping cup shelled pecans",
+      "1 unbaked 9-inch pie shell"
+    ],
+    "instructions": [
+      "Mix the corn syrup, brown sugar, salt, melted butter and vanilla.",
+      "Mix in the slightly beaten eggs.",
+      "Pour into the unbaked pie shell.",
+      "Sprinkle pecans over the filling.",
+      "Bake at 350°F for approximately 45 minutes."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Judy's Stuffing",
+    "source": "Judy",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "stuffing",
+      "bread",
+      "sage",
+      "herbs",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/judys-stuffing-small.webp",
+      "large": "images/food/judys-stuffing-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1/2 cup (1 stick) butter, or a combination of butter and coconut oil",
+      "3 cups chopped celery and onions, total",
+      "2 tablespoons spinach flakes, optional",
+      "1 tablespoon parsley",
+      "1 1/2 tablespoons poultry seasoning",
+      "1 teaspoon salt",
+      "1/4 teaspoon black pepper",
+      "3 tablespoons finely chopped fresh sage or 2 tablespoons dried sage",
+      "Fresh rosemary and thyme, if available",
+      "1 to 1 1/2 cups chicken or turkey broth, water or milk",
+      "2 to 3 eggs",
+      "5 quarts fresh bread cubes or 4 quarts dried bread cubes"
+    ],
+    "instructions": [
+      "Heat oven to 350°F.",
+      "Melt the butter in a saucepan.",
+      "Add the chopped celery and onions and sauté slowly until tender.",
+      "Add the spinach flakes, if using, parsley, poultry seasoning, salt, pepper, sage, and fresh rosemary and thyme if available.",
+      "Stir in 1 to 1 1/2 cups chicken or turkey broth, water or milk.",
+      "Beat in 2 to 3 eggs.",
+      "Place the bread cubes in a large mixing bowl.",
+      "Pour the seasoned mixture over the bread cubes and stir until all of the bread is moistened.",
+      "Transfer to a baking dish.",
+      "Bake uncovered for 45 to 60 minutes."
+    ],
+    "notes": "Judy developed this frequently requested recipe from several versions. Optional additions include walnuts, pecans, sausage, dried cranberries or mushrooms. Cooked rice can replace part of the bread. It can be served with meats other than turkey."
+  },
+  {
+    "id": 5,
+    "name": "Carrots Julienne",
+    "source": "Family Recipe",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "vegetable",
+      "carrots",
+      "side dish",
+      "stovetop",
+      "family recipe",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/carrots-julienne-small.webp",
+      "large": "images/food/carrots-julienne-large.webp"
+    },
+    "cardImage": "images/cards/carrots-julienne-card.webp",
+    "ingredients": [
+      "6 medium carrots",
+      "1 chicken bouillon cube dissolved in 1/2 cup boiling water",
+      "1/4 cup margarine",
+      "3 medium onions, sliced",
+      "1 tablespoon flour",
+      "1/4 teaspoon salt",
+      "Dash of pepper",
+      "3/4 cup water"
+    ],
+    "instructions": [
+      "Pare carrots and cut into strips.",
+      "Cook in the bouillon, covered, for 10 minutes.",
+      "Melt margarine and add onions; cook until clear but not browned.",
+      "Stir in flour, salt, pepper and water and bring to a boil.",
+      "Add carrots and their cooking liquid.",
+      "Simmer uncovered for 10 minutes.",
+      "Add a pinch of sugar if desired."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Butterscotch Cream Pie",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "butterscotch",
+      "cream pie",
+      "chilled",
+      "holiday",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/butterscotch-cream-pie-small.webp",
+      "large": "images/food/butterscotch-cream-pie-large.webp"
+    },
+    "cardImage": "images/cards/butterscotch-cream-pie-card.webp",
+    "ingredients": [
+      "1/2 cup white sugar",
+      "3/4 cup packed brown sugar",
+      "2 cups milk",
+      "1/4 cup butter",
+      "1/2 teaspoon salt",
+      "2 eggs",
+      "1/2 cup flour",
+      "1 baked 9-inch pie shell",
+      "1 cup cream, whipped",
+      "Toasted slivered almonds",
+      "1/3 cup hot water"
+    ],
+    "instructions": [
+      "Cook the white sugar in a small heavy saucepan or skillet without stirring until melted and golden brown.",
+      "Remove from heat and slowly add the hot water.",
+      "Cook without stirring until the sugar dissolves.",
+      "Add milk and heat almost to boiling.",
+      "Melt butter in the top of a double boiler; remove from heat and add a mixture of flour, brown sugar and salt.",
+      "Beat in eggs.",
+      "Slowly add the caramelized milk mixture.",
+      "Cook over boiling water until thickened, stirring constantly.",
+      "Cover and cook 10 minutes, stirring occasionally.",
+      "Cool to room temperature, pour into the baked pie shell and chill several hours.",
+      "Top with whipped cream and toasted slivered almonds."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Bread & Carrot Stuffing",
+    "source": "Ginny Freeman",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "stuffing",
+      "bread",
+      "carrots",
+      "vegetable",
+      "side dish",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/bread-carrot-stuffing-small.webp",
+      "large": "images/food/bread-carrot-stuffing-large.webp"
+    },
+    "cardImage": "images/cards/bread-carrot-stuffing-card.webp",
+    "ingredients": [
+      "1 cup butter",
+      "1 cup chopped onions",
+      "3 cups chopped celery",
+      "3 cups chopped carrots, slightly cooked",
+      "1 package bread crumbs",
+      "1/2 teaspoon salt",
+      "1/2 teaspoon poultry seasoning",
+      "1 cup chopped parsley",
+      "1/2 teaspoon pepper",
+      "1/2 to 2 cups chicken broth",
+      "1 can evaporated milk"
+    ],
+    "instructions": [
+      "Melt the butter and cook the onions and celery until tender.",
+      "Combine with the slightly cooked carrots, bread crumbs, salt, poultry seasoning, parsley and pepper.",
+      "Add chicken broth and evaporated milk as needed to moisten.",
+      "Mix well and cook or bake until heated through."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Easy Rolls",
+    "source": "Hattie",
+    "category": "Bread",
+    "tags": [
+      "savory",
+      "bread",
+      "rolls",
+      "yeast",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/easy-rolls-small.webp",
+      "large": "images/food/easy-rolls-large.webp"
+    },
+    "cardImage": "images/cards/easy-rolls-card.webp",
+    "ingredients": [
+      "1/2 cup shortening",
+      "2 cups milk",
+      "2 teaspoons salt",
+      "About 6 cups flour",
+      "2 eggs",
+      "2 packages yeast"
+    ],
+    "instructions": [
+      "Heat the shortening and milk together.",
+      "Combine with the remaining ingredients and mix into a dough.",
+      "Let rise until doubled.",
+      "Shape into rolls and place in a greased pan.",
+      "Let rise again.",
+      "Bake at 425°F."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Pecan Pie",
+    "source": "Beverly Sautter",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pecan",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/pecan-pie-small.webp",
+      "large": "images/food/pecan-pie-large.webp"
+    },
+    "cardImage": "images/cards/pecan-pie-card.webp",
+    "ingredients": [
+      "1/2 cup white sugar",
+      "1 cup brown sugar, not packed",
+      "2 eggs",
+      "1 teaspoon vanilla",
+      "1 tablespoon flour",
+      "2 tablespoons milk",
+      "1 stick oleo (margarine)",
+      "Pecans"
+    ],
+    "instructions": [
+      "Mix the white sugar, brown sugar, eggs, vanilla, flour and milk.",
+      "Melt the oleo and pour it over the mixture.",
+      "Add pecans.",
+      "Pour into a pie shell and bake as for pumpkin pie."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Pull Apart Rolls",
+    "source": "Family Recipe",
+    "category": "Bread",
+    "tags": [
+      "savory",
+      "bread",
+      "rolls",
+      "butter",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/pull-apart-rolls-small.webp",
+      "large": "images/food/pull-apart-rolls-large.webp"
+    },
+    "cardImage": "images/cards/pull-apart-rolls-card.webp",
+    "ingredients": [
+      "Prepared roll dough",
+      "Melted butter"
+    ],
+    "instructions": [
+      "Shape the dough into balls.",
+      "Dip each ball in melted butter.",
+      "Layer loosely in a pan.",
+      "Cover and let rise in a warm place until doubled, about 20 to 30 minutes.",
+      "Bake at 350°F until golden, about 25 to 30 minutes.",
+      "Cool for 2 minutes, then turn onto a heatproof plate."
+    ],
+    "notes": "The original card contains the shaping and baking portion of the recipe."
+  },
+  {
+    "id": 11,
+    "name": "Pumpkin Chiffon Pie (Baked)",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pumpkin",
+      "chiffon",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/pumpkin-chiffon-pie-small.webp",
+      "large": "images/food/pumpkin-chiffon-pie-large.webp"
+    },
+    "cardImage": "images/cards/pumpkin-chiffon-pie-card.webp",
+    "ingredients": [
+      "2 cups pumpkin",
+      "3 egg yolks, beaten",
+      "1 cup milk",
+      "3/4 cup sugar",
+      "1/2 teaspoon salt",
+      "1 teaspoon cinnamon",
+      "1/2 teaspoon ginger",
+      "1/4 teaspoon nutmeg",
+      "3 egg whites, beaten stiff",
+      "1 unbaked 9-inch pie shell"
+    ],
+    "instructions": [
+      "Blend pumpkin, egg yolks, milk, sugar, salt, cinnamon, ginger and nutmeg.",
+      "Fold in the stiffly beaten egg whites.",
+      "Turn into the unbaked pie shell.",
+      "Bake at 450°F for 10 minutes.",
+      "Reduce oven to 325°F and bake for 45 to 50 minutes."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Pumpkin Pie",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pumpkin",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/pumpkin-pie-small.webp",
+      "large": "images/food/pumpkin-pie-large.webp"
+    },
+    "cardImage": "images/cards/pumpkin-pie-card.webp",
+    "ingredients": [
+      "2 eggs, slightly beaten",
+      "1 3/4 cups pumpkin",
+      "3/4 cup sugar",
+      "1 teaspoon salt",
+      "1 teaspoon cinnamon",
+      "1 teaspoon ginger",
+      "1/2 teaspoon cloves",
+      "1 2/3 cups evaporated milk",
+      "1 unbaked 9-inch pie shell"
+    ],
+    "instructions": [
+      "Mix the ingredients in the order listed.",
+      "Pour into the unbaked pie shell.",
+      "Bake at 425°F for 15 minutes.",
+      "Reduce oven to 350°F and continue baking about 45 minutes, or until a knife inserted near the center comes out clean."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Quick Rolls",
+    "source": "Family Recipe",
+    "category": "Bread",
+    "tags": [
+      "savory",
+      "bread",
+      "rolls",
+      "quick bread",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/quick-rolls-small.webp",
+      "large": "images/food/quick-rolls-large.webp"
+    },
+    "cardImage": "images/cards/quick-rollls-card.webp",
+    "ingredients": [
+      "2 cups flour",
+      "2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1/2 cup milk",
+      "1 egg, beaten",
+      "2 tablespoons shortening, melted"
+    ],
+    "instructions": [
+      "Sift and measure the flour, then resift with the dry ingredients.",
+      "Add milk, beaten egg and melted shortening.",
+      "Turn onto a floured board and knead 10 to 12 strokes.",
+      "Shape into rolls and let stand 15 minutes.",
+      "Bake at 430°F for 15 to 20 minutes."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "Molasses Pecan Pie",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pecan",
+      "molasses",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/molasses-pecan-pie-small.webp",
+      "large": "images/food/molasses-pecan-pie-large.webp"
+    },
+    "cardImage": "images/cards/molasses-pecan-pie-card.webp",
+    "ingredients": [
+      "1 unbaked 9-inch pie shell",
+      "1 cup light corn syrup",
+      "2/3 cup molasses",
+      "1/4 cup butter",
+      "1 cup heavy cream",
+      "3 eggs",
+      "1 cup coarsely chopped pecans",
+      "Dash of salt",
+      "1 teaspoon vanilla"
+    ],
+    "instructions": [
+      "Combine corn syrup and molasses, add butter and heat; remove from heat and cool.",
+      "Beat eggs slightly and gradually add the cooled molasses mixture.",
+      "Add pecans, salt and vanilla.",
+      "Pour into the pie shell.",
+      "Bake at 350°F for 35 to 40 minutes or until a knife inserted near the center comes out clean.",
+      "Whip the cream and spread over the pie before serving."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "3 Hour Rolls",
+    "source": "Doris H.",
+    "category": "Bread",
+    "tags": [
+      "savory",
+      "bread",
+      "rolls",
+      "yeast",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/3-hour-rolls-small.webp",
+      "large": "images/food/3-hour-rolls-large.webp"
+    },
+    "cardImage": "images/cards/3-hour-rolls-card.webp",
+    "ingredients": [
+      "1/4 cup warm water",
+      "2 packages dry yeast",
+      "3/4 cup milk",
+      "3/4 cup water",
+      "1/4 cup oil",
+      "1/4 cup sugar",
+      "3/4 teaspoon salt",
+      "4 cups flour, for sponge",
+      "1 egg",
+      "2 3/4 cups flour, added after sponge becomes bubbly"
+    ],
+    "instructions": [
+      "Dissolve the yeast in the warm water.",
+      "Combine milk, water, yeast, oil, sugar, salt, 4 cups flour and egg.",
+      "Beat well and let stand in a warm place for about 30 minutes.",
+      "When bubbly, add 2 3/4 cups flour.",
+      "Let rise until doubled.",
+      "Punch down or knead, shape into rolls and let rise until doubled again.",
+      "Bake at 375°F."
+    ],
+    "notes": "Make as a sponge before adding the final flour."
+  },
+  {
+    "id": 16,
+    "name": "Sweet Potato Pie I",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "sweet potato",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/sweet-potato-pie-1-small.webp",
+      "large": "images/food/sweet-potato-pie-1-large.webp"
+    },
+    "cardImage": "images/cards/sweet-potato-pie-1-card.webp",
+    "ingredients": [
+      "1 cup mashed sweet potatoes",
+      "1/2 cup milk",
+      "1/2 cup melted butter",
+      "2 eggs, beaten",
+      "1/2 teaspoon baking soda",
+      "Pinch of salt",
+      "1/2 teaspoon nutmeg",
+      "1 teaspoon vanilla",
+      "3/4 cup sugar",
+      "1 unbaked 9-inch pie shell"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into the unbaked pie shell.",
+      "Bake at 400°F for 30 minutes.",
+      "Reduce oven to 350°F and bake 45 to 50 minutes, or to desired doneness."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Butter Horn Rolls",
+    "source": "Family Recipe",
+    "category": "Bread",
+    "tags": [
+      "sweet",
+      "bread",
+      "rolls",
+      "yeast",
+      "butter",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/butter-horn-rolls-small.webp",
+      "large": "images/food/butter-horn-rolls-large.webp"
+    },
+    "cardImage": "images/cards/butter-horn-rolls-card.webp",
+    "ingredients": [
+      "1 1/2 cakes yeast",
+      "1/2 cup sugar",
+      "1/2 cup butter",
+      "3 eggs, beaten light",
+      "4 cups flour",
+      "1 teaspoon salt",
+      "1 cup lukewarm milk"
+    ],
+    "instructions": [
+      "Cream butter and sugar, then add the beaten eggs.",
+      "Add a little sugar to the yeast to dissolve it.",
+      "Alternate adding milk, flour and yeast to the creamed mixture.",
+      "Cover and let rise until doubled.",
+      "Divide into 3 parts and roll each to about the size of a pie pan.",
+      "Cut each circle into 16 wedges and roll each wedge from the wide end.",
+      "Let rise 3 to 4 hours, or until doubled.",
+      "Bake at 400°F for 15 to 20 minutes."
+    ],
+    "notes": "If using dry yeast, use a little water with sugar and yeast."
+  },
+  {
+    "id": 18,
+    "name": "Peach or Apricot Cobbler",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "cobbler",
+      "peach",
+      "apricot",
+      "fruit",
+      "baked",
+      "family recipe"
+    ],
+    "image": {
+      "small": "images/food/peach-apricot-cobbler-small.webp",
+      "large": "images/food/peach-apricot-cobbler-large.webp"
+    },
+    "cardImage": "images/cards/peach-apricot-cobbler-card.webp",
+    "ingredients": [
+      "2 sticks butter or margarine",
+      "1 large can peaches or apricots with juice",
+      "1 cup sugar, for fruit",
+      "2 cups self-rising flour, or 2 cups regular flour plus 2 tablespoons baking powder",
+      "1 1/2 cups sugar, for batter",
+      "Pinch of salt",
+      "2 cups milk",
+      "Vanilla, to taste"
+    ],
+    "instructions": [
+      "Heat oven to 350°F.",
+      "Melt butter in an 11 x 13-inch pan.",
+      "Combine fruit and juice with 1 cup sugar.",
+      "In another bowl mix flour, 1 1/2 cups sugar, salt, milk and vanilla.",
+      "Pour batter over melted butter.",
+      "Add fruit mixture over the top.",
+      "Bake for 1 hour."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "name": "Holiday Broccoli",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "vegetable",
+      "broccoli",
+      "bacon",
+      "walnuts",
+      "side dish",
+      "stovetop",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/holiday-broccoli-small.webp",
+      "large": "images/food/holiday-broccoli-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 pound fresh broccoli, rinsed and trimmed",
+      "6 slices bacon, diced",
+      "1/2 cup chopped scallions",
+      "3/4 cup coarsely chopped walnuts"
+    ],
+    "instructions": [
+      "Cook broccoli in 1 inch of salted water, covered, for 12 minutes.",
+      "Drain and place in a serving dish; keep warm.",
+      "Cook bacon until crisp and drain.",
+      "Add scallions to the bacon drippings and sauté.",
+      "Add walnuts and sauté 5 minutes, stirring, until golden.",
+      "Sprinkle bacon, scallions and walnuts over broccoli and serve."
+    ],
+    "notes": "Makes 4 servings."
+  },
+  {
+    "id": 20,
+    "name": "Classic Pecan Pie",
+    "source": "Printed Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pecan",
+      "corn syrup",
+      "baked",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/classic-pecan-pie-small.webp",
+      "large": "images/food/classic-pecan-pie-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "3 eggs, slightly beaten",
+      "1 cup Karo light or dark corn syrup",
+      "1 cup sugar",
+      "2 tablespoons Mazola margarine, melted",
+      "1 teaspoon vanilla",
+      "1 1/2 cups pecan halves",
+      "1 unbaked 9-inch pastry shell"
+    ],
+    "instructions": [
+      "Stir together eggs, corn syrup, sugar, melted margarine and vanilla until well blended.",
+      "Stir in pecans.",
+      "Pour into the pastry shell.",
+      "Bake at 350°F for 50 to 55 minutes, or until a knife inserted halfway between the center and edge comes out clean.",
+      "Cool on a wire rack."
+    ],
+    "notes": "Makes 8 servings. This replaces Arizona Pecan Pie."
+  },
+  {
+    "id": 21,
+    "name": "Southern Sweet Potato Pudding",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "sweet potato",
+      "pudding",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/southern-sweet-potato-pudding-small.webp",
+      "large": "images/food/southern-sweet-potato-pudding-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "4 cups grated raw sweet potatoes",
+      "3 eggs, well beaten",
+      "1 cup sugar (1/2 cup brown sugar and 1/2 cup granulated sugar)",
+      "1 1/2 cups evaporated milk",
+      "1 teaspoon ground cinnamon",
+      "1 teaspoon vanilla",
+      "1/4 cup butter, for topping",
+      "1/4 cup chopped nuts, for topping"
+    ],
+    "instructions": [
+      "Combine sweet potatoes, eggs, sugar, evaporated milk, cinnamon and vanilla; mix well.",
+      "Pour into a buttered 2-quart baking dish.",
+      "Dot the top with butter and sprinkle with nuts.",
+      "Place the dish in a shallow pan of water.",
+      "Bake at 350°F for about 2 hours, or until done in the center."
+    ],
+    "notes": "Makes 8 to 10 servings."
+  },
+  {
+    "id": 22,
+    "name": "Sweet Batter Rolls",
+    "source": "Newspaper",
+    "category": "Bread",
+    "tags": [
+      "sweet",
+      "bread",
+      "rolls",
+      "yeast",
+      "cinnamon",
+      "baked"
+    ],
+    "image": {
+      "small": "images/food/sweet-batter-rolls-small.webp",
+      "large": "images/food/sweet-batter-rolls-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "3 to 3 1/2 cups flour",
+      "1/3 cup sugar",
+      "2 packages active dry yeast",
+      "1 teaspoon salt",
+      "1/2 cup margarine",
+      "1/2 cup milk",
+      "1/2 cup water",
+      "1 egg",
+      "1/4 cup margarine, melted",
+      "1/4 cup sugar",
+      "1/2 teaspoon cinnamon"
+    ],
+    "instructions": [
+      "In a large mixing bowl combine 1 3/4 cups flour, 1/3 cup sugar, yeast and salt.",
+      "Heat 1/2 cup margarine, milk and water over low heat until warm.",
+      "Add liquid to the flour mixture and beat 2 minutes at medium speed.",
+      "Add 1/2 cup flour and the egg; beat 2 more minutes at high speed.",
+      "Stir in enough additional flour to make a soft dough.",
+      "Cover and let rise in a warm place about 45 minutes, or until doubled.",
+      "Punch down and turn onto a lightly floured surface.",
+      "Roll into a 20 x 10-inch rectangle and brush with 2 tablespoons melted margarine.",
+      "Combine 1/4 cup sugar and cinnamon and sprinkle over dough.",
+      "Roll up from a long side and cut into 24 slices, about 3/4 inch each.",
+      "Place cut-side up in two greased 9-inch cake pans and brush with remaining melted margarine.",
+      "Cover and let rise about 30 minutes, or until doubled.",
+      "Bake at 350°F for 25 minutes."
+    ],
+    "notes": "Makes 2 dozen rolls."
+  },
+  {
+    "id": 23,
+    "name": "Candied Yams",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "yam",
+      "sweet potato",
+      "orange",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/candied-yams-small.webp",
+      "large": "images/food/candied-yams-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 1-pound can yams",
+      "6 oranges, halved",
+      "2 tablespoons butter",
+      "3 tablespoons brown sugar",
+      "1/4 teaspoon cinnamon",
+      "Salt and pepper, to taste",
+      "3 ounces orange juice, optional",
+      "Marshmallows, optional"
+    ],
+    "instructions": [
+      "Remove the pulp from the oranges.",
+      "Combine the yams, butter, brown sugar, cinnamon, salt, pepper and optional orange juice.",
+      "Fill the orange shells with the yam mixture.",
+      "Bake at 375°F for 20 minutes.",
+      "Top with marshmallows if desired."
+    ],
+    "notes": "The clipping also offered orange liqueur as an alternative to orange juice; the nonalcoholic orange-juice option is used in the ingredients."
+  },
+  {
+    "id": 24,
+    "name": "Capon's Cauliflower",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "vegetable",
+      "cauliflower",
+      "cream",
+      "bread crumbs",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/capons-cauliflower-small.webp",
+      "large": "images/food/capons-cauliflower-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "Juice of 1 lemon",
+      "1 large head cauliflower",
+      "1/2 cup butter",
+      "1 teaspoon ground cinnamon, or to taste",
+      "1/2 teaspoon ground nutmeg, or to taste",
+      "Salt and white pepper, to taste",
+      "1 cup soft bread crumbs",
+      "1 pint whipping cream"
+    ],
+    "instructions": [
+      "Mix lemon juice into a large bowl of cold water.",
+      "Remove the center stalk from the cauliflower, cut the head into large thin slices and place them in the lemon water.",
+      "Butter a suitable au gratin dish liberally.",
+      "Drain the cauliflower slices and place half in the bottom of the dish.",
+      "Sprinkle with half the cinnamon, nutmeg, salt, pepper and bread crumbs.",
+      "Dot with half the remaining butter and pour half the cream over the top.",
+      "Make a second layer with the remaining ingredients.",
+      "Cover and bake at 375°F for 1 hour, or until done."
+    ],
+    "notes": "Serves 6."
+  },
+  {
+    "id": 25,
+    "name": "Cranberry Relish",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "tart",
+      "cranberry",
+      "orange",
+      "fruit",
+      "relish",
+      "cold",
+      "chilled",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/cranberry-relish-small.webp",
+      "large": "images/food/cranberry-relish-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 pound (about 4 to 4 1/2 cups) fresh cranberries",
+      "Pulp and rind of 1 fresh orange, juice reserved",
+      "1 tablespoon liquid artificial sweetener"
+    ],
+    "instructions": [
+      "Grind the cranberries and orange pulp and rind.",
+      "Stir in the liquid sweetener and reserved orange juice.",
+      "Refrigerate at least 4 hours before serving."
+    ],
+    "notes": "Original clipping includes diabetic food-exchange serving information."
+  },
+  {
+    "id": 26,
+    "name": "Herbed Onion Bread",
+    "source": "Newspaper",
+    "category": "Bread",
+    "tags": [
+      "savory",
+      "bread",
+      "onion",
+      "herbs",
+      "baked"
+    ],
+    "image": {
+      "small": "images/food/herbed-onion-bread-small.webp",
+      "large": "images/food/herbed-onion-bread-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "3 cups all-purpose flour",
+      "5 teaspoons baking powder",
+      "2 tablespoons sugar",
+      "2 teaspoons dried dill weed",
+      "1 teaspoon dried tarragon",
+      "1 tablespoon chopped fresh parsley",
+      "3 eggs",
+      "1 can (10 1/2 ounces) condensed French onion soup",
+      "1/2 cup salad oil"
+    ],
+    "instructions": [
+      "Grease a 9 x 5 x 3-inch loaf pan.",
+      "In a large bowl mix flour, baking powder, sugar, dill, tarragon and parsley.",
+      "In a small bowl beat eggs slightly; stir in soup and oil.",
+      "Add liquid mixture to flour mixture all at once and stir just until moistened.",
+      "Spread batter into the pan.",
+      "Bake at 350°F for 1 hour, or until the bread pulls away from the sides of the pan."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Tangy Cranberry Mold",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "cranberry",
+      "fruit",
+      "gelatin",
+      "orange",
+      "walnut",
+      "cold",
+      "chilled",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/tangy-cranberry-mold-small.webp",
+      "large": "images/food/tangy-cranberry-mold-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1/2 cup water",
+      "2 packages (3 ounces each) orange-flavored gelatin",
+      "2 cups vegetable juice",
+      "1 can (16 ounces) whole berry cranberry sauce",
+      "1 small orange, peeled and cut into 1/2-inch pieces",
+      "1 cup chopped walnuts",
+      "Leaf lettuce, optional",
+      "Sour cream, optional"
+    ],
+    "instructions": [
+      "About 5 hours before serving, bring the water to a boil.",
+      "Place gelatin in a bowl and stir in the boiling water until dissolved.",
+      "Stir in vegetable juice and cranberry sauce.",
+      "Refrigerate until the mixture mounds slightly when dropped from a spoon.",
+      "Fold in orange and walnuts and pour into a 6-cup mold.",
+      "Cover and refrigerate until set, about 4 hours.",
+      "Unmold onto a serving plate and garnish with lettuce and sour cream if desired."
+    ],
+    "notes": "Makes about 5 cups or 8 servings."
+  },
+  {
+    "id": 28,
+    "name": "Oriental Green Beans",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "vegetable",
+      "green beans",
+      "mushrooms",
+      "water chestnuts",
+      "ginger",
+      "sesame",
+      "stovetop",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/oriental-green-beans-small.webp",
+      "large": "images/food/oriental-green-beans-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 tablespoon salad oil",
+      "1/4 cup chopped onion",
+      "1/2 teaspoon ground ginger",
+      "1 cup chicken broth",
+      "1 tablespoon soy sauce",
+      "1 tablespoon cornstarch",
+      "3 packages (10 ounces each) frozen cut green beans",
+      "1 jar (4 1/2 ounces) sliced mushrooms",
+      "1/2 cup sliced water chestnuts",
+      "1 tablespoon toasted sesame seeds"
+    ],
+    "instructions": [
+      "Cook onion with ginger in hot oil over medium heat until tender, about 5 minutes.",
+      "Blend broth and soy sauce with cornstarch until smooth; add to onion mixture.",
+      "Cook, stirring constantly, until thickened.",
+      "Cook green beans in 1 inch of boiling water, covered, for 7 minutes or until tender-crisp.",
+      "Add mushrooms and water chestnuts; heat thoroughly and drain.",
+      "Add sauce to vegetables and sprinkle with sesame seeds."
+    ],
+    "notes": "Makes about 6 cups or 8 servings."
+  },
+  {
+    "id": 29,
+    "name": "Zesty Baked Potatoes",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "potato",
+      "cheese",
+      "onion",
+      "baked",
+      "side dish",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/zesty-baked-potatoes-small.webp",
+      "large": "images/food/zesty-baked-potatoes-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "8 hot baked medium potatoes",
+      "1 can (10 3/4 ounces) condensed cream of celery soup",
+      "1/4 cup grated Parmesan cheese",
+      "1/4 cup chopped green onions",
+      "1/4 teaspoon pepper",
+      "Paprika"
+    ],
+    "instructions": [
+      "Cut about 1/4 to 1/2 inch off the top of each potato and discard the tops.",
+      "Scoop out the potato, leaving a 1/4-inch shell; reserve shells.",
+      "Beat the potato until smooth.",
+      "Add soup, cheese, green onions and pepper and mix until just combined.",
+      "Spoon mixture evenly into potato shells and sprinkle with paprika.",
+      "Arrange in a 13 x 9 x 2-inch baking dish and bake at 350°F for 30 minutes, or until hot."
+    ],
+    "notes": "Makes 8 servings. May be prepared ahead through filling, covered and refrigerated up to 6 hours; bake uncovered 35 to 40 minutes if chilled."
+  },
+  {
+    "id": 30,
+    "name": "Pumpkin Bread",
+    "source": "Newspaper",
+    "category": "Bread",
+    "tags": [
+      "sweet",
+      "bread",
+      "quick bread",
+      "pumpkin",
+      "baked",
+      "holiday",
+      "fall",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/pumpkin-bread-small.webp",
+      "large": "images/food/pumpkin-bread-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "3 1/2 cups all-purpose flour",
+      "3 cups granulated sugar",
+      "2 teaspoons baking soda",
+      "1 1/2 teaspoons salt",
+      "3 teaspoons nutmeg",
+      "1/2 teaspoon ground ginger",
+      "1 cup salad oil",
+      "4 eggs, slightly beaten",
+      "2/3 cup water",
+      "2 cups canned pumpkin"
+    ],
+    "instructions": [
+      "Sift together flour, sugar, baking soda, salt, nutmeg and ginger.",
+      "Add oil, eggs, water and pumpkin and mix until smooth.",
+      "Pour batter into 3 greased 9 x 5 x 3-inch loaf pans.",
+      "Bake at 350°F for about 1 hour.",
+      "Cool slightly in pans, then turn onto wire racks to finish cooling."
+    ],
+    "notes": "Makes 3 loaves and freezes well."
+  },
+  {
+    "id": 31,
+    "name": "Turkey Gravy",
+    "source": "Newspaper",
+    "category": "Sauce",
+    "tags": [
+      "savory",
+      "gravy",
+      "turkey",
+      "mushrooms",
+      "stovetop",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/turkey-gravy-small.webp",
+      "large": "images/food/turkey-gravy-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "2 cups defatted turkey drippings",
+      "2 cups beef or turkey stock",
+      "3 tablespoons cornstarch or arrowroot",
+      "1/4 cup water",
+      "2 teaspoons corn oil margarine",
+      "1/2 cup sliced fresh mushrooms",
+      "Salt and freshly ground black pepper, to taste"
+    ],
+    "instructions": [
+      "Heat the defatted turkey drippings and stock in a saucepan.",
+      "Dissolve the cornstarch or arrowroot in water and add to the gravy.",
+      "Cook slowly over medium heat, stirring occasionally, until slightly thickened.",
+      "While the gravy cooks, heat margarine in a skillet and sauté mushrooms until tender.",
+      "Add mushrooms to the gravy and season with salt and pepper."
+    ],
+    "notes": "Makes 2 to 3 cups."
+  },
+  {
+    "id": 32,
+    "name": "Heavenly Pumpkin Pie",
+    "source": "Newspaper",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pumpkin",
+      "chiffon",
+      "gelatin",
+      "cold",
+      "chilled",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/heavenly-pumpkin-pie-small.webp",
+      "large": "images/food/heavenly-pumpkin-pie-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 tablespoon unflavored gelatin",
+      "1/4 cup cold water",
+      "1 cup sugar",
+      "1 1/2 cups canned pumpkin",
+      "1/2 cup milk",
+      "3 eggs, separated",
+      "2 teaspoons cinnamon",
+      "1/4 teaspoon allspice",
+      "1/2 teaspoon ginger",
+      "1/2 teaspoon salt",
+      "2 tablespoons granulated sugar",
+      "1 baked 9-inch pie crust",
+      "Whipped cream, optional"
+    ],
+    "instructions": [
+      "Soak gelatin in the cold water.",
+      "Combine 1 cup sugar, pumpkin, milk, slightly beaten egg yolks, cinnamon, allspice, ginger and salt.",
+      "Cook in a double boiler, stirring constantly, until the mixture begins to thicken, about 5 minutes.",
+      "Add gelatin and stir until dissolved.",
+      "Cool until partially congealed.",
+      "Beat egg whites until foamy, gradually adding 2 tablespoons sugar; continue beating until stiff.",
+      "Fold egg whites into the custard mixture.",
+      "Pour into the baked pie shell and chill.",
+      "When firm, garnish with whipped cream if desired."
+    ],
+    "notes": "This is the Basha's Cook's Corner gelatin chiffon recipe, retained under the name Heavenly Pumpkin Pie. The separate graham-cracker chiffon and older Heavenly Pumpkin Pie were removed."
+  },
+  {
+    "id": 33,
+    "name": "Sweet Potato Custard Pie",
+    "source": "Newspaper",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "sweet potato",
+      "custard",
+      "pecan",
+      "baked",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/sweet-potato-custard-pie-small.webp",
+      "large": "images/food/sweet-potato-custard-pie-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "3 eggs, slightly beaten",
+      "1 can (16 ounces) vacuum-packed sweet potatoes, drained and mashed (about 1 1/4 cups)",
+      "1 can (13 ounces) evaporated milk",
+      "1/2 cup firmly packed brown sugar",
+      "1 1/2 teaspoons ground cinnamon",
+      "1 teaspoon ground allspice",
+      "1/2 teaspoon salt",
+      "1 unbaked 9-inch pie shell",
+      "Whole pecans, optional",
+      "Whipped cream, optional"
+    ],
+    "instructions": [
+      "Beat together all ingredients except pie shell, pecans and whipped cream until well blended.",
+      "Pour into the prepared pie shell.",
+      "Bake at 350°F until a knife inserted near the center comes out clean, about 45 to 50 minutes.",
+      "Cool on a wire rack.",
+      "Garnish with pecans and whipped cream if desired."
+    ],
+    "notes": "Makes 6 to 8 servings."
+  },
+  {
+    "id": 34,
+    "name": "Apricot-Sausage Stuffing",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "stuffing",
+      "sausage",
+      "apricot",
+      "raisins",
+      "walnuts",
+      "bread",
+      "fruit",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/apricot-sausage-stuffing-small.webp",
+      "large": "images/food/apricot-sausage-stuffing-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 cup drained, diced canned apricots, syrup reserved",
+      "1/4 ounce golden raisins",
+      "1/2 cup chopped walnuts",
+      "4 tablespoons butter",
+      "1 medium onion, peeled and minced",
+      "1 stalk celery, finely chopped",
+      "8 ounces day-old whole wheat bread, cut into 1/2-inch croutons",
+      "1/2 cup water",
+      "1 pound bulk pork sausage",
+      "1/4 cup chopped fresh parsley",
+      "1 teaspoon fresh thyme or 1/2 teaspoon dried leaf thyme",
+      "Salt and pepper, to taste"
+    ],
+    "instructions": [
+      "Combine apricots, raisins and walnuts in a small bowl and cover with reserved apricot syrup; marinate while preparing the stuffing.",
+      "Melt butter over moderate heat and sauté onion and celery until soft and golden.",
+      "Transfer to a large bowl; add croutons and water and toss briefly.",
+      "Brown sausage in the same skillet, breaking it into small pieces; drain fat.",
+      "Add sausage, parsley, thyme, salt, pepper and the marinated fruit with its liquid to the croutons and toss to mix.",
+      "Bake in a buttered, covered dish alongside the turkey until heated through, about 30 minutes, or use to stuff the turkey as directed."
+    ],
+    "notes": "The clipping lists the golden-raisin amount as 1/4 ounce; preserved as printed."
+  },
+  {
+    "id": 35,
+    "name": "Morash's Pickled Beets",
+    "source": "Newspaper",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "tangy",
+      "vegetable",
+      "beets",
+      "pickled",
+      "cold",
+      "chilled",
+      "side dish",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/morashs-pickled-beets-small.webp",
+      "large": "images/food/morashs-pickled-beets-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "4 cups cooked beets",
+      "1 medium onion, optional",
+      "1 cup cider or wine vinegar",
+      "1 cup beet juice or water",
+      "1/4 cup sugar"
+    ],
+    "instructions": [
+      "Peel and slice the cooked beets; chop onion if using and mix with beets.",
+      "Heat vinegar, beet juice or water, and sugar just long enough to dissolve the sugar.",
+      "Pour over the beets.",
+      "Cool at room temperature, then refrigerate 4 to 6 hours before serving."
+    ],
+    "notes": "Keeps refrigerated for a week or longer, though the beets gradually soften."
+  },
+  {
+    "id": 36,
+    "name": "Creamy Pumpkin Dessert",
+    "source": "Newspaper",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pumpkin",
+      "cream cheese",
+      "cookie crust",
+      "baked",
+      "chilled",
+      "holiday",
+      "fall"
+    ],
+    "image": {
+      "small": "images/food/creamy-pumpkin-dessert-small.webp",
+      "large": "images/food/creamy-pumpkin-dessert-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "1 roll (17 ounces) refrigerated ready-to-slice sugar cookie dough",
+      "1 package (8 ounces) cream cheese, softened",
+      "1/4 cup sugar",
+      "1 teaspoon vanilla",
+      "1 egg",
+      "1/2 cup sugar",
+      "3/4 teaspoon cinnamon",
+      "1/4 teaspoon ginger",
+      "1/4 teaspoon salt",
+      "1/8 teaspoon cloves",
+      "1 can (16 ounces) pumpkin",
+      "1 cup evaporated milk",
+      "2 eggs, slightly beaten",
+      "Whipped cream, optional"
+    ],
+    "instructions": [
+      "Slice cookie dough 1/4 inch thick and place in rows in an ungreased 13 x 9-inch pan; press together to form the crust.",
+      "Beat cream cheese, 1/4 cup sugar and vanilla until well blended; add 1 egg and mix well.",
+      "Spread cream cheese mixture over cookie crust.",
+      "Combine remaining sugar, cinnamon, ginger, salt, cloves, pumpkin, evaporated milk and 2 eggs; mix well.",
+      "Carefully pour pumpkin mixture over cream cheese layer.",
+      "Bake at 375°F for 45 to 55 minutes, or until a knife inserted near the center comes out clean.",
+      "Cool and refrigerate; garnish with whipped cream if desired."
+    ],
+    "notes": "Makes 12 to 16 servings. Refrigerate leftovers."
+  },
+  {
+    "id": 37,
+    "name": "Ginger-Pumpkin Cheesecake with Gingersnap Crust",
+    "source": "Newspaper",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "cheesecake",
+      "pumpkin",
+      "ginger",
+      "gingersnap",
+      "cream cheese",
+      "baked",
+      "chilled",
+      "holiday",
+      "fall"
+    ],
+    "image": {
+      "small": "images/food/ginger-pumpkin-cheesecake-small.webp",
+      "large": "images/food/ginger-pumpkin-cheesecake-large.webp"
+    },
+    "cardImage": "images/cards/newspaper-card.webp",
+    "ingredients": [
+      "2 pounds cream cheese",
+      "1 1/2 cups sugar",
+      "5 eggs",
+      "1 1/2 teaspoons pumpkin pie spice",
+      "1 pint sour cream, or 1 cup yogurt plus 1 cup heavy cream",
+      "1 can (15 ounces) unseasoned pumpkin",
+      "2 tablespoons candied ginger, finely chopped",
+      "1/4 cup flour",
+      "1 1/2 cups finely crushed gingersnap crumbs",
+      "1 tablespoon cocoa",
+      "Butter, enough to hold the crust crumbs together",
+      "1 pint heavy whipping cream"
+    ],
+    "instructions": [
+      "Soften cream cheese and blend with sugar, eggs, pumpkin pie spice, sour cream, pumpkin, candied ginger and flour.",
+      "Combine gingersnap crumbs and cocoa with enough butter to hold together; press into a 10-inch springform pan.",
+      "Pour filling into crust.",
+      "Bake at 275°F for 2 to 3 hours, or until a knife inserted near the center comes out clean.",
+      "Cool in the turned-off oven, then chill overnight.",
+      "Serve with whipped cream."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 38,
+    "name": "Pumpkin Baked Alaska",
+    "source": "Printed Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pumpkin",
+      "ice cream",
+      "cake",
+      "meringue",
+      "almond",
+      "frozen",
+      "baked",
+      "holiday",
+      "fall"
+    ],
+    "image": {
+      "small": "images/food/pumpkin-baked-alaska-small.webp",
+      "large": "images/food/pumpkin-baked-alaska-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "1 quart vanilla ice cream, softened",
+      "2 teaspoons pumpkin pie spice",
+      "2 eggs",
+      "1 1/4 cups sugar, divided",
+      "3 tablespoons plus 5 teaspoons water, divided",
+      "1/2 teaspoon vanilla extract",
+      "2/3 cup cake flour",
+      "1/2 teaspoon baking powder",
+      "1/8 teaspoon salt",
+      "5 egg whites",
+      "1/2 teaspoon cream of tartar",
+      "1 teaspoon rum extract",
+      "2 tablespoons sliced almonds, toasted"
+    ],
+    "instructions": [
+      "Combine ice cream and pumpkin pie spice; transfer to a plastic-wrap-lined 1 1/2-quart bowl and freeze until set.",
+      "Line a greased 9-inch round baking pan with waxed paper and grease the paper.",
+      "Beat eggs, 1/2 cup sugar, 3 tablespoons water and vanilla until thick and lemon-colored.",
+      "Combine flour, baking powder and salt and fold into egg mixture; pour into prepared pan.",
+      "Bake at 375°F for 12 to 14 minutes, or until cake springs back when lightly touched; invert and cool completely.",
+      "Place cake on a freezer-to-oven-safe platter or foil-lined baking sheet; unmold ice cream onto cake and return to freezer.",
+      "Combine egg whites, cream of tartar, remaining sugar and remaining water in a heavy saucepan or double boiler; beat on low speed 1 minute.",
+      "Continue beating over low heat until mixture reaches 160°F, about 10 minutes.",
+      "Remove from heat, add rum extract and beat until stiff peaks form, about 4 minutes.",
+      "Spread meringue over frozen ice cream and cake, sealing to the platter; sprinkle with almonds and freeze.",
+      "Just before serving, broil on the lowest rack for 3 to 5 minutes or until lightly browned; serve immediately."
+    ],
+    "notes": "Yield: 12 servings. May be frozen assembled for up to 24 hours before browning."
+  },
+  {
+    "id": 39,
+    "name": "Impossible Pumpkin Pie",
+    "source": "Printed Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "pumpkin",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "fall"
+    ],
+    "image": {
+      "small": "images/food/impossible-pumpkin-pie-small.webp",
+      "large": "images/food/impossible-pumpkin-pie-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "3/4 cup sugar",
+      "1/2 cup Bisquick baking mix",
+      "2 tablespoons butter",
+      "1 can (13 ounces) evaporated milk",
+      "2 eggs",
+      "1 can (16 ounces) pumpkin",
+      "2 1/2 teaspoons pumpkin pie spice",
+      "2 teaspoons vanilla"
+    ],
+    "instructions": [
+      "Heat oven to 350°F and grease a 9- or 10-inch pie plate.",
+      "Beat all ingredients until smooth, about 1 minute with a hand beater.",
+      "Pour into the pie plate.",
+      "Bake for 50 to 55 minutes, or until a knife inserted in the center comes out clean."
+    ],
+    "notes": "High altitude: bake at 375°F for 45 to 50 minutes."
+  },
+  {
+    "id": 40,
+    "name": "Butterscotch Yams",
+    "source": "Printed Recipe",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "yam",
+      "sweet potato",
+      "brown sugar",
+      "cinnamon",
+      "side dish",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/butterscotch-yams-small.webp",
+      "large": "images/food/butterscotch-yams-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "6 medium yams, cooked, peeled and quartered, or 2 cans (17 ounces each) yams, well drained",
+      "1/2 cup Karo light or dark corn syrup",
+      "1/2 cup firmly packed brown sugar",
+      "1/4 cup heavy cream or half-and-half",
+      "1/2 tablespoon Mazola margarine",
+      "1/2 teaspoon salt",
+      "1/2 teaspoon cinnamon"
+    ],
+    "instructions": [
+      "Arrange yams in a single layer in a 13 x 9 x 2-inch baking dish.",
+      "Combine remaining ingredients in a 2-quart saucepan.",
+      "Bring to a boil over medium heat, stirring constantly, and boil for 5 minutes.",
+      "Pour sauce over yams.",
+      "Bake, basting frequently, for 15 minutes longer or until sauce makes a thick glaze."
+    ],
+    "notes": "Makes 6 servings. The original card also includes microwave directions."
+  },
+  {
+    "id": 41,
+    "name": "Mallow Topped Sweet Potatoes",
+    "source": "Printed Recipe",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "sweet potato",
+      "marshmallow",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/mallow-topped-sweet-potatoes-small.webp",
+      "large": "images/food/mallow-topped-sweet-potatoes-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "2 cans (16 ounces each) sweet potatoes, drained and mashed",
+      "1/4 cup (1/2 stick) margarine, melted",
+      "1/4 cup orange juice",
+      "1/2 teaspoon ground cinnamon",
+      "15 standard-size marshmallows"
+    ],
+    "instructions": [
+      "Heat oven to 350°F.",
+      "Mix all ingredients except marshmallows until well blended.",
+      "Spoon into a 1-quart casserole.",
+      "Top with marshmallows.",
+      "Bake 20 minutes, or until marshmallows are lightly browned."
+    ],
+    "notes": "Makes 6 servings. Microwave option: heat potato mixture on HIGH 8 to 10 minutes, stirring after 4 minutes; top with marshmallows and let stand 2 to 3 minutes."
+  },
+  {
+    "id": 42,
+    "name": "Savory Ham Glaze and Sauce",
+    "source": "Printed Recipe",
+    "category": "Sauce",
+    "tags": [
+      "sweet",
+      "savory",
+      "ham",
+      "glaze",
+      "sauce",
+      "orange",
+      "holiday",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/savory-ham-glaze-and-sauce-small.webp",
+      "large": "images/food/savory-ham-glaze-and-sauce-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "1 1/2 cups Karo light or dark corn syrup",
+      "3/4 cup firmly packed brown sugar",
+      "3 tablespoons prepared mustard",
+      "3/4 teaspoon ground ginger",
+      "2 tablespoons orange juice"
+    ],
+    "instructions": [
+      "In a 2-quart microwave-safe bowl, stir together corn syrup, brown sugar, mustard and ginger.",
+      "Microwave on HIGH for 8 minutes.",
+      "For glaze, brush about 1/2 cup of the mixture over ham.",
+      "For sauce, stir orange juice into the remaining glaze.",
+      "Serve the sauce warm with ham."
+    ],
+    "notes": "Makes about 1 1/2 cups sauce. The card notes that about 1/2 cup glaze is enough for a 3-pound boneless ham."
+  },
+  {
+    "id": 43,
+    "name": "Spicy Prune Stuffing",
+    "source": "Printed Recipe",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "stuffing",
+      "prune",
+      "pineapple",
+      "almond",
+      "bread",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/spicy-prune-stuffing-small.webp",
+      "large": "images/food/spicy-prune-stuffing-large.webp"
+    },
+    "cardImage": "images/cards/printed-recipe-card.webp",
+    "ingredients": [
+      "2 packages (6 1/2 ounces each) cornbread stuffing mix, enough for a 14-pound turkey",
+      "2 cups prunes, pitted and chopped",
+      "2 cups well-drained pineapple tidbits",
+      "2 teaspoons nutmeg",
+      "2 teaspoons cinnamon",
+      "1/4 teaspoon allspice",
+      "1/4 teaspoon ground cloves",
+      "1 cup butter",
+      "2 cups chopped celery",
+      "2 cups slivered almonds",
+      "1 1/2 cups pineapple syrup"
+    ],
+    "instructions": [
+      "Empty the cornbread stuffing mix into a large bowl.",
+      "Add prunes, pineapple and spices and blend thoroughly.",
+      "Melt butter and sauté celery and almonds until tender-crisp.",
+      "Add the butter mixture to the stuffing.",
+      "Stir in pineapple syrup gently but thoroughly.",
+      "Stuff the body and neck cavities of the turkey loosely; do not pack."
+    ],
+    "notes": "Printed recipe card states the quantity is enough for a 14-pound turkey."
+  },
+  {
+    "id": 44,
+    "name": "Creamy Mashed Potatoes",
+    "source": "Original Collection",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "potato",
+      "mashed potatoes",
+      "butter",
+      "side dish",
+      "stovetop",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/creamy-mashed-potatoes-small.webp",
+      "large": "images/food/creamy-mashed-potatoes-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "3 pounds Yukon Gold or russet potatoes",
+      "1 teaspoon salt, plus more for cooking water",
+      "6 tablespoons butter",
+      "3/4 cup whole milk",
+      "1/4 cup sour cream",
+      "1/4 teaspoon black pepper"
+    ],
+    "instructions": [
+      "Peel potatoes and cut into evenly sized chunks.",
+      "Cover with cold salted water, bring to a boil and simmer 15 to 20 minutes until fork-tender.",
+      "Drain well and return to the warm pot.",
+      "Warm butter and milk together until butter melts.",
+      "Mash potatoes and gradually stir in the warm milk mixture.",
+      "Stir in sour cream, salt and pepper; adjust seasoning."
+    ],
+    "notes": "Makes about 8 servings. May be kept warm in a slow cooker; loosen with warm milk if needed."
+  },
+  {
+    "id": 45,
+    "name": "Judy's Deviled Eggs",
+    "source": "Judy",
+    "category": "Appetizer",
+    "tags": [
+      "savory",
+      "egg",
+      "deviled eggs",
+      "appetizer",
+      "cold",
+      "chilled",
+      "make ahead",
+      "potluck",
+      "holiday",
+      "Thanksgiving",
+      "Easter",
+      "family recipe",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/judys-deviled-eggs-small.webp",
+      "large": "images/food/judys-deviled-eggs-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "12 eggs",
+      "1/2 cup mayonnaise",
+      "2 tablespoons ranch dressing or sour cream, optional",
+      "2 teaspoons yellow or Dijon mustard",
+      "1/8 teaspoon salt",
+      "1/8 teaspoon freshly ground black pepper",
+      "2 teaspoons dried parsley",
+      "Dash of garlic powder",
+      "1/4 teaspoon paprika",
+      "2 teaspoons finely minced dill pickles",
+      "1 tablespoon cream cheese"
+    ],
+    "instructions": [
+      "Place eggs in a single layer in a saucepan and cover with enough water to reach about 1 1/2 inches above the eggs.",
+      "Bring to a boil, cover, reduce heat to low and cook for 1 minute.",
+      "Remove from heat and leave covered for 14 minutes, then rinse under cold water for 1 minute and cool.",
+      "Alternatively, pressure cook about 12 eggs in an Instant Pot using a steaming basket and 2 cups water for 4 minutes; release pressure fairly quickly and cool.",
+      "Peel the eggs and cut in half lengthwise.",
+      "Remove yolks and mash with mayonnaise, optional ranch dressing or sour cream, mustard, salt, pepper, parsley, garlic powder, paprika, dill pickles and cream cheese.",
+      "Spoon or pipe filling into the egg-white halves.",
+      "Cover and refrigerate until serving."
+    ],
+    "notes": "Judy developed this recipe through research and trial. She recommends the Instant Pot method for easy peeling."
+  },
+  {
+    "id": 46,
+    "name": "Sparkling Cranberry Holiday Punch",
+    "source": "Original Collection",
+    "category": "Beverage",
+    "tags": [
+      "sweet",
+      "drink",
+      "beverage",
+      "cranberry",
+      "orange",
+      "sparkling",
+      "cold",
+      "nonalcoholic",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/sparkling-cranberry-holiday-punch-small.webp",
+      "large": "images/food/sparkling-cranberry-holiday-punch-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "4 cups cranberry juice",
+      "2 cups orange juice",
+      "1/2 cup fresh lime juice",
+      "1 liter ginger ale, chilled",
+      "1 liter sparkling apple cider, chilled",
+      "1 orange, thinly sliced",
+      "1 lime, thinly sliced",
+      "1 cup fresh or frozen cranberries",
+      "Ice, as needed"
+    ],
+    "instructions": [
+      "Chill all liquid ingredients.",
+      "Combine cranberry juice, orange juice and lime juice in a punch bowl or pitcher.",
+      "Just before serving, slowly add ginger ale and sparkling apple cider.",
+      "Add orange slices, lime slices and cranberries.",
+      "Serve over ice."
+    ],
+    "notes": "Makes approximately 16 servings. Frozen cranberries can replace some of the ice."
+  },
+  {
+    "id": 47,
+    "name": "Herb-Roasted Thanksgiving Turkey",
+    "source": "Original Collection",
+    "category": "Main Dish",
+    "tags": [
+      "savory",
+      "turkey",
+      "poultry",
+      "main dish",
+      "roasted",
+      "baked",
+      "herbs",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/herb-roasted-thanksgiving-turkey-small.webp",
+      "large": "images/food/herb-roasted-thanksgiving-turkey-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1 whole turkey, 12 to 14 pounds, completely thawed",
+      "1/2 cup butter, softened",
+      "1 tablespoon chopped fresh rosemary",
+      "1 tablespoon chopped fresh sage",
+      "1 tablespoon chopped fresh thyme",
+      "2 teaspoons salt",
+      "1 teaspoon black pepper",
+      "1 onion, quartered",
+      "1 lemon, quartered",
+      "4 cloves garlic",
+      "2 cups chicken or turkey broth"
+    ],
+    "instructions": [
+      "Heat oven to 325°F.",
+      "Remove neck and giblets and pat turkey dry.",
+      "Combine butter, herbs, salt and pepper.",
+      "Loosen the skin over the breast and spread some herb butter underneath; rub remaining butter over the outside.",
+      "Place onion, lemon and garlic loosely in the cavity.",
+      "Place breast-side up on a rack in a roasting pan and pour broth into the pan.",
+      "Roast until the thickest part of the breast and innermost thigh reach at least 165°F; loosely tent with foil if browning too quickly.",
+      "Rest 30 minutes before carving."
+    ],
+    "notes": "A 12- to 14-pound unstuffed turkey generally takes about 3 to 3 3/4 hours at 325°F; use internal temperature to determine doneness. Save pan drippings for Turkey Gravy."
+  },
+  {
+    "id": 48,
+    "name": "Fall Apple-Cranberry Salad",
+    "source": "Original Collection",
+    "category": "Salad",
+    "tags": [
+      "sweet",
+      "savory",
+      "salad",
+      "apple",
+      "cranberry",
+      "pecan",
+      "greens",
+      "cold",
+      "fresh",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/fall-apple-cranberry-salad-small.webp",
+      "large": "images/food/fall-apple-cranberry-salad-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "8 cups mixed salad greens",
+      "2 crisp apples, thinly sliced",
+      "3/4 cup dried cranberries",
+      "3/4 cup pecans, toasted",
+      "1/2 cup crumbled feta cheese",
+      "1/3 cup olive oil",
+      "3 tablespoons apple cider vinegar",
+      "2 tablespoons maple syrup",
+      "1 teaspoon Dijon mustard",
+      "1/4 teaspoon salt",
+      "1/8 teaspoon black pepper"
+    ],
+    "instructions": [
+      "Combine greens, apples, cranberries, pecans and feta in a large bowl.",
+      "Whisk or shake olive oil, vinegar, maple syrup, Dijon mustard, salt and pepper.",
+      "Just before serving, drizzle dressing over salad and toss gently."
+    ],
+    "notes": "Makes about 8 servings. Dressing may be made a day ahead. Toss apples lightly with lemon juice to slow browning."
+  },
+  {
+    "id": 49,
+    "name": "Homemade Whipped Cream",
+    "source": "Original Collection",
+    "category": "Topping",
+    "tags": [
+      "sweet",
+      "whipped cream",
+      "cream",
+      "topping",
+      "dessert",
+      "cold",
+      "chilled",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/homemade-whipped-cream-small.webp",
+      "large": "images/food/homemade-whipped-cream-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1 cup heavy whipping cream, cold",
+      "2 tablespoons powdered sugar",
+      "1 teaspoon vanilla extract"
+    ],
+    "instructions": [
+      "Chill a mixing bowl and beaters for about 15 minutes.",
+      "Beat cold cream on medium-high until it begins to thicken.",
+      "Add powdered sugar and vanilla.",
+      "Continue beating until soft to medium peaks form.",
+      "Serve immediately or cover and refrigerate."
+    ],
+    "notes": "Makes about 2 cups. Do not overbeat."
+  },
+  {
+    "id": 50,
+    "name": "Savory Stuffed Mushrooms",
+    "source": "Original Collection",
+    "category": "Appetizer",
+    "tags": [
+      "savory",
+      "appetizer",
+      "mushroom",
+      "cream cheese",
+      "parmesan",
+      "garlic",
+      "baked",
+      "holiday",
+      "Thanksgiving"
+    ],
+    "image": {
+      "small": "images/food/savory-stuffed-mushrooms-small.webp",
+      "large": "images/food/savory-stuffed-mushrooms-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "24 medium white or cremini mushrooms",
+      "2 tablespoons butter",
+      "2 cloves garlic, minced",
+      "1/4 cup finely chopped onion",
+      "4 ounces cream cheese, softened",
+      "1/2 cup grated Parmesan cheese",
+      "1/3 cup seasoned breadcrumbs",
+      "2 tablespoons chopped fresh parsley",
+      "1/4 teaspoon salt",
+      "1/4 teaspoon black pepper",
+      "2 tablespoons grated Parmesan cheese, for topping"
+    ],
+    "instructions": [
+      "Heat oven to 375°F.",
+      "Clean mushrooms and remove stems; finely chop enough stems to make about 1 cup.",
+      "Melt butter and cook chopped stems, garlic and onion for 5 to 7 minutes, until tender and excess moisture evaporates.",
+      "Cool slightly and stir in cream cheese, 1/2 cup Parmesan, breadcrumbs, parsley, salt and pepper.",
+      "Arrange caps cavity-side up, fill generously and sprinkle with remaining Parmesan.",
+      "Bake for 18 to 22 minutes, until tender and lightly browned.",
+      "Serve warm."
+    ],
+    "notes": "Makes about 24. May be assembled several hours ahead and refrigerated."
+  },
+  {
+    "id": 51,
+    "name": "Pistachio Cream Cheese Layered Dessert",
+    "source": "Original Collection",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pistachio",
+      "cream cheese",
+      "pudding",
+      "whipped topping",
+      "pecan",
+      "layered",
+      "baked",
+      "cold",
+      "chilled",
+      "make ahead",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/pistachio-cream-cheese-layered-dessert-small.webp",
+      "large": "images/food/pistachio-cream-cheese-layered-dessert-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1 cup rice flour",
+      "1/2 cup butter, softened",
+      "1/2 cup finely chopped pecans or almonds",
+      "1 package (8 ounces) cream cheese, softened",
+      "1 cup powdered sugar",
+      "1 teaspoon vanilla flavor",
+      "1 and 1/2 container (12 ounces) Cool Wip, thawed and divided",
+      "2 packages (3.4 ounces each) instant pistachio pudding mix",
+      "3 cups cold milk",
+      "1/4 cup chopped pistachios (optional)"
+    ],
+    "instructions": [
+      "Heat oven to 350°F.",
+      "Combine flour, butter and pecans or almonds until crumbly and press into a 9 x 13-inch dish.",
+      "Bake 15 to 18 minutes, until lightly golden; cool completely.",
+      "Beat cream cheese, vanilla, and powdered sugar until smooth; fold in 1 cup whipped topping and spread over crust.",
+      "Whisk pudding mixes and cold milk about 2 minutes, until thickening; spread over cream cheese layer.",
+      "Spread remaining whipped topping over pudding and sprinkle with pistachios.",
+      "Cover and refrigerate at least 4 hours."
+    ],
+    "notes": "I use 12 ounces of Cool Wip since 8 ounces isn't quite enough. Makes about 15 servings. Best made several hours ahead or overnight. Wheat flour as a substitute will not be gluten free."
+  },
+  {
+    "id": 52,
+    "name": "Baked Yams and Apples",
+    "source": "Judy",
+    "category": "Side Dish",
+    "tags": [
+      "sweet",
+      "yam",
+      "sweet potato",
+      "apple",
+      "fruit",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "family recipe",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/baked-yams-and-apples-small.webp",
+      "large": "images/food/baked-yams-and-apples-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "6 to 7 yams, baked, peeled and cut into chunks",
+      "3 to 4 apples, peeled and chopped",
+      "3/4 cup sugar or 1/2 cup honey",
+      "4 tablespoons cornstarch",
+      "1/2 cup (1 stick) butter",
+      "2 cups apple juice",
+      "1 teaspoon nutmeg",
+      "1 to 2 teaspoons vanilla extract"
+    ],
+    "instructions": [
+      "Heat oven to 325°F.",
+      "Place yams and apples in a casserole dish.",
+      "Melt butter and sugar together in a saucepan.",
+      "Stir together cornstarch, nutmeg and apple juice; add to the butter mixture.",
+      "Cook, stirring, until thickened.",
+      "Stir in vanilla.",
+      "Pour sauce over yams and apples.",
+      "Bake for about 45 minutes."
+    ],
+    "notes": "Originally from Una Nelson and modified slightly by Judy to use apple juice and add nutmeg and vanilla. Serves about 20 and can easily be halved. Good with turkey or ham."
+  },
+  {
+    "id": 53,
+    "name": "Mountain Road Ranch Fresh Peach Pie",
+    "source": "Judy",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "pie",
+      "peach",
+      "fresh fruit",
+      "cream cheese",
+      "chilled",
+      "summer",
+      "family recipe",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/fresh-peach-pie-small.webp",
+      "large": "images/food/fresh-peach-pie-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1 baked 9-inch pie crust or Sugar Cookie Crust",
+      "16 ounces cream cheese, softened",
+      "3/4 cup sugar",
+      "1 cup marshmallow creme",
+      "1 cup Cool Whip or heavy cream",
+      "1 tablespoon vanilla extract",
+      "2 tablespoons milk, or enough to make filling spreadable",
+      "5 to 7 cups or more sliced fresh peaches",
+      "1/4 cup sugar",
+      "1 cup peaches",
+      "2 tablespoons orange juice concentrate or double-strength Tang, optional",
+      "1/2 tablespoon lemon juice",
+      "1/4 cup Ultra-Gel"
+    ],
+    "instructions": [
+      "Prepare and cool a 9-inch pie crust or optional crust.",
+      "Whisk cream cheese, 3/4 cup sugar, marshmallow creme, Cool Whip or heavy cream, vanilla and milk until smooth and spreadable; spread over crust and chill.",
+      "Blend 1/4 cup sugar, 1 cup peaches, optional orange concentrate or Tang, lemon juice and Ultra-Gel.",
+      "Add 5 to 7 cups or more sliced peaches so the mixture is mostly fruit with just enough glaze; chill to thicken.",
+      "Using a slotted spoon, place glazed peaches over the cream cheese layer, draining excess glaze.",
+      "Chill until firm, about 3 hours; serve with whipped cream if desired."
+    ],
+    "notes": "Created by Judy. Sugar Cookie Crust: cream 1 cup sugar, 1/2 cup butter or other fat and 1 egg; add 1/2 cup sour cream or milk and 1 tablespoon vanilla; mix in 3 1/2 to 4 cups flour, 1 tablespoon baking powder and 1/2 teaspoon baking soda. Add flour until stiff, press into pans and bake at 350°F about 10 minutes. Makes 3 to 4 9-inch crusts; extra dough may be frozen. Raw Nut Crust: finely chop walnuts and/or almonds and add enough honey to hold together; press into pan. Gluten-Free Crust: 1 cup rice or almond flour, 1/2 cup butter, 2 tablespoons sugar and 1/4 cup chopped nuts; bake at 350°F for 13 minutes. Alternate glaze: orange or peach Kool-Aid made with half the normal liquid, 1 cup sugar, 1 cup peaches and 1/4 cup Ultra-Gel. Instant vanilla pudding mix may substitute for Ultra-Gel. For blackberry or raspberry pie, use white grape or apple juice instead of orange."
+  },
+  {
+    "id": 54,
+    "name": "Easy Citrus Grape Apple Wassail",
+    "source": "Judy",
+    "category": "Beverage",
+    "tags": [
+      "sweet",
+      "drink",
+      "beverage",
+      "wassail",
+      "punch",
+      "apple",
+      "grape",
+      "orange",
+      "citrus",
+      "hot",
+      "cold",
+      "holiday",
+      "Thanksgiving",
+      "Christmas",
+      "family recipe",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/easy-citrus-grape-apple-wassail-small.webp",
+      "large": "images/food/easy-citrus-grape-apple-wassail-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1/3 cup honey",
+      "1 cup hot water",
+      "4 cups white or pink grape juice",
+      "4 cups apple juice",
+      "1 cup orange juice",
+      "1/3 cup lemon juice",
+      "3 tablespoons real vanilla extract",
+      "1 teaspoon almond extract",
+      "Ginger ale or lemon-lime soda, optional for serving cold"
+    ],
+    "instructions": [
+      "Dissolve honey in the hot water.",
+      "Combine with grape juice, apple juice, orange juice, lemon juice, vanilla and almond extract.",
+      "For wassail, heat to serving temperature and serve warm.",
+      "For punch, chill and serve cold.",
+      "For sparkling punch, mix the chilled juice mixture with an equal amount of ginger ale or lemon-lime soda just before serving."
+    ],
+    "notes": "Makes about 2 1/2 quarts before optional soda. Judy's original variation adds 1 drop cinnamon bark essential oil, 1 drop nutmeg essential oil, 1 drop clove essential oil and 5 drops tangerine or orange essential oil. Use only products specifically labeled for culinary use and follow the manufacturer's food-use directions."
+  },
+  {
+    "id": 55,
+    "name": "ACV Cold Wassail",
+    "source": "Judy",
+    "category": "Beverage",
+    "tags": [
+      "sweet",
+      "tart",
+      "drink",
+      "beverage",
+      "wassail",
+      "punch",
+      "apple cider vinegar",
+      "grape",
+      "apple",
+      "citrus",
+      "cold",
+      "holiday",
+      "Thanksgiving",
+      "Christmas",
+      "family recipe",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/acv-cold-wassail-small.webp",
+      "large": "images/food/acv-cold-wassail-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "1/2 cup organic apple cider vinegar",
+      "1 teaspoon liquid stevia or about 3/4 cup honey",
+      "Hot water, if needed to dissolve honey",
+      "1 teaspoon vanilla extract",
+      "1/2 teaspoon almond extract",
+      "1 package Emergen-C, optional",
+      "Spring water, as needed",
+      "4 cups light grape juice, apple juice or other juice"
+    ],
+    "instructions": [
+      "Place apple cider vinegar in a 2-quart pitcher or bottle.",
+      "Measure stevia separately, or dissolve honey in a small amount of hot water.",
+      "Stir the sweetener mixture into the vinegar.",
+      "Add optional Emergen-C, vanilla and almond extract.",
+      "Add spring water to fill the 2-quart container and mix well.",
+      "Divide evenly between two 2-quart containers.",
+      "Add 2 cups light grape juice, apple juice or another juice to each container.",
+      "Mix well and chill."
+    ],
+    "notes": "Judy's variation on Apple Cider Vinegar Punch. Makes approximately 4 quarts after juice is added. Judy's original variation adds 2 drops birch essential oil, 1 drop cinnamon essential oil, 1 drop nutmeg essential oil and 3 drops tangerine or orange essential oil; clove, lemon, lime or allspice are alternatives. Use only products specifically labeled for culinary use and follow manufacturer food-use directions. Suggested Emergen-C flavors include Super Fruit, Triple Berry Burst and Tropical."
+  },
+  {
+    "id": 56,
+    "name": "Purple Mashed Sweet Potatoes",
+    "source": "Original Collection",
+    "category": "Side Dish",
+    "tags": [
+      "savory",
+      "sweet potato",
+      "purple sweet potato",
+      "mashed",
+      "coconut",
+      "lime",
+      "vegetable",
+      "side dish",
+      "baked",
+      "holiday",
+      "Thanksgiving",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/purple-mashed-sweet-potatoes-small.webp",
+      "large": "images/food/purple-mashed-sweet-potatoes-large.webp"
+    },
+    "cardImage": "images/cards/recipe-placeholder.webp",
+    "ingredients": [
+      "3 medium purple sweet potatoes, or more to taste",
+      "1 cup coconut milk",
+      "1 lime, juiced",
+      "Salt, to taste",
+      "Ground black pepper, to taste"
+    ],
+    "instructions": [
+      "Heat oven to 375°F.",
+      "Poke holes all over the sweet potatoes with a fork and arrange in a baking dish.",
+      "Bake about 45 minutes, until easily pierced with a knife.",
+      "Cut potatoes in half and scoop the flesh into a mixing bowl.",
+      "Add coconut milk, lime juice, salt and pepper.",
+      "Beat with an electric mixer until smooth.",
+      "Serve warm."
+    ],
+    "notes": "Adjust coconut milk as needed to reach the desired consistency."
+  }
+]
