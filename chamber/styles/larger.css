@@ -17,13 +17,20 @@
         display: block;
         margin-top: 2%;
     }
-
-    .navigation ul {
+    
+    .navigation ul,
+    .navigation.show ul {
         display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
-
+    
     .navigation ul li {
-        flex: 1 1 100%;
+        flex: 1;
+        min-width: 0;
     }
 
     main {
@@ -41,7 +48,7 @@
     .hero-btn {
         font-size: 1.3rem;
     }
-    
+
     .current h2, .three h2 {
         font-size: 1.2rem;
     }

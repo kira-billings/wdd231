@@ -3,7 +3,6 @@ Primary dark color: Prussian Blue       #000832
 Primary medium color: Gray Slate        #435f69
 Primary light color: Pale Sky           #b2cad2
 Secondary dark color: Chocolate Plum    #6c4a48
-
 Secondary light color: Cotton Rose      #ecc9c7
 Background color: Onyx                  #141414
 Text color: white or onyx               #ffffff
@@ -72,10 +71,12 @@ header span {
 .hamburger::after {
     content: "\2630";
     font-size: 2rem;
+    width: 29px;
 }
 
 .hamburger.show::after {
     content: "\00D7";
+    width: 29px;
 }
 
 /***************************************** navigation ***********************************************/
@@ -90,6 +91,7 @@ header span {
 
 .navigation ul {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     list-style-type: none;
     margin: 0;
@@ -209,25 +211,20 @@ h1 {
     gap: 0.75rem;
 }
 
-/****************** styling for all cards */
+/****************** styling for all cards *********************/
 
 .card, .s-card {
     background: #ffffff;
     color: #141414;
     border-radius: 4px;
     padding: 1.25rem;
-    
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     justify-content: space-between;
-}
-
-.card {
-    border: 2px solid #b2cad2;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border: solid 1px #435f69;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.20);
 }
 
 
@@ -458,6 +455,7 @@ h1 {
     padding: 1rem;
     margin-top: 1rem;
 }
+
 .forecast-weather-container {
     background-color: #ffffff;
     margin-top: 1rem;

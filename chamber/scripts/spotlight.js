@@ -92,9 +92,17 @@ function buildSpotlights(members) {
         name.textContent = `${member.name}`; 
         description.textContent = `${member.description}`; 
         
-        image.setAttribute('src', member.image);
+
+        image.setAttribute('src', member.imageSmall);
         image.setAttribute('alt', `${member.name}`); 
         image.setAttribute('loading', 'lazy');
+        image.width = 250;
+        image.height = 167;
+        image.sizes = "250px";
+        image.srcset = `
+            ${member.imageSmall} 250w,
+            ${member.imageLarge} 400w
+        `;
 
         card.appendChild(name);     
        
