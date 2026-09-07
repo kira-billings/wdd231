@@ -12,15 +12,17 @@ Font Family: ___Using Noto Sans from Google fonts
 * {
     font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
+    color: #141414;
 }
 body {
     
     color: #141414;
     background: linear-gradient(
-    to bottom,
-    #000832, 91%,
-    #435f69, 99%,
-    #ecc9c7
+    to top,
+    #ecc9c7, 15%,
+    #435f69, 50%,
+    #000832
+    
   );
     padding: 2%;
     min-height: 20rem;
@@ -35,7 +37,7 @@ header {
     padding: 10px 10px 5px 10px;
     align-items: end;
     column-gap: 8px;
-    color: #ffffff;
+    
 }
 
 header img {
@@ -47,6 +49,8 @@ header img {
 header span {
     font-size: 1.2rem;
     place-self: start;
+    color: #ffffff;
+    background-color: #141414;
 }
 
 /***************************** hamburger navigation *****************************************/
@@ -64,6 +68,7 @@ header span {
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
     transition: all 0.2s ease;
     place-self: start;
+    color: #141414;
 }
 
 .hamburger:hover {
@@ -252,7 +257,7 @@ h1 {
 }
 
 .card a {
-    color: #435f69;
+    color: #335460;
     font-weight: 600;
     text-decoration: none;
 }
@@ -727,7 +732,7 @@ footer {
     text-align: center;
     color:#ffffff;
 }
-
+footer {}
 
 .social {
     display: flex;
