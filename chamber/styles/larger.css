@@ -41,9 +41,7 @@
     .hero-btn {
         font-size: 1.3rem;
     }
-    .current {
-        flex-wrap: none;
-    }
+    
     .current h2, .three h2 {
         font-size: 1.2rem;
     }
