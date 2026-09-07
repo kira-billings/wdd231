@@ -14,20 +14,18 @@ Font Family: ___Using Noto Sans from Google fonts
     box-sizing: border-box;
     color: #141414;
 }
+
 body {
-    
     color: #141414;
     background: linear-gradient(
     to top,
     #ecc9c7, 15%,
     #435f69, 50%,
     #000832
-    
   );
     padding: 2%;
     min-height: 20rem;
 }
-
 
 /***************************** header ****************************/
 
@@ -37,7 +35,6 @@ header {
     padding: 10px 10px 5px 10px;
     align-items: end;
     column-gap: 8px;
-    
 }
 
 header img {
@@ -57,23 +54,14 @@ header span {
 
 .hamburger {
     display: flex;
-    background: #ecc9c7;
     cursor: pointer;
     padding: 8px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    transition: all 0.2s ease;
     place-self: start;
     color: #141414;
-}
-
-.hamburger:hover {
-    background: linear-gradient(90deg, #ecc9c7, #ffffff);
-    transform: translateY(-2px);  
 }
 
 .hamburger:active {
@@ -117,24 +105,15 @@ header span {
     display: flex;
     color: #141414;
     text-decoration: none;
-    background: #ecc9c7;
     padding: 0.6rem 1.2rem;
     border-radius: 12px;
     font-weight: 700;
     font-size: 1.2rem;
     margin: .5rem 0 0 0;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    transition: all 0.2s ease;
 }
 
 .navigation a.current {
     background: #ffffff;
-}
-
-.navigation a:hover {
-    background: linear-gradient(90deg, #ecc9c7, #ffffff);
-    transform: translateY(-2px);  
 }
 
 .navigation a:active {
@@ -156,17 +135,32 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* h2 {
-    border-radius: 4px; 
-    background-color: #b2cad2;
-    padding: 0.5rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    font-size: 1rem;
-    font-weight: 600;
-    width: auto;
-    margin: 1rem auto;
-} */
+/* ************* all button like behavior ************* */
 
+.hamburger,
+.navigation a,
+#list-btn,
+#grid-btn,
+.hero-btn,
+.social a {
+    background: #ecc9c7;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
+}
+
+/* ************* all hovering button behavior ********** */
+
+.hamburger:hover,
+.navigation a:hover,
+#list-btn:hover,
+#grid-btn:hover,
+.hero-btn:hover,
+.join-form input[type="submit"]:hover,
+.social a:hover {
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px);
+}
 
 /* ****************toggle buttons for list and grid directory********************* */
 
@@ -178,10 +172,6 @@ h1 {
 
 #list-btn, #grid-btn {
     display: flex;
-    background: #ecc9c7;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    transition: all 0.2s ease;
     cursor: pointer;
     padding: 13px;
     border-radius: 15px;
@@ -194,17 +184,13 @@ h1 {
     color: #141414;
 }
 
-#list-btn:hover, #grid-btn:hover, .hero-btn:hover {
-    background: linear-gradient(90deg, #ecc9c7, #ffffff);
-    transform: translateY(-2px);   
-}
-
 #list-btn:active, #grid-btn:active {
     transform: translateY(0);      
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 
 /* *************************this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
+
 #directory-container {
     min-height: 100vh;
 }
@@ -214,8 +200,7 @@ h1 {
     border-radius: 4px;
     overflow: hidden;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .grid, .forecast-weather-container {
@@ -226,19 +211,25 @@ h1 {
 
 /****************** styling for all cards */
 
-.card {
+.card, .s-card {
     background: #ffffff;
     color: #141414;
     border-radius: 4px;
     padding: 1.25rem;
-    border: 2px solid #b2cad2;
+    
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     justify-content: space-between;
 }
+
+.card {
+    border: 2px solid #b2cad2;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
 
 .card .name {
     text-align: center;
@@ -250,26 +241,28 @@ h1 {
     font-weight: 600;
 }
 
-.card p {
+.card p, .s-card p {
     margin: 0;
     line-height: 1.4;
     font-size: 0.9rem;
 }
 
-.card a {
+.card a, .s-card a {
     color: #335460;
     font-weight: 600;
     text-decoration: none;
 }
 
-.card a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 .badge-phone-block {
     display: flex;
     justify-content: space-between;
+}
+
+/* ****************** hover over link to underline *********** */
+
+.card a:hover, .s-card a:hover, .line a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* *********************** image in card************* */
@@ -310,7 +303,6 @@ h1 {
 .line > .phone { flex: 1.5; }   
 .line > a { flex: 1; }
 
-
 .line:nth-child(odd) {
     background-color: #d2e1e6;   
 }
@@ -334,12 +326,6 @@ h1 {
     text-decoration: none;
 }
 
-.line a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
 /* ******************* badge for membership level ********************************* */
 
 .badge {
@@ -352,19 +338,16 @@ h1 {
     width: 75px;
 }
 
-.badge.member, .s-badge.member {
+.badge.member, .s-badge.member, #np {
     background: #E8E5D9;
-    /* border: 1px solid #69675c; */
 }
 
-.badge.silver, .s-badge.silver {
+.badge.silver, .s-badge.silver, #silver {
     background: #EBEBEB;
-    /* border: 1px solid #606060; */
 }
 
-.badge.gold, .s-badge.gold {
+.badge.gold, .s-badge.gold, #gold {
     background: #F4EDCD;
-    /* border: 1px solid #6b6857; */
 }
 
 /* ********************hero call to action ************************************* */
@@ -392,9 +375,6 @@ h1 {
     text-align: center;
     background-color: #ecc9c7;
     color: #000832;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    transition: all 0.2s ease;
     cursor: pointer;
     padding: 13px;
     border-radius: 12px;
@@ -440,7 +420,7 @@ h1 {
 .weather-date {
     grid-column: 1 / 3;
     margin: 0;
-    text-align: center;;
+    text-align: center;
 }
 
 .weather-temp {
@@ -456,7 +436,7 @@ h1 {
 .weather-icon {
     grid-column: 2;
     grid-row: 2;
-    width: 3rem;;
+    width: 3rem;
     height: 3rem;
     justify-self: start;
     align-self: center;
@@ -471,6 +451,7 @@ h1 {
 }
 
 /* **********************************forecast weather******************** */
+
 .three {
     background-color: #ffffff;
     border-radius: 4px;
@@ -478,16 +459,10 @@ h1 {
     margin-top: 1rem;
 }
 .forecast-weather-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 0.75rem;
     background-color: #ffffff;
     margin-top: 1rem;
     border-radius: 4px;
 }
-
-
-
 
 .three h2 {
     padding: 0.5rem;
@@ -510,20 +485,6 @@ h1 {
 
 /****************** styling for all cards */
 
-.s-card {
-    background: #ffffff;
-    color: #141414;
-    border-radius: 4px;
-    padding: 1.25rem;
-    /* border: 2px solid #b2cad2; */
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    /* box-shadow: 0 4px 10px rgba(0,0,0,0.08); */
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-    justify-content: space-between;
-}
-
 .s-card .s-name {
     text-align: center;
     padding: 0.5rem;
@@ -532,23 +493,6 @@ h1 {
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     font-size: .9rem;
     font-weight: 600;
-}
-
-.s-card p {
-    margin: 0;
-    line-height: 1.4;
-    font-size: 0.9rem;
-}
-
-.s-card a {
-    color: #435f69;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.s-card a:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .s-image {
@@ -566,7 +510,6 @@ h1 {
     text-align: center;
     width: 65px;
 }
-
 
 /* ***************** join form ******************************************* */
 
@@ -592,7 +535,8 @@ h1 {
 .join-form input[type="text"],
 .join-form input[type="tel"],
 .join-form input[type="email"],
-.join-form input[type="number"] {
+.join-form input[type="number"],
+.join-form textarea {
     background-color: #ffffff;
     display: block;
     border: solid 1px #435f69;
@@ -604,24 +548,11 @@ h1 {
     font-size: 1rem;
 }
 
-.join-form textarea {
-    background-color: #ffffff;
-    display: block;
-    border: solid 1px #435f69;
-    border-radius: 8px;
-    padding: .75rem;
-    width: 100%;
-    max-width: 400px;
-    margin-top: 1%;
-    font-size: 1rem;
-    font-family: "Noto Sans", sans-serif;
-}
-
 .join-form input[type="radio"] {
     margin-right: 6px;
     border: 2px solid #b2cad2;
-
 }
+
 .join-form input[type="submit"]{
     border: 2px solid #b2cad2;
     background-color: #ecc9c7;
@@ -635,33 +566,18 @@ h1 {
     font-weight: 700;
     font-size: 1.2rem;
 }
-.join-form input:hover[type="submit"]{
-    background: linear-gradient(90deg, #ecc9c7, #ffffff);
-    transform: translateY(-2px);  
-}
 
-.join-form input:required {
-    border-left: solid 8px #ecc9c7;
-}
+.join-form input:required,
 .join-form textarea:required {
     border-left: solid 8px #ecc9c7;
 }
 
-.join-form input:required:valid {
-    border-left: solid 8px #b2cad2;
-}
+.join-form input:required:valid, 
 .join-form textarea:required:valid {
     border-left: solid 8px #b2cad2;
 }
 
-/************ animated container******************************************** */
-
-
-
-
-
 /****************** styling for animated cards */
-
 
 .animatedCard {
     background:  #E8E5D9;
@@ -675,15 +591,12 @@ h1 {
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     justify-content: space-between;
     margin: 1rem;
-    /* max-width: 75%; */
 }
 
 .animatedCard .name {
     text-align: center;
-  
     border-radius: 4px;
     font-size: 1.1rem;
-  
 }
 
 .animatedCard p {
@@ -698,32 +611,14 @@ h1 {
     font-size: 1.2rem;
     margin: 0 auto;
     text-align: center;
-    font-family: "Noto Sans", sans-serif;
     color: #141414;
     border: none;
     box-shadow: 0 4px 10px rgba(0,0,0,0.18);
-
 }
 
-#np{
-    background: #E8E5D9;
-}
-    /* border: 1px solid #69675c; */
 #bronze{
     background: #e8dbd9;
-    /* border: 1px solid #69675c; */
 }
-
- #silver {
-    background: #dbdbdb;
-    /* border: 1px solid #606060; */
-}
-
-#gold {
-    background: #F4EDCD;
-}
-    /* border: 1px solid #6b6857; */
-
 
 /***************************** footer ******************************************/
 
@@ -732,7 +627,6 @@ footer {
     text-align: center;
     color:#ffffff;
 }
-footer {}
 
 .social {
     display: flex;
@@ -748,9 +642,6 @@ footer {}
     height: 44px;
     border-radius: 22px;
     background-color: #ecc9c7;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    transition: all 0.2s ease;
     color: #141414;
 }
 
@@ -758,11 +649,6 @@ footer {}
     width: 22px;
     height: 22px;
     color: #141414;
-}
-
-.social a:hover {
-    background: linear-gradient(90deg, #ecc9c7, #ffffff);
-    transform: translateY(-2px); 
 }
 
 .social a:active {
