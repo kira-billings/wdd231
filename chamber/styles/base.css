@@ -1,29 +1,74 @@
 /* 
 Primary dark color: Prussian Blue       #000832
-Primary medium color: Gray Slate        #435f69
+Primary medium color: Gray Slate        #335460
 Primary light color: Pale Sky           #b2cad2
-Secondary dark color: Chocolate Plum    #6c4a48
 Secondary light color: Cotton Rose      #ecc9c7
-Background color: Onyx                  #141414
-Text color: white or onyx               #ffffff
+Text color: white or prussian blue      #ffffff
+
+membership colors: 
+#f4edcd - gold
+#ebebeb - silver
+#e8e5d9 - np member
+#e8dbd9 - bronze
+
 Font Family: ___Using Noto Sans from Google fonts 
-    */
+*/
+
 * {
     font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
-    color: #141414;
+    color: #000832;
 }
 
 body {
-    color: #141414;
+    color: #000832;
     background: linear-gradient(
     to top,
     #ecc9c7, 15%,
-    #435f69, 50%,
+    #335460, 50%,
     #000832
   );
     padding: 2%;
     min-height: 20rem;
+}
+
+/* ************* all button like behavior ************* */
+.hamburger,
+.navigation a,
+#list-btn,
+#grid-btn,
+.hero-btn,
+.social a,
+.join-form input[type="submit"],
+#closeButton,
+.learn-more {
+    background: #ecc9c7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: #000832;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+}
+
+/* ************* all hovering button like behavior ********** */
+
+.hamburger:hover,
+.navigation a:hover,
+#list-btn:hover,
+#grid-btn:hover,
+.hero-btn:hover,
+.join-form input[type="submit"]:hover,
+.learn-more:hover,
+#closeButton:hover,
+.social a:hover {
+    background: linear-gradient(90deg, #ecc9c7, #ffffff);
+    transform: translateY(-2px);
 }
 
 /***************************** header ****************************/
@@ -46,21 +91,15 @@ header span {
     font-size: 1.2rem;
     place-self: start;
     color: #ffffff;
-    background-color: #141414;
+    background-color: #000832;
 }
 
 /***************************** hamburger navigation *****************************************/
 
 .hamburger {
-    display: flex;
-    cursor: pointer;
     padding: 8px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
     line-height: 1;
     place-self: start;
-    color: #141414;
 }
 
 .hamburger:active {
@@ -104,13 +143,8 @@ header span {
 }
 
 .navigation a {
-    display: flex;
-    color: #141414;
     text-decoration: none;
     padding: 0.6rem 1.2rem;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 1.2rem;
     margin: .5rem 0 0 0;
 }
 
@@ -130,38 +164,10 @@ header span {
 /************************* H1 ***************************************8*/
 
 h1 {
-    padding-left: 1rem;
-    padding-bottom: .2rem;
+    padding: .5rem 1rem;
     border-radius: 4px; 
     background-color: #b2cad2;
     font-size: 1.5rem;
-}
-
-/* ************* all button like behavior ************* */
-
-.hamburger,
-.navigation a,
-#list-btn,
-#grid-btn,
-.hero-btn,
-.social a {
-    background: #ecc9c7;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
-    transition: all 0.2s ease;
-}
-
-/* ************* all hovering button behavior ********** */
-
-.hamburger:hover,
-.navigation a:hover,
-#list-btn:hover,
-#grid-btn:hover,
-.hero-btn:hover,
-.join-form input[type="submit"]:hover,
-.social a:hover {
-    background: linear-gradient(90deg, #ecc9c7, #ffffff);
-    transform: translateY(-2px);
 }
 
 /* ****************toggle buttons for list and grid directory********************* */
@@ -173,17 +179,9 @@ h1 {
 }
 
 #list-btn, #grid-btn {
-    display: flex;
-    cursor: pointer;
     padding: 13px;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
     line-height: 1;
-    font-weight: 700;
-    font-size: 1.2rem;
     margin: 0 1rem 1rem;
-    color: #141414;
 }
 
 #list-btn:active, #grid-btn:active {
@@ -193,19 +191,12 @@ h1 {
 
 /* *************************this is how to wrap the cards and be responsive to screen size without expanding beyond the viewport */
 
+/* this prevents shifting */
 #directory-container {
     min-height: 100vh;
 }
 
-#directory-container ul {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;  
-}
-
-.grid, .forecast-weather-container {
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 0.75rem;
@@ -213,9 +204,9 @@ h1 {
 
 /****************** styling for all cards *********************/
 
-.card, .s-card {
+.card {
     background: #ffffff;
-    color: #141414;
+    color: #000832;
     border-radius: 4px;
     padding: 1.25rem;
     display: flex;
@@ -223,10 +214,8 @@ h1 {
     gap: 0.75rem;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     justify-content: space-between;
-    border: solid 1px #435f69;
     box-shadow: 0 4px 10px rgba(0,0,0,0.20);
 }
-
 
 .card .name {
     text-align: center;
@@ -238,14 +227,14 @@ h1 {
     font-weight: 600;
 }
 
-.card p, .s-card p {
+.card p {
     margin: 0;
     line-height: 1.4;
     font-size: 0.9rem;
 }
 
-.card a, .s-card a {
-    color: #335460;
+.card a {
+    color: #000832;
     font-weight: 600;
     text-decoration: none;
 }
@@ -255,14 +244,14 @@ h1 {
     justify-content: space-between;
 }
 
-/* ****************** hover over link to underline *********** */
+/* ***** hover over link to underline **** */
 
-.card a:hover, .s-card a:hover, .line a:hover {
+.card a:hover, .line a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-/* *********************** image in card************* */
+/* ***** image in card***** */
 
 .image {
     border-radius: 4px;
@@ -279,6 +268,7 @@ h1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    border-radius: 4px;
 }
 
 /****************** styling for all lines in the list *************/
@@ -293,6 +283,7 @@ h1 {
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
+    border-radius: 4px;
 }
 
 .line > .name { flex: 1; }
@@ -301,7 +292,7 @@ h1 {
 .line > a { flex: 1; }
 
 .line:nth-child(odd) {
-    background-color: #d2e1e6;   
+    background: #b2cad2;   
 }
 
 .line:nth-child(even) {
@@ -318,7 +309,7 @@ h1 {
 }
 
 .line a {
-    color: #4f647d;
+    color: #000832;
     font-weight: 600;
     text-decoration: none;
 }
@@ -335,15 +326,15 @@ h1 {
     width: 75px;
 }
 
-.badge.member, .s-badge.member, #np {
+.badge.member, #np {
     background: #E8E5D9;
 }
 
-.badge.silver, .s-badge.silver, #silver {
+.badge.silver, #silver {
     background: #EBEBEB;
 }
 
-.badge.gold, .s-badge.gold, #gold {
+.badge.gold, #gold {
     background: #F4EDCD;
 }
 
@@ -355,7 +346,7 @@ h1 {
 .hero-img {
     width: 100%;
     height: auto;
-    border-radius: 5px; 
+    border-radius: 4px; 
     display: block;
 }
 
@@ -370,39 +361,51 @@ h1 {
     bottom: 2.5rem;
     right: 2.5rem;
     text-align: center;
-    background-color: #ecc9c7;
-    color: #000832;
-    cursor: pointer;
     padding: 13px;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 1.1rem;
  }
 
 /* **************************current container**************************** */
 
 .current {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin-top: 2rem;
+}
+.events {
     background-color: #ffffff;
+    border-radius: 4px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.events li {
+    padding: .3rem;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.forecast-weather-container, .current-weather-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
     margin-top: 1rem;
     border-radius: 4px;
 }
 
-.current-weather, .current-events {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.current h2 {
+h2 {
     padding: 0.5rem;
     border-radius: 4px;
     background-color: #b2cad2;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     width: auto;
+    min-width: 152px;
     margin: 1rem auto;
+    text-align: center;
 }
 
 .weather-card {
@@ -410,14 +413,19 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 1rem;
-    padding-bottom: 10px;  
-    margin: 1rem;
+    padding: 10px;  
+    background-color: #ffffff;
+    border-radius: 4px;
+    min-height: 175px;
+
 }
 
-.weather-date {
+.weather-date,
+.weather-caption-description {
     grid-column: 1 / 3;
     margin: 0;
     text-align: center;
+    font-size: 1rem;
 }
 
 .weather-temp {
@@ -442,38 +450,12 @@ h1 {
     border-radius: 4px;
 }
 
-.weather-caption-description {
-    grid-column: 1 / 3;
-    text-align: center;
-}
-
-/* **********************************forecast weather******************** */
-
-.three {
-    background-color: #ffffff;
-    border-radius: 4px;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-
-.forecast-weather-container {
-    background-color: #ffffff;
-    margin-top: 1rem;
-    border-radius: 4px;
-}
-
-.three h2 {
-    padding: 0.5rem;
-    border-radius: 4px;
-    background-color: #b2cad2;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    font-size: 1rem;
-    font-weight: 600;
-    width: auto;
-    margin: 0 auto;
-}
-
 /* *********************spotlight********************* */
+
+.spotlight {
+    border-radius: 4px;
+    margin-top: 2rem;
+}
 
 .spotlights-container {
     display: grid;
@@ -481,40 +463,18 @@ h1 {
     gap: 0.75rem;
 }
 
-/****************** styling for all cards */
-
-.s-card .s-name {
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: 4px;
-    background-color: #b2cad2;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    font-size: .9rem;
-    font-weight: 600;
-}
-
-.s-image {
-    border-radius: 4px;
-    border-width: 1px;
-    box-shadow: 0 0px 12px rgba(0,0,0,0.20);
-}
-
-.s-card .s-badge {
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin: 0 auto;
-    text-align: center;
-    width: 65px;
-}
-
 /* ***************** join form ******************************************* */
 
+
+#form-section,
+#animated-section {
+    display: grid;
+    justify-self: center;
+}
+
 .join-form fieldset {
-    margin: 1rem 0;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: .5rem 2%;
 }
 
@@ -525,9 +485,15 @@ h1 {
 }
 
 .join-form div {
-    padding-top: .5rem;
+    padding: .5rem;
     color: #ffffff;
-    font-size: .9rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #000832;
+    width: max-content;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .join-form input[type="text"],
@@ -537,8 +503,7 @@ h1 {
 .join-form textarea {
     background-color: #ffffff;
     display: block;
-    border: solid 1px #435f69;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: .75rem;
     width: 100%;
     max-width: 400px;
@@ -552,17 +517,10 @@ h1 {
 }
 
 .join-form input[type="submit"]{
-    border: 2px solid #b2cad2;
-    background-color: #ecc9c7;
-    color: #141414;
-    border-radius: 8px;
     padding: .8rem;
     width: 96%;
     max-width: 400px;
     margin: 2% 2% 2rem 2%;
-    box-shadow: 1px 1px 4px #435f69;
-    font-weight: 700;
-    font-size: 1.2rem;
 }
 
 .join-form input:required,
@@ -577,45 +535,69 @@ h1 {
 
 /****************** styling for animated cards */
 
-.animatedCard {
-    background:  #E8E5D9;
-    color: #141414;
-    border-radius: 60px;
-    padding-bottom: 1.25rem;
-    border: 2px solid #b2cad2;
+.animated-card {
+    color: #000832;
+    border-radius: 4px;
+    padding-bottom: .25rem;
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    justify-content: space-between;
-    margin: 1rem;
+    margin: 1.5rem; 
+    max-width: 270px;
+    animation-duration: 3s;
+    animation-name: slide-in;
 }
 
-.animatedCard .name {
+.animated-card .name {
     text-align: center;
-    border-radius: 4px;
     font-size: 1.1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
 }
 
-.animatedCard p {
-    margin: 0;
-    line-height: 1.4;
-}
-
-.learnMore {
+.learn-more {
     padding: 0.25rem 0.5rem;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    text-align: center;
-    color: #141414;
-    border: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+    margin: .5rem auto;
+    
 }
 
-#bronze{
+#bronze {
     background: #e8dbd9;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+/***************************** modal or dialog styling*********/
+
+dialog {
+  border-radius: .35rem;
+  padding: 1rem;
+  box-shadow: 0 0 3rem #777;
+  width: 90%;
+  max-width: 600px;
+  border: none;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
 }
 
 /***************************** footer ******************************************/
@@ -633,20 +615,14 @@ footer {
 }
 
 .social a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 44px;
     height: 44px;
-    border-radius: 22px;
-    background-color: #ecc9c7;
-    color: #141414;
 }
 
 .social img {
     width: 22px;
     height: 22px;
-    color: #141414;
+    color: #000832;
 }
 
 .social a:active {

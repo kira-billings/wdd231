@@ -21,7 +21,7 @@ function getBadge(member) {
     const badgeText = levels[member.membershipLevel];
     const badge = document.createElement("p");
     
-    badge.classList.add("s-badge");
+    badge.classList.add("badge");
     
     badge.textContent = badgeText;
 
@@ -63,26 +63,27 @@ function buildSpotlights(members) {
     };
 
     // apply array to shuffle and pick 2 random cards for spotlight
-    const spotlights = shuffle(eligibleMembers).slice(0, 3);
+    const spotlights = shuffle(eligibleMembers).slice(0, 2);
     
     // iterate through the members and create a card
     spotlights.forEach((member) => {
                   
         const url = new URL(member.website);
         const badge = getBadge(member);
-        
+        const badgePhoneBlock = document.createElement('div');
 
         let card = document.createElement('section');
         let name = document.createElement('h2'); 
         let image = document.createElement('img');
+        let address = document.createElement(`p`);
+        let phone = document.createElement(`p`);
         let description = document.createElement(`p`);
         let website = document.createElement(`a`);
 
-        card.classList.add('s-card');
-        image.classList.add('s-image');
-        name.classList.add('s-name');
-     
-        
+        card.classList.add('card');
+        image.classList.add('image');
+        name.classList.add('name');
+        badgePhoneBlock.classList.add('badge-phone-block');
 
         website.href = member.website;
         website.target = "_blank";
@@ -90,9 +91,10 @@ function buildSpotlights(members) {
         website.textContent = url.hostname; 
 
         name.textContent = `${member.name}`; 
+        address.textContent = `${member.address}`;
+        phone.textContent = `${member.phone}`;
         description.textContent = `${member.description}`; 
         
-
         image.setAttribute('src', member.imageSmall);
         image.setAttribute('alt', `${member.name}`); 
         image.setAttribute('loading', 'lazy');
@@ -105,9 +107,10 @@ function buildSpotlights(members) {
         `;
 
         card.appendChild(name);     
-       
-      
-        card.appendChild(badge);
+        card.appendChild(address);
+        card.appendChild(badgePhoneBlock);
+        badgePhoneBlock.appendChild(phone);
+        badgePhoneBlock.appendChild(badge);
         card.appendChild(description);
         card.appendChild(website);
         card.appendChild(image);

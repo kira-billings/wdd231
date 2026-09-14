@@ -42,69 +42,74 @@
                 </ul>
             </nav>
         <main>
-            
             <h1>Application to Join</h1>
-            <div id="join-section">
-                <form method="get" action="thankyou.html" class="join-form">
-                    <fieldset>
-                        <div>Applicant Information</div>
-                        <label>Business or Organization Name 
-                            <input
-                                type="text" name="orgName" required title="business or organization name" autocomplete="organization">
-                        </label>
-                        <label>Your First Name 
-                            <input
+            <div class="join">
+                <section id="form-section">
+                    <form method="get" action="thankyou.html" class="join-form">
+                        <fieldset>
+                            <div>Your Information</div>
+                            <label>Your First Name 
+                                <input
                                 type="text" name="fname" required title="given name" autocomplete="given-name">
-                        </label>
-                        <label>Your Last Name 
-                            <input 
+                            </label>
+                            <label>Your Last Name 
+                                <input 
                                 type="text" name="lname" required title="family-name" 
                                 autocomplete="family-name">
-                        </label>
-                        <label>Your Organizational Title 
-                            <input 
+                            </label>
+                            <label>Your Organizational Title 
+                                <input 
                                 type="text" name="orgTitle" required title="Organizational Title" 
                                 autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}">
-                        </label>
-                        <label>Email 
-                            <input 
+                            </label>
+                            <label>Email 
+                                <input 
                                 type="email" name="email" required title="email"
                                 placeholder="someone@gmail.com">
-                        </label>
-                        <label>Phone 
-                            <input 
+                            </label>
+                            <label>Phone 
+                                <input 
                                 type="tel" name="phone" required title="phone"
                                 placeholder="123-555-1234">
-                        </label>
-                        <label>Business or Organization Description 
-                            <textarea 
-                                name="orgDesc" required 
-                                title="Business or organization description" 
-                                placeholder="Give us a short description of your business for the website directory." 
-                                rows="5" 
-                                cols="33"></textarea>
-                        </label>
-                    </fieldset>
-                    <fieldset>
-                        <div>Membership Level</div>
-                        <label><input type="radio" name="membershipLevel" value="np">
-                            Non-profit Membership</label>
-                        <label><input type="radio" name="membershipLevel" value="bronze">
-                            Bronze Membership</label>
-                        <label><input type="radio" name="membershipLevel" value="silver">
-                            Silver Membership</label>
-                        <label><input type="radio" name="membershipLevel" value="gold">
-                            Gold Membership</label>
-                    </fieldset>
-                    <input type="hidden" name="timestamp" id="timestamp">
-                    <input type="submit" value = "Join Us">
-                </form>
-            
-            <section id="animatedContainer">
-            </section>
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <div>Business Information</div>
+                            <label>Business Name 
+                                <input
+                                    type="text" name="orgName" required title="business or organization name" autocomplete="organization">
+                            </label>
+                            <label>Business Description 
+                                <textarea 
+                                    name="orgDesc" required 
+                                    title="Business or organization description" 
+                                    placeholder="Give us a short description of your business for the website directory." 
+                                    rows="5" 
+                                    cols="33"></textarea>
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <div>Membership Level</div>
+                            <label><input type="radio" name="membershipLevel" value="np">
+                                Non-profit Membership</label>
+                            <label><input type="radio" name="membershipLevel" value="bronze">
+                                Bronze Membership</label>
+                            <label><input type="radio" name="membershipLevel" value="silver">
+                                Silver Membership</label>
+                            <label><input type="radio" name="membershipLevel" value="gold">
+                                Gold Membership</label>
+                        </fieldset>
+                        <input type="hidden" name="timestamp" id="timestamp">
+                        <input type="submit" value = "Join Us">
+                    </form>
+                </section>
+                <section id="animated-section">
+                    <div id="animated-container"></div>
+                </section>
+                </div>
+                <dialog id="dialogBox">
+                </dialog>
             </div>
-            <dialog id="dialogBox">
-            </dialog>
         </main>
         <footer>
             <div class="social">

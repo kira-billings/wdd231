@@ -7,11 +7,10 @@
     <meta name="author" content="Kira Billings">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <title>North Las Vegas Chamber of Commerce home page</title>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <!-- <script src="scripts/members.js" defer></script> -->
     <script src="scripts/weatherapi.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
@@ -31,8 +30,6 @@
         <header>
             <img src="images/nlv-icon.svg" alt="site logo" width="512" height="512">
             <span>North Las Vegas Chamber of Commerce</span>
-
-           
             <button id="ham-btn" class="hamburger" aria-label="menu"></button>
         </header>
             <nav id="nav-bar" class="navigation">
@@ -45,7 +42,6 @@
             </nav>
         <main>
             <h1>Homepage</h1>
-            
             <section class="hero">
                 <picture>
                     <source
@@ -54,42 +50,37 @@
                     <img src="images/las-vegas-strip-day-small.webp" 
                         alt="las vegas strip daytime" 
                         class = "hero-img"
-                        width = "400"
+                        width ="400"
                         height = "200">
                 </picture>
                 <button class="hero-btn">Join Our Business Community</button>
             </section>
             <section class="current">
-                <div class="current-weather">
-                    <h2>Current Weather</h2>
-                    <div class="current-weather-container"></div>
-                </div>
                 <div class="current-events">
                     <h2>Current Events</h2>
                     <ul class="events">
-                        
                         <li>August 30 - Hiring Fair - A business career event</li>
                         <li>Monthly - AI Foundations - A technology based education program</li>
                         <li>Monthly - Career Mapping - A career and employee focused program</li>
                         <li>September 2 - Open Makerspace - A creative technology event</li>
-                        <li>September 11 - Service Saturday - Community service event. this is a test to see how long this is going to go</li>
+                        <li>September 11 - Service Saturday - Community service event.</li>
                     </ul>
                 </div>
             </section>
-            <section class="three">
-                <h2>Three-Day Weather Forecast</h2>
-                <div class="forecast-weather-container">
-                   
+            <section class="weather">
+                <div> 
+                    <h2>Current Weather</h2>
+                    <div class="current-weather-container"></div>
+                </div>
+                <div>
+                    <h2>Three-Day Weather Forecast</h2>
+                    <div class="forecast-weather-container"></div>
                 </div>
             </section>
-            <section class="three">
+            <section class="spotlight">
                 <h2>Member Spotlights</h2>
-
-                <div class = "spotlights-container">
-
-                </div>
+                <div class = "spotlights-container"></div>
             </section>
- 
         </main>
         <footer>
             <div class="social">

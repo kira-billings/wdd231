@@ -74,11 +74,16 @@ function buildWeatherCard(data) {
     weatherIcon.setAttribute('loading', 'lazy');
 
     const date = new Date(data.dt * 1000);
-    weatherDate.textContent = date.toLocaleDateString("en-US", {
-    weekday: "long",
-    month: "long",
-    day: "numeric"
+    const dayOfWeek = date.toLocaleDateString("en-US", {
+        weekday: "long"
     });
+
+    const monthAndDay = date.toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric"
+    });
+
+    weatherDate.innerHTML = `${dayOfWeek}<br>${monthAndDay}`;
     weatherTemp.innerHTML = `${Math.round(data.main.temp)}°F`;
     weatherCaptionDesc.textContent = data.weather[0].description.charAt(0).toUpperCase() +
     data.weather[0].description.slice(1);

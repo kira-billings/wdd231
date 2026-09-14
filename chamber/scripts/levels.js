@@ -1,72 +1,102 @@
 
 // membership levels
-levels = [{
-    id: "np",
-    name: "Non-Profit Membership Level",
-    benefits: [
-        "A monthly newsletter",    
-        "A beautiful membership status plaque to hang on the wall"
+
+const levels = [
+    {
+        id: "np",
+        name: "Non-Profit Membership Level",
+        benefits: [
+            "A monthly newsletter",    
+            "A beautiful membership status plaque to hang on the wall"
         ],
-    cost: "Free for non-profit"
+        cost: "Free for non-profit",
+
+        image: {
+            small: "images/nonprofit-small.webp",
+            large: "images/nonprofit-flat.webp"
+        }
     },
     {
-    id: "bronze",
-    name: "Bronze Membership Level",
-    benefits: [
-        "A monthly newsletter",
-        "A beautiful membership status plaque to hang on the wall",
-        "A ride on our float in parades"
+        id: "bronze",
+        name: "Bronze Membership Level",
+        benefits: [
+            "A monthly newsletter",
+            "A beautiful membership status plaque to hang on the wall",
+            "A ride on our float in parades"
         ],
-    cost: "$33 annually"
+        cost: "$33 annually",
+
+        image: {
+            small: "images/bronze-small.webp",
+            large: "images/bronze-flat.webp"
+        }
     },
     {
-    id: "silver",
-    name: "Silver Membership Level",
-    benefits: [
-        "A home page spotlight",
-        "A beautiful membership status plaque to hang on the wall",
-        "A ride on our float in parades",
-        "Invitations to special events"
+        id: "silver",
+        name: "Silver Membership Level",
+        benefits: [
+            "A home page spotlight",
+            "A beautiful membership status plaque to hang on the wall",
+            "A ride on our float in parades",
+            "Invitations to special events"
         ],
-    cost: "$66 annually"
+        cost: "$66 annually",
+
+        image: {
+            small: "images/silver-small.webp",
+            large: "images/silver-flat.webp"
+        }
     },
     {
-    id: "gold",
-    name: "Gold Membership Level",
-    benefits: [
-        "A home page spotlight",
-        "A beautiful membership status plaque to hang on the wall",
-        "A ride on our float in parades",
-        "Invitations to special events",
-        "Free fountain drinks at the snack bar"
+        id: "gold",
+        name: "Gold Membership Level",
+        benefits: [
+            "A home page spotlight",
+            "A beautiful membership status plaque to hang on the wall",
+            "A ride on our float in parades",
+            "Invitations to special events",
+            "Free fountain drinks at the snack bar"
         ],
-    cost: "$99 annually"
+        cost: "$99 annually",
+
+        image: {
+            small: "images/gold-small.webp",
+            large: "images/gold-flat.webp"
+        }
     }
-]
+];
 
 // ********************************** building the cards for animated members levels *****************
 
-const animatedContainer = document.querySelector('#animatedContainer');
+const animatedContainer = document.querySelector('#animated-container');
 
 function buildAnimatedCard(levels) {
     
     levels.forEach((level) => {
         const card = document.createElement('div');
-        const name = document.createElement('h2'); 
+        const name = document.createElement('p'); 
         const button = document.createElement('button'); 
+        const image = document.createElement('img'); 
 
         name.innerHTML = (level.name);
         button.textContent = "Learn More" 
+        image.src = level.image.small;
+        image.srcset = `
+            ${level.image.small} 250w,
+            ${level.image.large} 400w
+            `;
 
+        image.alt = `${level.name}`;
+        image.loading = "lazy";
 
-        card.classList.add("animatedCard");
+        card.classList.add("animated-card");
         name.classList.add("name");
         // level.id is np, bronze, silver, gold
         card.id = level.id
-        button.classList.add("learnMore");
+        button.classList.add("learn-more");
 
         card.appendChild(name);
-
+        card.appendChild(image);
         card.appendChild(button);
         animatedContainer.appendChild(card);
     });
@@ -113,25 +143,28 @@ function buildPopUpCard(level) {
     dialogBox.innerHTML = ``;
     const card = document.createElement("div");
     
-    card.classList.add("popUpCard");
+    card.id = `${level.id}Popup`;
     
-    const name = document.createElement('h2'); 
+    const name = document.createElement('p'); 
     const benefits = document.createElement(`ul`);
+    
     const cost = document.createElement(`p`);
-    const button = document.createElement('button');
-    const subtitle = document.createElement('p');    
+    const button = document.createElement('button');  
     
     name.innerHTML = level.name;
-    benefits.innerHTML = level.benefits;
     cost.innerHTML = level.cost;
-    subtitle.innerHTML = "Membership Level";
     
     button.innerHTML = "Close";        
     
     button.id = "closeButton";
 
+    level.benefits.forEach((benefit) => {
+        const benefitItem = document.createElement('li');
+        benefitItem.innerHTML = benefit; 
+        benefits.appendChild(benefitItem);
+    })
+
     card.appendChild(name);
-    card.appendChild(subtitle);
     card.appendChild(benefits);
     card.appendChild(cost);
     card.appendChild(button);

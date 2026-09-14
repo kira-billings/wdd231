@@ -1,0 +1,84 @@
+/* color scheme:
+warm ivory background:     var(--cream);  
+cobalt/royal blue:         var(--recipe-blue);  
+mustard yellow:            var(--yellow);  
+deep text dark:            var(--text-dark);  
+raspberry pink:            var(--pink);
+raspberry red:             var(--box-red);
+dark green:                var(--dark-green);
+*/
+
+:root {
+    --cream: #fff8e7;    
+    --yellow: #ffb900;
+    --pink: #ee7181;
+    --box-red: #941c32;
+    --recipe-blue: #114074;
+    --text-dark: #292722;
+    --dark-green: #14601D;
+}
+
+* {
+      font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.damion-regular {
+  font-family: "Damion", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: var(--box-red);
+}
+
+body {
+    background-color: var(--cream);
+}
+
+/* **********************header****************** */
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 10px 10px 5px 10px;
+    align-items: end;
+    column-gap: 8px;
+}
+
+.icon-image {
+    place-self: start;
+    width: auto;
+    height: 100px;
+}
+
+header span {
+    place-self: center;
+}
+
+.frame {
+  width: min(90vw, 700px);
+  height: 300px;
+  background-image: url("../images/wave.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
