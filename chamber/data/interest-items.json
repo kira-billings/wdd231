@@ -1,0 +1,69 @@
+{
+  "items": [
+
+    {
+      "id": 1,
+      "name": "Craig Ranch Regional Park",
+      "address": "628 W. Craig Rd. Between Losee Rd. and Martin Luther King Blvd., Las Vegas, NV 89032",
+      "imageSmall": "images/craig-park.webp",
+      "imageLarge": "images/craig-park.webp",
+      "description": "Craig Ranch Regional Park is a 170-acre public regional park in North Las Vegas, Nevada. It is one of the city's largest recreation destinations, combining sports facilities, playgrounds, event spaces, and open green areas, and has been recognized as a standout community park."
+    },
+    {
+      "id": 2,
+      "name": "Aliante Nature Discovery Park",
+      "address": "2600 Nature Park Dr, North Las Vegas, NV 89084-2200",
+      "imageSmall": "images/alliante-park.webp",
+      "imageLarge": "images/alliante-park.webp",
+      "description": "Aliante Nature Discovery Park is a public neighborhood park in North Las Vegas centered around a scenic lake, walking paths, and nature-themed recreation. It is especially known for combining open green space with family-friendly amenities, making it a popular destination for walks, picnics, and outdoor play."
+    },
+    {
+      "id": 3,
+      "name": "Ice Age Fossils State Park",
+      "address": "8660 N Decatur Blvd, North Las Vegas, NV 89085",
+      "imageSmall": "images/ice-age-fossil.webp",
+      "imageLarge": "images/ice-age-fossil.webp",
+      "description": "Ice Age Fossils State Park is a Nevada state park in North Las Vegas that preserves one of the region's most significant Ice Age fossil sites. It combines protected paleontological resources with walking trails, interpretive exhibits, and family-friendly outdoor recreation, making it a distinctive destination for learning about southern Nevada's prehistoric past."
+    },
+    {
+      "id": 4,
+      "name": "Tule Springs Fossil Beds",
+      "address": "4400 Horse Dr, Las Vegas, NV 89031",
+      "imageSmall": "images/tule-fossil.webp",
+      "imageLarge": "images/tule-fossil.webp",
+      "description": "Tule Springs Fossil Beds National Monument is a protected national monument in the northern Las Vegas Valley that preserves one of the Southwest's most significant Ice Age fossil sites. Established in 2014, the 22,650-acre monument protects thousands of fossils and geological deposits that document wetlands and wildlife from roughly 100,000 to 12,500 years ago, offering a rare look at the region's prehistoric past."
+    },
+    {
+      "id": 5,
+      "name": "Kiel Ranch Historic Park",
+      "address": "2465 Kiel Way, North Las Vegas, Nv 89030",
+      "imageSmall": "images/kiel-ranch.webp",
+      "imageLarge": "images/kiel-ranch.webp",
+      "description": "Kiel Ranch Historic Park is a historic public park in North Las Vegas that preserves one of the Las Vegas Valley's earliest ranch sites. It is listed on the National Register of Historic Places and combines open green space with interpretive exhibits, historic structures, wetlands, and an orchard that highlights the area's agricultural past."
+    },
+    {
+      "id": 6,
+      "name": "Left of Center Art Gallery",
+      "address": "2207 W Gowan Rd, North Las Vegas, NV 89032",
+      "imageSmall": "images/left-of-center.webp",
+      "imageLarge": "images/left-of-center.webp",
+      "description": "Left of Center Gallery is a nonprofit contemporary art gallery and community arts space in North Las Vegas. It is known for rotating exhibitions, a permanent collection with a strong emphasis on African American art and Southern Nevada cultural history, and programs that connect artists with the local community."
+    },
+    {
+      "id": 7,
+      "name": "Valley of Fire State Park",
+      "address": "29450 Valley of Fire Rd, Overton, NV 89040",
+      "imageSmall": "images/valley-of-fire.webp",
+      "imageLarge": "images/valley-of-fire.webp",
+      "description": "World-renowned for its 40,000 acres of bright red Aztec sandstone outcrops nestled in gray and tan limestone, Valley of Fire State Park contains ancient, petrified trees and petroglyphs dating back more than 2,000 years. A Visitor Center provides exhibits on the geology, ecology, prehistory and history of the park and nearby region."
+    },
+    {
+      "id": 8,
+      "name": "Hoover Dam Black Canyon",
+      "address": "No street address, just enter Hoover Dam in Google Maps",
+      "imageSmall": "images/hoover-dam.webp",
+      "imageLarge": "images/hoover-dam.webp",
+      "description": "Hoover Dam is a testimony to a country's ability to construct monolithic projects in the midst of adverse conditions. Built during the Depression; thousands of men and their families came to Black Canyon to tame the Colorado River. It took less than five years, in a harsh and barren land, to build the largest dam of its time. Now, years later, Hoover Dam still stands as a world-renowned structure. The Dam is a National Historic Landmark and has been rated by the American Society of Civil Engineers as one of America's Seven Modern Civil Engineering Wonders."
+    }
+  ]
+}

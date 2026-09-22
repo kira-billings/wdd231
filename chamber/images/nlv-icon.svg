@@ -10,7 +10,18 @@
   <rect x="0" y="88" width="120" height="4" fill="#d58a86"/>
 
   <!-- Ground strip -->
-  <rect x="0" y="90" width="120" height="30" fill="#ecc9c7" rx="12" ry="12"/>
+  <path
+    d="
+        M 0 92
+        H 120
+        V 109
+        Q 120 121 108 121
+        H 12
+        Q 0 121 0 109
+        Z
+    "
+    fill="#ecc9c7"
+/>
 </svg>
 
 

@@ -3,51 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="North Las Vegas Chamber of Commerce directory of businesses">
+    <meta name="description" content="North Las Vegas Chamber of Commerce Discover page">
     <meta name="author" content="Kira Billings">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>North Las Vegas Chamber of Commerce directory of businesses</title>
+    <title>North Las Vegas Chamber of Commerce Discover Page</title>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/tracker.js" defer></script>
+    <script type="module" src="scripts/discover.mjs"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:description" content=" This page provides a list of local business and other organizations that belong to the chamber of commerce in the city of North Las Vegas.">
-    <meta property="og:title" content="North Las Vegas Chamber of Commerce Directory">
+    <meta property="og:description" content="This page provides a list of areas of interest to discover around North Las Vegas.">
+    <meta property="og:title" content="North Las Vegas Chamber of Commerce Discover">
     <meta property="og:image" content="https://kira-billings.github.io/wdd231/chamber/images/wide-view-day-nlv.jpg">
     <meta property="og:image:alt" content="daytime view of north Las Vegas">
-    <meta property="og:url" content="https://kira-billings.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://kira-billings.github.io/wdd231/chamber/discover.html">
     <meta property="fb:app_id" content="1234567890">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://kira-billings.github.io/wdd231/chamber/directory.html">
+    <link rel="canonical" href="https://kira-billings.github.io/wdd231/chamber/discover.html">
 </head>
     <body>
         <header>
             <img src="images/nlv-icon.svg" alt="site logo" width="512" height="512">
             <span>North Las Vegas Chamber of Commerce</span>
-
-           
             <button id="ham-btn" class="hamburger" aria-label="menu"></button>
         </header>
             <nav id="nav-bar" class="navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                    <li><a href="#" class="current">Directory</a></li>
+                    <li><a href="#" class="current">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         <main>
-            <h1>Directory</h1> 
-            <div class="btn-container">
-                <button id="grid-btn" aria-label="toggle grid">Grid</button>
-                <button id="list-btn" aria-label="toggle list">List</button>
-            </div>
-            <div id="directory-container"></div> 
+            <h1>Discover</h1>
+
+            <section>  
+                <div id="interest-container">
+                    <div class="visit-tracker"></div>
+                    <div class="icon-container">
+                        <img src="images/nlv-icon.svg" alt="site logo" width="25" height="25">
+                    </div>
+                </div>
+                <dialog id="pop-up-box">
+
+                </dialog>
+            </section>
+
         </main>
         <footer>
             <div class="social">

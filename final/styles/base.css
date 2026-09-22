@@ -9,22 +9,33 @@ dark green:                var(--dark-green);
 */
 
 :root {
-    --cream: #fff8e7;    
+    --cream: #fff8e7;
+    --cream-gray: #f1ede2;    
     --yellow: #ffb900;
+    --yellow-light: #f3e1b2;
     --pink: #ee7181;
+    --pink-light: #eee1e3;
     --box-red: #941c32;
-    --recipe-blue: #114074;
+    --recipe-blue: #0654ae;
     --text-dark: #292722;
     --dark-green: #14601D;
 }
 
 * {
-      font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
+body {
+    color: #000832;
+    padding: 2%;
+    min-height: 20rem;
+    
+}
+
+/* ********************************* fonts ********************** */
 .noto-sans-regular {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -46,39 +57,277 @@ dark green:                var(--dark-green);
   color: var(--box-red);
 }
 
-body {
-    background-color: var(--cream);
+
+
+/* ************************************ gradient background  ********** */
+.gradient-background {
+    background:
+    linear-gradient(217deg, var(--cream-gray), transparent 70.71%),
+    linear-gradient(127deg, var(--yellow-light), transparent 70.71%),
+    linear-gradient(336deg, var(--pink-light), transparent 70.71%);
 }
 
-/* **********************header****************** */
 
-header {
+/* **********************  header  ****************** */
+
+header .title-row {
     display: grid;
-    grid-template-columns: 24px auto 44px;
-    padding: 10px 10px 5px 10px;
+    grid-template-columns: 100px 1fr 100px;
+    padding: 10px 10px 5px;
     align-items: end;
     column-gap: 8px;
 }
 
 .icon-image {
-    place-self: start;
-    width: auto;
-    height: 100px;
+    display: block;
+    width: 110px;
+    height: auto;
+    justify-self: start;
+    margin-bottom: 5px;
 }
 
 header span {
-    place-self: center;
+  justify-self: center;
+  text-align: center;
 }
 
-.frame {
-  width: min(90vw, 700px);
-  height: 300px;
-  background-image: url("../images/wave.svg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
+/***************************** hamburger navigation ******************************/
+
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--text-dark);
+    cursor: pointer;
+    padding: 8px;
+    justify-self: end;
 }
 
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after {
+  content: "\00D7";
+}
+
+
+/************************************** navigation *****************************/
+
+.navigation {
+    display: none;
+}
+
+.navigation.show{
+    display: block;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation.show ul {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    margin: .5rem 0 0 0;
+}
+
+.navigation a.current {
+    background: var(--box-red);
+}
+
+.navigation a:active {
+    transform: translateY(0);         
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+.navigation.show a { 
+    min-width: 150px;
+}
+
+
+/* ************************** all button like behavior ****************** */
+
+.hamburger,
+.navigation a,
+#list-btn,
+#grid-btn,
+.hero-btn,
+.social a,
+.join-form input[type="submit"],
+#closeButton,
+.learn-more {
+    background: var(--recipe-blue);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    color: var(--cream);
+    border-radius: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+}
+
+/* ********************** all hovering button like behavior ******************* */
+
+.hamburger:hover,
+.navigation a:hover,
+#list-btn:hover,
+#grid-btn:hover,
+.hero-btn:hover,
+.join-form input[type="submit"]:hover,
+.learn-more:hover,
+#closeButton:hover,
+.social a:hover {
+    background: linear-gradient(90deg, var(--pink), var(--box-red));
+    transform: translateY(-2px);
+}
+
+/************************************* divider *****************************************/
+
+.wave-divider {
+    width: 100%;
+    height: 30px;
+
+    background-image: url("../images/wavy-line.svg");
+    background-repeat: repeat-x;
+    background-size: 50px 30px;
+
+    overflow: hidden;
+    margin: 0;
+}
+
+/* *************************  main content *********************/
+.damion-regular {
+    color: var(--box-red);
+    max-width: fit-content;
+    position: relative;
+    padding: 30px 100px;
+}
+
+.damion-regular::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/wavy-frame-medium.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+h1{
+    color: var(--box-red);
+    font-weight: 700;
+}
+
+
+h2 {
+    padding: 7px;
+    color: black;
+    max-width: fit-content;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 12px;
+    border-radius: 4px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+
+    background-image: url("../images/wavy-line.svg");
+    background-repeat: repeat-x;
+}
+
+.container {
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: var(--cream);
+    box-shadow: 2px 3px 6px rgb(0 0 0 / 18%);
+    margin: 2rem;
+
+}
+
+/* ********************hero call to action ************************************* */
+
+.hero {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px; 
+    display: block;
+}
+
+.hero picture {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 2rem;
+}
+
+.hero-btn {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    text-align: center;
+    padding: 13px;
+    background-color: var(--box-red);
+    box-shadow: 2px 3px 9px rgb(0 0 0 / 68%);
+ }
+
+.hero-btn a {
+    text-decoration: none;
+    color: var(--cream)
+}
+
+
+/***************************** footer ******************************************/
+
+footer {
+    padding: 1rem 10px;
+    text-align: center;
+    color: var(--text-dark);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.social a {
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+    color: var(--text-dark)2;
+}
+
+.social a:active {
+    transform: translateY(0);      
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}

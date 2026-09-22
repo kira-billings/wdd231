@@ -67,4 +67,101 @@
         grid-template-columns: 1fr 1fr;
     }
 
+/* ******************** discover page  ********************** */
+    .visit-tracker {
+        margin: 6rem 0rem;
+    }
+    #interest-container {
+        display: grid;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+
+        gap: 0rem;
+        grid-template-areas:
+            "item1 item0"
+            "item1 item2"
+            "item3 item2"
+            "item3 item4"
+            "item5 item4"
+            "item5 item6"
+            "item7 item6"
+            "item7 item8"
+            "item9 item8";
+    }
+
+    .vertical, .horizontal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horizontal h2, .vertical h2 {
+        font-size: 1.5rem;
+        padding: 1rem 3rem 0rem
+    }
+
+    .horizontal button, .vertical button {
+        margin: 1.5rem; 
+        min-height: 3rem;
+    }
+
+    #popup .name {
+        font-size: 1.3rem;
+    }
+
+    #interest-container img:hover {
+        filter: brightness(1.25);
+    }
+
+    .icon-container { 
+        grid-area: item9;
+        width: 80px;
+        height: 80px;
+        justify-self: center;
+        margin: 5rem 1rem;
+    }
+
+    .icon-container img {
+        object-fit: cover;
+        width: 100%;
+        height: auto; 
+    }
+}
+
+/* *********************** 1025 switch *************************** */
+
+@media screen and (min-width: 1025px) {
+
+    #interest-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+            "item1 item1 item2"
+            "item4 item0 item2"
+            "item4 item3 item3"
+            "item5 item5 item6"
+            "item8 item9 item6"
+            "item8 item7 item7"
+    }
+
+    .vertical {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+    }
+
+    .horizontal {
+        display: grid;
+        margin: 1.5rem; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .vertical button {
+        min-height: 5rem;
+    }
+    .horizontal h2, .vertical h2 {
+        font-size: 1.5rem;
+        padding: 1rem 2rem 0rem
+    }
 }

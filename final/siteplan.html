@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Damion&family=Homemade+Apple&family=Noto+Sans:wght@400&display=swap" rel="stylesheet">
-
     <title>WDD 231 Course site plan for final project</title>
     <script src="scripts/date.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
@@ -20,24 +19,30 @@
     <meta property="og:image" content="https://kira-billings.github.io/wdd231/project/images/recipe-rosebud.png">
     <meta property="og:url" content="https://kira-billings.github.io/wdd231/">
 </head>
-    <body>
-        <header>
-            <img src="images/rosebud.png" alt="site logo" width="512" height="512" class="icon-image">
-            <div class="frame">
-                <span class="damion-regular">Family Recipes</span>
-            </div>
-            <button id="ham-btn" class="hamburger" aria-label="menu"></button>
-
-
-            
-        </header>
+    <body class="gradient-background">
         
+        <header>
+            <!-- <div class="wave-divider"></div> -->
+            <div class="title-row">
+                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image">
+                <span class="damion-regular">Site Plan</span>
+                <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image">
+            </div>
+        </header>
+        <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="recipes.html">Recipe List</a></li>
+                    <li><a href="add-recipe.html">Contribute a Recipe</a></li>
+                </ul>
+            </nav>
         <main>
-
-            <h1>Family Recipes Site Plan</h1>
+            <div class="wave-divider"></div>
             <section class="container">
-                <h2>Site Name</h2>
+                <h1>Site Name</h1>
                 <p>Family Recipes</p>
+                <P>The reason for the site name is to describe the content of the site.</P>
             </section>
             <section class="container">
                 <h2>Site Purpose</h2>
@@ -45,15 +50,21 @@
             </section>
             <section class="container">
                 <h2>Target Market</h2>
-                <p>Family members of Kira Billings to include immediate family members, in-laws, children, grandchildren, parents, sisters, brothers, nieces and nephews. There are approximately 90 family members</p>
+                <p>Family members of myself to include immediate family members, in-laws, children, grandchildren, parents, sisters, brothers, nieces and nephews. There are approximately 90 family members</p>
             </section>
             <section class="container">
-                <h2>User Personas and Scenarios</h2>
-                <p>
-                    Generation Y and Z: The great grandchildren of Aina Harrison are getting married and having children and starting their own households. They are looking for the a high-tech ways to find and use the recipes they grew up with but are also open to new recipes. They want the recipes on easy found on their smart phones.<br>
-                    Generation X: Kira's generation, the grandchildren of Aina Harrison - have years of experience at cooking with both recipe cards and smart phones. They serve as the bridge between the traditional and baby boomer generation.<br>
-                    Baby Boomers: Aina's children and Kira's parents, may be the smallest group but they have the most experience with the recipes. They have their favorites and will love to see the nostalgic and personal touches on the recipe card images. 
-                </p>
+                <h2>Scenarios</h2>
+                <ul>
+                    <li>
+                        1. Generation Y and Z: The great grandchildren of Aina Harrison are getting married and having children and starting their own households. They are looking for the a high-tech ways to find and use the recipes they grew up with but are also open to new recipes. They want the recipes on easy found on their smart phones.
+                    </li>
+                    <li>
+                        2. Generation X: Kira's generation, the grandchildren of Aina Harrison - have years of experience at cooking with both recipe cards and smart phones. They serve as the bridge between the traditional and baby boomer generation.
+                    </li>
+                    <li>
+                        3. Baby Boomers: Aina's children and Kira's parents, may be the smallest group but they have the most experience with the recipes. They have their favorites and will love to see the nostalgic and personal touches on the recipe card images. 
+                    </li>
+                </ul>
             </section>
             <section class="container">
                 <h2>Typography</h2>
@@ -68,14 +79,12 @@
                 <p>
                     The design is based off of Grandma Aina's old recipe box with very distinct colorful images of kind of old-fashioned but that's what makes it special. See photo below. <br>
                     background and text on dark: --cream: #fff8e7;   <br> 
-                    Main Color and borders: --recipe-blue: #114074; <br>
+                    Main Color and borders: --recipe-blue: #0654ae; <br>
                     borders and accents:    --yellow: #ffb900; <br>
                     images and accents:     --pink: #ee7181; <br>
                     images and accents:     --box-red: #941c32; <br>
                     images and accents:     --dark-green: #14601D <br>
                     Text color:             --text-dark: #292722; <br>
-                    
-
                 </p>
                 <img src="images/recipe-box.webp" alt = "recipe box color schema" >
             </section>
@@ -86,12 +95,13 @@
             <section class="container">
                 <h2>Wireframes</h2>
                 <h3>Desktop</h3>
-                <img src="images/wireframe-large.webp" alt="desktop wireframe">
+                <img src="images/large-wireframe.png" alt="desktop wireframe">
                 <h3>Mobile</h3>
-                <img src="images/wireframe-mobile.webp" alt="mobile wireframe">
+                <img src="images/mobile-wireframe.png" alt="mobile wireframe">
             </section>
         </main>
         <footer>
+            <div class="wave-divider"></div>
             <div class="social">
                 <a href="https://www.facebook.com/kira.n.billings" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
                 <a href="https://www.linkedin.com/in/kira-billings-a73647353/" target="_blank" rel="noopener"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
@@ -100,6 +110,7 @@
             </div>
             <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
             <p id="lastModified"></p>
+            <div class="wave-divider"></div>
         </footer>  
     </body>
 </html>
