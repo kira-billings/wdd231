@@ -13,3 +13,4 @@ document.getElementById("lastModified").textContent = "Last modified: " + lastMo
 // timestamp for the form must have an input in the html
 
 document.querySelector("#timestamp").value = new Date();
+document.querySelector("#timestamp2").value = lastMod

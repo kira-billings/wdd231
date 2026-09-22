@@ -11,9 +11,7 @@
     <title>North Las Vegas Chamber of Commerce home page</title>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <!-- <script src="scripts/members.js" defer></script> -->
-    <script src="scripts/weatherapi.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/params.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -31,23 +29,21 @@
         <header>
             <img src="images/nlv-icon.svg" alt="site logo" width="512" height="512">
             <span>North Las Vegas Chamber of Commerce</span>
-
-           
             <button id="ham-btn" class="hamburger" aria-label="menu"></button>
         </header>
             <nav id="nav-bar" class="navigation">
                 <ul>
-                    <li><a href="#" class="current">Home</a></li>
-                    <li><a href="#">Discover</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         <main>
             <h1>Thank You</h1>
             <p class = "card">We received your information. Welcome to North Las Vegas Chamber of Commerce!</p>
-
- 
+            <div id="results" class="card"></div>
+            <input type="hidden" id="timestamp2" name="timestamp2">
         </main>
         <footer>
             <div class="social">
@@ -58,6 +54,7 @@
             </div>
             <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
             <p id="lastModified"></p>
+            <input type="hidden" id="timestamp" name="timestamp">
         </footer>  
     </body>
 </html>
