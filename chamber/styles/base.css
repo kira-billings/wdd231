@@ -477,6 +477,10 @@ h2 {
     display: grid;
     justify-self: center;
 }
+#form-section {
+    background-color: #000832;
+    border-radius: 6px;
+}
 
 .join-form fieldset {
     border: none;
@@ -490,7 +494,7 @@ h2 {
     color: #ecc9c7;
 }
 
-.join-form div {
+.join-form h2 {
     padding: .5rem;
     color: #ffffff;
     font-size: 1.1rem;
@@ -526,7 +530,7 @@ h2 {
     padding: .8rem;
     width: 96%;
     max-width: 400px;
-    margin: 2% 2% 2rem 2%;
+    margin: 2%;
 }
 
 .join-form input:required,
@@ -616,7 +620,6 @@ dialog button {
 
 .visit-tracker {
     color:#ffffff;
-    font-size: larger;
     grid-area: item0;
     justify-self: center;
     margin: 1rem;

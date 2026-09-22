@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="North Las Vegas Chamber of Commerce Join page">
+    <meta name="description" content="This page is to join the North las vegas chamber of commerce through a membership application form.">
     <meta name="author" content="Kira Billings">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +47,7 @@
                 <section id="form-section">
                     <form method="get" action="thankyou.html" class="join-form">
                         <fieldset>
-                            <div>Your Information</div>
+                            <h2>Your Information</h2>
                             <label>Your First Name 
                                 <input
                                 type="text" name="fname" required title="given name" autocomplete="given-name">
@@ -65,16 +65,16 @@
                             <label>Email 
                                 <input 
                                 type="email" name="email" required title="email"
-                                placeholder="someone@gmail.com">
+                                placeholder="someone@gmail.com" autocomplete="email">
                             </label>
                             <label>Phone 
                                 <input 
                                 type="tel" name="phone" required title="phone"
-                                placeholder="123-555-1234">
+                                placeholder="123-555-1234" autocomplete="tel">
                             </label>
                         </fieldset>
                         <fieldset>
-                            <div>Business Information</div>
+                            <h2>Business Information</h2>
                             <label>Business Name 
                                 <input
                                     type="text" name="orgName" required title="business or organization name" autocomplete="organization">
@@ -89,7 +89,7 @@
                             </label>
                         </fieldset>
                         <fieldset>
-                            <div>Membership Level</div>
+                            <h2>Membership Level</h2>
                             <label><input type="radio" name="membershipLevel" value="np">
                                 Non-profit Membership</label>
                             <label><input type="radio" name="membershipLevel" value="bronze">
@@ -99,7 +99,7 @@
                             <label><input type="radio" name="membershipLevel" value="gold">
                                 Gold Membership</label>
                         </fieldset>
-                        <input type="hidden" name="timestamp" id="timestamp">
+                        <input type="hidden" name="timestamp" id="timestamp2">
                         <input type="submit" value = "Join Us">
                     </form>
                 </section>
