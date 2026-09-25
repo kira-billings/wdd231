@@ -1,19 +1,38 @@
+
+/* *****************  responsive title row */
+
+@media screen and (max-width: 725px) {
+    .icon-image-right {
+        display: none;
+    }
+
+    header .title-row{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* *************************   Larger screen styles go here */
+
 @media screen and (min-width: 640px) {
-    /* Larger screen styles go here */
-    header, main, nav, footer {
+
+    header, main, nav, footer, .hero {
         max-width: 900px;
-        margin: 0 auto;
+        margin: 1rem auto;
+    }
+
+    .damion-regular {
+        padding: 30px 100px;
     }
 
     header {
         grid-template-columns: 24px auto;
     }
 
-    .hamburger {
+    .hamburger{
         display: none;
     }
     
-    .navigation {
+    .navigation, .icon-image {
         display: block;
         margin-top: 2%;
     }
@@ -41,30 +60,112 @@
 		font-size: 2rem;
 	}
 
-	p {
-		font-size: larger;
-	}
-
     .hero-btn {
         font-size: 1.3rem;
     }
 
-    .current h2, .three h2 {
-        font-size: 1.2rem;
-    }
-
-    .weather {
-        grid-template-columns: 1fr 2fr;
-        gap: 1rem;
-    }
-    
-    .forecast-weather-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .join {
+    .started {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
+
+
+
+/* ********************   ********************** */
+
+    #spotlights-container {
+        display: grid;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+
+        gap: 0rem;
+        grid-template-areas:
+            "item1 item0"
+            "item1 item2"
+            "item3 item2"
+            "item3 item4"
+            "item5 item4";
+    }
+
+    .vertical, .horizontal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horizontal h2, .vertical h2 {
+        font-size: 1.5rem;
+        padding: 1rem 2rem 0rem
+    }
+
+    .horizontal button, .vertical button {
+        margin: 0 1.5rem 1.5rem; 
+        min-height: 5rem;
+        padding: 0 2rem;
+    }
+
+    #popup .story-title {
+        font-size: 1.3rem;
+    }
+
+    #spotlights-container img:hover {
+        filter: brightness(1.25);
+    }
+
+    .icon-container { 
+        grid-area: item5;
+        width: 80px;
+        height: 80px;
+        justify-self: center;
+        margin: 5rem 1rem;
+    }
+
+    .icon-container img {
+        object-fit: cover;
+        width: 100%;
+        height: auto; 
+    }
+}
+
+    .visit-tracker {
+        margin: 6rem 0rem;
+    }
+
+/* *********************** 1025 switch *************************** */
+
+@media screen and (min-width: 1025px) {
+
+    #interest-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+            "item1 item1 item2"
+            "item4 item0 item2"
+            "item4 item3 item3"
+            "item5 item5 item6"
+            "item8 item9 item6"
+            "item8 item7 item7"
+    }
+
+    .vertical {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+    }
+
+    .horizontal {
+        display: grid;
+        margin: 1.5rem; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .vertical button {
+        min-height: 5rem;
+    }
+    .horizontal h2, .vertical h2 {
+        font-size: 1.5rem;
+        padding: 1rem 2rem 0rem
+    }
 }

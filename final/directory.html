@@ -11,8 +11,8 @@
     <title>WDD 231 Course final project Family Recipes</title>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/tracker.js" defer></script>
-     <script type="module" src="scripts/spotlight.mjs"></script>
+    <script src="scripts/spotlight.js" defer></script>
+     <script type="module" src="scripts/discover.mjs"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -26,10 +26,10 @@
         
         <header>
             <div class="title-row">
-                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image-right">
+                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image">
                 <span class="damion-regular">Family Recipes</span>
                 <button id="ham-btn" class="hamburger" aria-label="menu"></button>
-                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image-right">
+                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image">
             </div>
         </header>
         <nav id="nav-bar" class="navigation">
@@ -39,49 +39,24 @@
                     <li><a href="add-recipe.html">Add a Recipe</a></li>
                 </ul>
             </nav>
-            <div class="hero">
-                <picture>
-                    <source
-                        media="(min-width: 640px)"
-                        srcset="images/box-hero-1000.webp">
-                    <img src="images/box-hero-1000.webp" 
-                        alt="decorative top of recipe box with colorful heart and flowers" 
-                        class="hero-img"
-                        width="400"
-                        height="200">
-                </picture>
-                <button class="hero-btn"><a href="join.html">Share your favorite recipe!</a></button>
-            </div>
+           
         <main>
+            <div class="visit-tracker"></div> 
             <section class="container">
-                <h1>The Recipe Box That Started It All</h1>
+                <h1>From Our Recipe Box to Yours</h1>
                 <div class="wave-divider"></div>
-                <div class="started"> 
-                    <p>Grandma Aina Harrison (1917–2011) was known in our family as a wonderful cook. She shared that talent generously—even once making thirty individual apple pies for a grandson to take to his kindergarten class. Her handwritten recipes and well-loved recipe box inspired this collection.</p>
-                    <picture>
-                        <source
-                            media="(min-width: 300px)"
-                            srcset="images/grandma-aina.webp">
-                        <img src="images/grandma-aina.webp" 
-                            alt="photo of grandma Aina"
-                            class="photo"
-                            width="300"
-                            height="400">
-                    </picture>
-                </div>
-            </section>
-            <section class="container" class="spotlight">
-                <h1>Recipe Spotlights</h1>
-                <div class="wave-divider"></div>
-                <div id="spotlights-container">
-                    <div class="icon-container">
-                        <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="150" height="150">
-                    </div>
-                </div>
+               
                 <dialog id="pop-up-box">
                 </dialog>   
             </section>
-                        
+            <section class="spotlight">
+                <h2>Recipe Spotlights</h2>
+                <div class="spotlights-container"></div>
+                </p>
+                
+            </section>
+
+            
         </main>
         <footer>
             <div class="wave-divider"></div>
@@ -94,7 +69,6 @@
             <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
             <p id="lastModified"></p>
             <div class="wave-divider"></div>
-            <input type="hidden" id="timestamp" name="timestamp">
         </footer>  
     </body>
 </html>

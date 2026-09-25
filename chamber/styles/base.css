@@ -55,6 +55,7 @@ body {
     align-items: center;
     font-weight: 700;
     border: none;
+    text-decoration: none;
 }
 
 /* ************* all hovering button like behavior ********** */

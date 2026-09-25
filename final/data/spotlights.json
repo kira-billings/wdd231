@@ -1,0 +1,50 @@
+[
+  {
+    "id": "finbread",
+    "title": "A Taste of Finland",
+    "recipe": "Finbread",
+    "image": "images/spotlights/finbread.webp",
+    "imageAlt": "Traditional Finnish bread with one loaf broken open to show the inside",
+    "story": [
+      "Grandma Aina was born and raised in Red Lodge, Montana, among a community of Finnish immigrants whose traditions became part of her own. If her recipe collection is any indication, bread was certainly important in her kitchen. She saved more than 80 recipes for breads and muffins—and that doesn't even include all the cakes, cupcakes, and fruitcakes tucked among her recipes!",
+      "Of all those recipes, however, one bread was especially important: the Finnish bread she learned to make and that our family simply came to know as \"Finbread.\" Of the hundreds of recipes Grandma Aina collected over her lifetime, Finbread is more than just another recipe card. It is a connection to the Finnish community she grew up in, to the kitchen where she learned to make it, and to the generations of our family who came to know and love it.",
+      "Today, when someone in our family makes Finbread, we aren't simply making bread. We are continuing a tradition that traveled from Finland to a small Montana town and, through Grandma Aina, eventually found its way to our own tables."
+    ]
+  },
+  {
+    "id": "chili-sauce",
+    "title": "Preserving Family History",
+    "recipe": "Chili Sauce",
+    "image": "images/spotlights/chili-sauce.webp",
+    "imageAlt": "Dark homemade chili sauce in a glass canning jar",
+    "story": [
+      "Sometimes the best things come to us at just the right time. As I was preparing to create this website for a school project, I inherited my Grandma Aina Harrison's old recipe box filled with handwritten recipes collected over many years.",
+      "Her recipe box, with its colorful, old-fashioned design and well-loved recipe cards, became the inspiration for this site. What began as a school assignment quickly became something much more meaningful—a way to preserve a small piece of our family history and make it available to the generations that come after us.",
+      "Try the Chili Sauce. It might surprise you."
+    ]
+  },
+  {
+    "id": "lemon-cake",
+    "title": "Preserving the Love",
+    "recipe": "Lemon Cake",
+    "image": "images/spotlights/lemon-cake.webp",
+    "imageAlt": "Warm lemon cake with pieces cut from a rectangular baking pan",
+    "story": [
+      "Although Grandma Aina's recipe box inspired the collection, these recipes belong to many generations of our family. They include contributions from Grandma Judy, Grandma Fizz, Grandma Linda, Grandpa Bob, Grandma Una, Grandmas Thelma, and Grandma Kira (yes, that's me—I'm a grandma now too!), and many others whose names may not have been written down or handed down along with their recipes.",
+      "Some recipes are preserved in the handwriting of the people who made them, while others simply survive through the foods we remember eating together. How could we forget the melt-in-your-mouth warm and fresh Lemon Cake?",
+      "Whether you are pulling out your phone to make an old family favorite or discovering one of these recipes for the first time, I hope this collection brings back memories of family, home, and the love that has always found its way into our food."
+    ]
+  },
+  {
+    "id": "watermelon-pickles",
+    "title": "Preserving the Preserves",
+    "recipe": "Watermelon Pickles",
+    "image": "images/spotlights/watermelon-pickles.webp",
+    "imageAlt": "Homemade watermelon rind pickles in a glass preserving jar",
+    "story": [
+      "Having lived through the Great Depression, Grandma Aina understood the importance of making the most of what you had and preserving food for another day. That experience seems to have stayed with her throughout her life. Among her recipe collection are more than 75 recipes devoted to preserving food—and an amazing number of them are for pickles!",
+      "But Grandma Aina's idea of a pickle went far beyond the familiar bread-and-butter or dill variety. Her collection includes recipes for pickled watermelon, mushrooms, green tomatoes, carrots, beets, green peppers, corn relish, and even one intriguingly named the \"Million Dollar Pickle.\" What may once have been a practical way of making a harvest last through the year eventually became part of our family's food traditions.",
+      "Now there is another kind of preserving going on. By saving Grandma Aina's handwritten recipes and sharing them here, we're preserving the preserves—and with them, a little bit of the resourcefulness, flavor, and family history that she passed down to us."
+    ]
+  }
+]

@@ -2338,5 +2338,212 @@
       "Serve warm."
     ],
     "notes": "Adjust coconut milk as needed to reach the desired consistency."
+  },
+  {
+    "id": 57,
+    "name": "Watermelon Pickles",
+    "source": "Peggy Harrison",
+    "category": "Preserves",
+    "tags": [
+      "watermelon",
+      "watermelon rind",
+      "pickles",
+      "preserves",
+      "canning",
+      "sweet",
+      "spiced",
+      "vinegar",
+      "summer",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/watermelon-pickles-small.webp",
+      "large": "images/food/watermelon-pickles-large.webp"
+    },
+    "cardImage": "images/cards/watermelon-pickles-card.webp",
+    "ingredients": [
+      "3 pounds peeled watermelon rind",
+      "2 tablespoons salt",
+      "8 cups water",
+      "2 cups sugar",
+      "2 cups water",
+      "2 cups vinegar",
+      "2 teaspoons allspice buds",
+      "1 lemon, sliced",
+      "2 tablespoons stick cinnamon",
+      "2 teaspoons whole cloves"
+    ],
+    "instructions": [
+      "Cut watermelon rind into small pieces.",
+      "Make a brine with 2 tablespoons salt and 8 cups water.",
+      "Soak watermelon rind overnight in the brine.",
+      "Drain and cook the rind in clear water for 20 minutes, or until tender and clear.",
+      "Combine the sugar, 2 cups water, vinegar, allspice, sliced lemon, cinnamon and cloves to make the syrup.",
+      "Add the cooked watermelon rind to the hot syrup and bring to the boiling point.",
+      "Pack into hot, clean jars.",
+      "Process at 275°F for 1 hour."
+    ],
+    "notes": "Yield: 3 pints. The original card also gives an alternate method: simmer in an open kettle until the pickles are clear and the syrup is thick."
+  },
+  {
+    "id": 58,
+    "name": "Chili Sauce",
+    "source": "Desk of Steve Billings lol",
+    "category": "Preserves",
+    "tags": [
+      "chili sauce",
+      "tomato",
+      "celery",
+      "onion",
+      "green pepper",
+      "spiced",
+      "vinegar",
+      "preserves",
+      "canning",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/chili-sauce-steve-billings-small.webp",
+      "large": "images/food/chili-sauce-steve-billings-large.webp"
+    },
+    "cardImage": "images/cards/chili-sauce-steve-billings-card.webp",
+    "ingredients": [
+      "12 to 14 pounds tomatoes",
+      "4 cups chopped celery",
+      "2 1/2 cups ground onion",
+      "2 1/2 cups ground green pepper",
+      "6-inch stick cinnamon",
+      "4 1/2 cups packed brown sugar",
+      "4 cups cider vinegar",
+      "1/2 cup salt",
+      "1 tablespoon dry mustard",
+      "1 1/2 teaspoons ground cloves"
+    ],
+    "instructions": [
+      "Wash and peel the tomatoes. Remove the stem ends and cores, and quarter the tomatoes.",
+      "Put the tomatoes into an 8- to 10-quart kettle or Dutch oven and cook for 15 minutes.",
+      "Drain off 6 cups of tomato juice, reserving it for cooking or drinking.",
+      "Add the celery, onion and green pepper.",
+      "Simmer for 1/2 hour.",
+      "Tie the cinnamon stick in a cloth and add it to the mixture.",
+      "Add the brown sugar, vinegar, salt, dry mustard and cloves.",
+      "Cook the mixture for 1 1/2 hours.",
+      "Remove the spice bag.",
+      "Pour into sterilized jars, leaving 1/2-inch headspace. Adjust lids.",
+      "Process pint jars in a boiling-water bath for 25 minutes."
+    ],
+    "notes": "Makes 9 pints."
+  },
+  {
+    "id": 59,
+    "name": "Linda's Chili Sauce",
+    "source": "Linda",
+    "category": "Preserves",
+    "tags": [
+      "chili sauce",
+      "tomato",
+      "onion",
+      "green pepper",
+      "spiced",
+      "vinegar",
+      "preserves",
+      "gluten-free"
+    ],
+    "image": {
+      "small": "images/food/lindas-chili-sauce-small.webp",
+      "large": "images/food/lindas-chili-sauce-large.webp"
+    },
+    "cardImage": "images/cards/lindas-chili-sauce-card.webp",
+    "ingredients": [
+      "1 peck tomatoes",
+      "1 large onion",
+      "5 green peppers",
+      "2 cups strong vinegar",
+      "3 tablespoons salt",
+      "2 teaspoons mustard",
+      "4 cups sugar",
+      "2 teaspoons cinnamon",
+      "2 teaspoons cloves",
+      "2 teaspoons allspice",
+      "2 teaspoons pepper",
+      "2 teaspoons ginger"
+    ],
+    "instructions": [
+      "Run the tomatoes, onion and green peppers through a food chopper.",
+      "Add the vinegar, salt, mustard, sugar, cinnamon, cloves, allspice, pepper and ginger.",
+      "Cook for 3 hours."
+    ],
+    "notes": "From Linda; described on the original card as 'an old stand-by.' Handwritten note: 'I use less sugar.'"
+  },
+  {
+    "id": 60,
+    "name": "Finbread",
+    "source": "Grandma Aina",
+    "category": "Bread",
+    "tags": [
+      "bread",
+      "Finnish",
+      "Finland",
+      "family recipe",
+      "yeast bread",
+      "traditional",
+      "heritage",
+      "baked"
+    ],
+    "image": {
+      "small": "images/food/finbread-small.webp",
+      "large": "images/food/finbread-large.webp"
+    },
+    "cardImage": "images/cards/finbread-card.webp",
+    "ingredients": [
+      "Finbread ingredients from Grandma Aina's original recipe"
+    ],
+    "instructions": [
+      "Prepare and bake according to Grandma Aina's original Finbread recipe."
+    ],
+    "notes": "Grandma Aina grew up in Red Lodge, Montana, among a community of Finnish immigrants. Of her many bread and muffin recipes, this Finnish bread, known in the family as 'finbread,' was especially important."
+  },
+  {
+    "id": 61,
+    "name": "Lemon Cake",
+    "source": "Family Recipe",
+    "category": "Dessert",
+    "tags": [
+      "sweet",
+      "dessert",
+      "cake",
+      "lemon",
+      "lemon gelatin",
+      "icing",
+      "baked",
+      "gluten-free-option"
+    ],
+    "image": {
+      "small": "images/food/lemon-cake-small.webp",
+      "large": "images/food/lemon-cake-large.webp"
+    },
+    "cardImage": "images/cards/lemon-cake-card.webp",
+    "ingredients": [
+      "1 package cake mix",
+      "1 package lemon Jell-O",
+      "3/4 cup water",
+      "3/4 cup oil",
+      "3 eggs",
+      "1 teaspoon lemon extract",
+      "1 cup powdered sugar",
+      "2 tablespoons butter",
+      "Juice of 1 lemon"
+    ],
+    "instructions": [
+      "Heat oven to 350°F.",
+      "Combine the cake mix, lemon Jell-O, water, oil, eggs and lemon extract.",
+      "Beat ingredients together.",
+      "Pour into a 9 x 13-inch pan.",
+      "Bake at 350°F for 35 to 40 minutes.",
+      "For the icing, combine the powdered sugar, butter and juice of 1 lemon.",
+      "Spoon the icing over the hot cake as soon as it comes from the oven."
+    ],
+    "notes": ""
   }
 ]
+
