@@ -14,7 +14,7 @@ export function buildSpotlightCards(items) {
         const title = document.createElement('h2'); 
         const image = document.createElement('img');
         
-        if (item.id === 'finbread' || item.id === 'lemon-cake') {
+        if (item.id === 'finn-bread' || item.id === 'lemon-cake') {
             card.classList.add('horizontal');
         } else {
             card.classList.add('vertical');

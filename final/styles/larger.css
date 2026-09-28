@@ -1,18 +1,4 @@
-
-/* *****************  responsive title row */
-
-@media screen and (max-width: 725px) {
-    .icon-image-right {
-        display: none;
-    }
-
-    header .title-row{
-        grid-template-columns: 1fr;
-    }
-}
-
 /* *************************   Larger screen styles go here */
-
 @media screen and (min-width: 640px) {
 
     header, main, nav, footer, .hero {
@@ -52,10 +38,6 @@
         min-width: 0;
     }
 
-    main {
-    padding: 1.5% 0;
-    }
-
 	h1 {
 		font-size: 2rem;
 	}
@@ -69,24 +51,25 @@
         grid-template-columns: 2fr 1fr;
     }
 
-
-
-
-/* ********************   ********************** */
+    .add {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+            "item1 item2 item3"
+    }
 
     #spotlights-container {
         display: grid;
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
-
         gap: 0rem;
         grid-template-areas:
             "item1 item0"
             "item1 item2"
             "item3 item2"
             "item3 item4"
-            "item5 item4";
+            "item5 item4"
     }
 
     .vertical, .horizontal {
@@ -105,8 +88,9 @@
         padding: 0 2rem;
     }
 
-    #popup .story-title {
-        font-size: 1.3rem;
+    dialog .story-title {
+        font-size: 1.5rem;
+        margin-top: 1rem;
     }
 
     #spotlights-container img:hover {
@@ -114,11 +98,9 @@
     }
 
     .icon-container { 
-        grid-area: item5;
-        width: 80px;
-        height: 80px;
+        width: 140px;
+        height: 140px;
         justify-self: center;
-        margin: 5rem 1rem;
     }
 
     .icon-container img {
@@ -126,26 +108,64 @@
         width: 100%;
         height: auto; 
     }
-}
 
-    .visit-tracker {
-        margin: 6rem 0rem;
+    .rose-bloom, .rose-bud {
+        display: block;
+        margin: 3rem 0;
     }
 
-/* *********************** 1025 switch *************************** */
+    .rose-bloom {grid-area: item5;}
+    .rose-bud {grid-area: item0;}
 
-@media screen and (min-width: 1025px) {
+    .recipe-card {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows:  2fr;
+        grid-template-areas:
+        "item1 item2"
+        "item3 item3";
+    }
 
-    #interest-container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+    .tags { 
+        display: block;
+        grid-area: item3;
+    }
+
+    .card-div {grid-area: item2}
+    .recipe-card .img {grid-area: item1} 
+}
+
+/* *****************  responsive title row */
+@media screen and (max-width: 725px) {
+
+    .icon-image-right {
+        display: none;
+    }
+
+    header .title-row{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* *********************** 850 switch *************************** */
+@media screen and (min-width: 850px) {
+
+    #spotlights-container {
+        grid-template-columns: (3, 1fr);
+        grid-template-rows: (3, 1fr);
         grid-template-areas:
             "item1 item1 item2"
             "item4 item0 item2"
-            "item4 item3 item3"
-            "item5 item5 item6"
-            "item8 item9 item6"
-            "item8 item7 item7"
+            "item4 item3 item3";
+        padding-bottom: 1rem;
+    }
+
+    .rose-bloom {
+        display: none;
+    }
+    
+    .rose-bud {
+        margin: 2rem 3rem;
     }
 
     .vertical {
@@ -164,6 +184,7 @@
     .vertical button {
         min-height: 5rem;
     }
+
     .horizontal h2, .vertical h2 {
         font-size: 1.5rem;
         padding: 1rem 2rem 0rem

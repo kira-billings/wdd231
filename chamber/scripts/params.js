@@ -21,5 +21,5 @@ document.querySelector('#results').innerHTML = `
     <p>Business Name: ${myInfo.get('orgName')}</p>
     <p>Business Description: ${myInfo.get('orgDesc')}</p>
     <p>Membership Level: ${myInfo.get('membershipLevel')}</p>
-    <p>Date: ${myInfo.get('timestamp2')}</p>
+    <p>Date: ${myInfo.get('lastModified')}</p>
     `

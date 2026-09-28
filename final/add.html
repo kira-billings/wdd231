@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="final project for Kira Billings WDD231 Family Recipes add a recipe">
+    <meta name="author" content="Kira Billings">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Homemade+Apple&family=Noto+Sans:wght@400&display=swap" rel="stylesheet">
+    <title>WDD 231 Course final project Family Recipes Share a Recipe</title>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:description" content="A family recipe collection inspired by Grandma Aina. Includes photos of handwritten recipe cards with family history stories. Share a recipe with us.">
+    <meta property="og:title" content="WDD 231 Final Project Family Recipes">
+    <meta property="og:image" content="https://kira-billings.github.io/wdd231/project/images/recipe-rosebud.png">
+    <meta property="og:url" content="https://kira-billings.github.io/wdd231/">
+</head>
+    <body class="gradient-background">
+        <header>
+            <div class="title-row">
+                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image-right">
+                <span class="damion-regular">Family Recipes</span>
+                <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+                <img src="images/wavy-heart-icon-transparent.webp" alt="site logo" width="512" height="512" class="icon-image-right">
+            </div>
+        </header>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipe List</a></li>
+                <li><a href="#" class="current">Add Recipe</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <h1>Add a Recipe</h1>
+            <div class="wave-divider"></div>
+            <div class="container add">
+                <figure class="item1">
+                        <img src="images/heres-whats-cookin.webp" alt="site logo" width="200" height="500" class="side-image">
+                </figure> 
+                <section id="form-section" class="item2">
+                    <form method="get" action="thankyou.html" class="add-form">
+                        <fieldset>
+                            <h2>Your Information</h2>
+                            <label>Your Name 
+                                <input
+                                type="text" name="name" required title="name" autocomplete="name">
+                            </label>
+                            <label>Email 
+                                <input 
+                                type="email" name="email" required title="email"
+                                placeholder="someone@gmail.com" autocomplete="email">
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <h2>Recipe Information</h2>
+                            <label>Recipe Name 
+                                <input
+                                    type="text" name="recipeName" required title="recipe name">
+                            </label>
+                            <label>Ingredients
+                                <textarea 
+                                    name="ingredients" required 
+                                    title="ingredients" 
+                                    placeholder="List the ingredients with amounts or measurements." 
+                                    rows="7" 
+                                    cols="33"></textarea>
+                            </label>
+                            <label>Instructions
+                                <textarea 
+                                    name="instructions" required 
+                                    title="instructions" 
+                                    placeholder="Enter the instructions for the recipe." 
+                                    rows="7" 
+                                    cols="33"></textarea>
+                            </label>
+                            <label>Notes
+                                <textarea 
+                                    name="notes" required 
+                                    title="notes" 
+                                    placeholder="Enter extra information such as servings, background, substitutions, or family stories." 
+                                    rows="7" 
+                                    cols="33"></textarea>
+                            </label>
+                        </fieldset>
+                        <input type="hidden" name="timestamp2" id="timestamp2">
+                        <input type="submit" value = "Add Your Recipe">
+                    </form>
+                </section>
+                <figure class="item3">
+                    <img src="images/good-friends.webp" alt="site logo" width="200" height="500" class="side-image">
+                </figure> 
+            </div> 
+        </main>
+        <footer>
+            <div class="container">
+                <div class="wave-divider"></div>
+                <div class="social">
+                    <a href="https://www.facebook.com/kira.n.billings" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+                    <a href="https://www.linkedin.com/in/kira-billings-a73647353/" target="_blank" rel="noopener"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+                    <a href="https://github.com/kira-billings" target="_blank" rel="noopener"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
+                </div>
+                <p>&copy;<span id="currentYear"></span> 🌻 Kira Billings 🌻 Nevada, USA</p>
+                <p id="lastModified"></p>
+                <div class="wave-divider"></div>
+            </div>
+            <input type="hidden" id="timestamp" name="timestamp">
+        </footer>   
+    </body>
+</html>

@@ -11,13 +11,14 @@
     <title>WDD 231 Course final project Family Recipes</title>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script type="module" src="scripts/spotlight.mjs"></script>
+    <script src="scripts/tracker.js" defer></script>
+    <script src="scripts/recipes.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:description" content="A family recipe collection inspired by Grandma Aina. Includes photos of handwritten recipe cards with family history stories.">
-    <meta property="og:title" content="WDD 231 Final Project Family Recipes">
+    <meta property="og:description" content="The list of recipes in the Family Recipe site inspired by Grandma Aina. Images of handwritten recipes are available for some of the recipes. Includes recipes from other family members.">
+    <meta property="og:title" content="Family Recipes Recipe List">
     <meta property="og:image" content="https://kira-billings.github.io/wdd231/project/images/recipe-rosebud.png">
     <meta property="og:url" content="https://kira-billings.github.io/wdd231/">
 </head>
@@ -32,56 +33,19 @@
         </header>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="#" class="current">Home</a></li>
-                <li><a href="recipes.html">Recipe List</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="current">Recipe List</a></li>
                 <li><a href="add.html">Add Recipe</a></li>
             </ul>
         </nav>
-        <div class="hero">
-            <picture>
-                <source
-                    media="(min-width: 640px)"
-                    srcset="images/box-hero-1000.webp">
-                <img src="images/box-hero-1000.webp" 
-                    alt="decorative top of recipe box with colorful heart and flowers" 
-                    class="hero-img"
-                    width="400"
-                    height="200">
-            </picture>
-            <a href="add.html" class="hero-btn">Add your favorite recipe!</a>
-        </div>
         <main>
+            <div class="visit-tracker"></div> 
             <section class="container">
-                <h1>The Recipe Box That Started It All</h1>
+                <h1>From Our Recipe Box to Yours</h1>
                 <div class="wave-divider"></div>
-                <div class="started"> 
-                    <p>Grandma Aina Harrison (1917–2011) was known in our family as a wonderful cook. She shared that talent generously—even once making thirty individual apple pies for a grandson to take to his kindergarten class. Her handwritten recipes and well-loved recipe box inspired this collection.</p>
-                    <picture>
-                        <source
-                            media="(min-width: 300px)"
-                            srcset="images/grandma-aina.webp">
-                        <img src="images/grandma-aina.webp" 
-                            alt="photo of grandma Aina"
-                            class="photo"
-                            width="300"
-                            height="400">
-                    </picture>
-                </div>
-            </section>
-            <section class="container spotlight">
-                <h1>Recipe Spotlights</h1>
-                <div class="wave-divider"></div>
-                <div id="spotlights-container">
-                    <div class="icon-container rose-bud">
-                        <img src="images/spotlights/wavy-rose-bud-transparent.webp" alt="colorful rosebud illustration with wavy border" width="150" height="150">
-                    </div>
-                    <div class="icon-container rose-bloom">
-                        <img src="images/spotlights/wavy-rose-bloom-transparent.webp" alt="colorful rose bloom illustration with wavy border" width="150" height="150">
-                    </div>
-                </div>
-                <dialog id="pop-up-box">
-                </dialog>   
-            </section>            
+                <div id="recipe-container" class="grid"></div>
+                <dialog id="pop-up-box"></dialog>   
+            </section>   
         </main>
         <footer>
             <div class="container">
@@ -97,6 +61,6 @@
                 <div class="wave-divider"></div>
             </div>
             <input type="hidden" id="timestamp" name="timestamp">
-        </footer>  
+        </footer>   
     </body>
 </html>
