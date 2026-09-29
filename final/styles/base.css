@@ -53,7 +53,11 @@ p {
 }
 
 /* ************************************ gradient background  ********** */
-.gradient-background, dialog, .container .recipe-card, #form-section{
+.gradient-background,
+ dialog,
+ .container .recipe-card,
+ .container,
+ #form-section {
         background: linear-gradient(
         to top,
         var(--yellow-light), 3%,
@@ -148,7 +152,8 @@ header span {
 .social a,
 .add-form input[type="submit"],
 #closeButton,
-.learn-more {
+.learn-more,
+.final-video {
     background: var(--recipe-blue);
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
     transition: transform 0.2s ease;
@@ -171,7 +176,8 @@ header span {
 .add-form input[type="submit"]:hover,
 .learn-more:hover,
 #closeButton:hover,
-.social a:hover {
+.social a:hover,
+.final-video:hover {
     background: linear-gradient(90deg, var(--pink), var(--box-red));
     transform: translateY(-2px);
 }
@@ -548,3 +554,8 @@ footer {
     height: 22px;
 }
 
+.final-video {
+    margin: 0 auto 1rem;
+    padding: .5rem 1rem;
+    width: fit-content;
+}
