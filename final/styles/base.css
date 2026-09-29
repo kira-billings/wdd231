@@ -194,7 +194,7 @@ header span {
 }
 
 /* *************************  main content *********************/
-h1{
+h1, .spotlight-heading {
     color: var(--box-red);
     font-weight: 700;
     margin: 5px auto;
