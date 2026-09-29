@@ -219,7 +219,6 @@ h1{
 .hero-btn {
     position: absolute;
     left: 50%;
-    bottom: 20px;
     text-align: center;
     padding: 13px;
     background-color: var(--box-red);

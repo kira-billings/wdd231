@@ -151,8 +151,6 @@
 @media screen and (min-width: 850px) {
 
     #spotlights-container {
-        grid-template-columns: (3, 1fr);
-        grid-template-rows: (3, 1fr);
         grid-template-areas:
             "item1 item1 item2"
             "item4 item0 item2"
